@@ -1,41 +1,65 @@
-# Prerequisites
-*.d
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 
-# Compiled Object files
-*.slo
-*.lo
+# virtual environments
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ========================
+# C++
+# ========================
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+*.out
+*.exe
+*.a
 *.so
-*.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
+# build directories
+build/
+cmake-build-*/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
 
-# Executables
-*.exe
+# ========================
+# IDE
+# ========================
+.vscode/
+.idea/
+
+# ========================
+# Misc
+# ========================
+*.log
+
+# ========================
+# LaTeX
+# ========================
+*.aux
+*.log
 *.out
-*.app
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
 
-# debug information files
-*.dwo
+# latex build directories
+*.nav
+*.snm
+*.vrb
