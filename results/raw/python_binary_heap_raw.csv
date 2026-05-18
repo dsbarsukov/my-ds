@@ -1,0 +1,701 @@
+language,structure,case,n,implementation,run,time_sec
+python,binary_heap,1. Push sequential,10000,BinaryHeap,1,0.003320897
+python,binary_heap,1. Push sequential,10000,BinaryHeap,2,0.003444248
+python,binary_heap,1. Push sequential,10000,BinaryHeap,3,0.002833886
+python,binary_heap,1. Push sequential,10000,BinaryHeap,4,0.002820246
+python,binary_heap,1. Push sequential,10000,BinaryHeap,5,0.002923535
+python,binary_heap,1. Push sequential,10000,heapq,1,0.000719438
+python,binary_heap,1. Push sequential,10000,heapq,2,0.000712213
+python,binary_heap,1. Push sequential,10000,heapq,3,0.000544248
+python,binary_heap,1. Push sequential,10000,heapq,4,0.000482924
+python,binary_heap,1. Push sequential,10000,heapq,5,0.000484534
+python,binary_heap,1. Push sequential,50000,BinaryHeap,1,0.016401551
+python,binary_heap,1. Push sequential,50000,BinaryHeap,2,0.015574090
+python,binary_heap,1. Push sequential,50000,BinaryHeap,3,0.016444390
+python,binary_heap,1. Push sequential,50000,BinaryHeap,4,0.015022045
+python,binary_heap,1. Push sequential,50000,BinaryHeap,5,0.015588706
+python,binary_heap,1. Push sequential,50000,heapq,1,0.003456546
+python,binary_heap,1. Push sequential,50000,heapq,2,0.002864112
+python,binary_heap,1. Push sequential,50000,heapq,3,0.002675991
+python,binary_heap,1. Push sequential,50000,heapq,4,0.002589206
+python,binary_heap,1. Push sequential,50000,heapq,5,0.003259543
+python,binary_heap,1. Push sequential,100000,BinaryHeap,1,0.030779060
+python,binary_heap,1. Push sequential,100000,BinaryHeap,2,0.031048928
+python,binary_heap,1. Push sequential,100000,BinaryHeap,3,0.033683966
+python,binary_heap,1. Push sequential,100000,BinaryHeap,4,0.031214537
+python,binary_heap,1. Push sequential,100000,BinaryHeap,5,0.030237982
+python,binary_heap,1. Push sequential,100000,heapq,1,0.005884578
+python,binary_heap,1. Push sequential,100000,heapq,2,0.005627196
+python,binary_heap,1. Push sequential,100000,heapq,3,0.005473773
+python,binary_heap,1. Push sequential,100000,heapq,4,0.005106658
+python,binary_heap,1. Push sequential,100000,heapq,5,0.005257953
+python,binary_heap,1. Push sequential,200000,BinaryHeap,1,0.063734473
+python,binary_heap,1. Push sequential,200000,BinaryHeap,2,0.064042770
+python,binary_heap,1. Push sequential,200000,BinaryHeap,3,0.063513064
+python,binary_heap,1. Push sequential,200000,BinaryHeap,4,0.061252734
+python,binary_heap,1. Push sequential,200000,BinaryHeap,5,0.067934854
+python,binary_heap,1. Push sequential,200000,heapq,1,0.012929899
+python,binary_heap,1. Push sequential,200000,heapq,2,0.015156715
+python,binary_heap,1. Push sequential,200000,heapq,3,0.012410459
+python,binary_heap,1. Push sequential,200000,heapq,4,0.012062417
+python,binary_heap,1. Push sequential,200000,heapq,5,0.011964982
+python,binary_heap,1. Push sequential,500000,BinaryHeap,1,0.166635089
+python,binary_heap,1. Push sequential,500000,BinaryHeap,2,0.170629081
+python,binary_heap,1. Push sequential,500000,BinaryHeap,3,0.162104992
+python,binary_heap,1. Push sequential,500000,BinaryHeap,4,0.161727693
+python,binary_heap,1. Push sequential,500000,BinaryHeap,5,0.158057556
+python,binary_heap,1. Push sequential,500000,heapq,1,0.033168119
+python,binary_heap,1. Push sequential,500000,heapq,2,0.033444391
+python,binary_heap,1. Push sequential,500000,heapq,3,0.035502398
+python,binary_heap,1. Push sequential,500000,heapq,4,0.034292759
+python,binary_heap,1. Push sequential,500000,heapq,5,0.035005036
+python,binary_heap,1. Push sequential,1000000,BinaryHeap,1,0.331190190
+python,binary_heap,1. Push sequential,1000000,BinaryHeap,2,0.319540036
+python,binary_heap,1. Push sequential,1000000,BinaryHeap,3,0.317875574
+python,binary_heap,1. Push sequential,1000000,BinaryHeap,4,0.319075007
+python,binary_heap,1. Push sequential,1000000,BinaryHeap,5,0.312512327
+python,binary_heap,1. Push sequential,1000000,heapq,1,0.065955333
+python,binary_heap,1. Push sequential,1000000,heapq,2,0.066406229
+python,binary_heap,1. Push sequential,1000000,heapq,3,0.068374501
+python,binary_heap,1. Push sequential,1000000,heapq,4,0.061409759
+python,binary_heap,1. Push sequential,1000000,heapq,5,0.059402441
+python,binary_heap,1. Push sequential,2000000,BinaryHeap,1,0.639102924
+python,binary_heap,1. Push sequential,2000000,BinaryHeap,2,0.622186747
+python,binary_heap,1. Push sequential,2000000,BinaryHeap,3,0.641492346
+python,binary_heap,1. Push sequential,2000000,BinaryHeap,4,0.606627547
+python,binary_heap,1. Push sequential,2000000,BinaryHeap,5,0.635194390
+python,binary_heap,1. Push sequential,2000000,heapq,1,0.123377291
+python,binary_heap,1. Push sequential,2000000,heapq,2,0.121433831
+python,binary_heap,1. Push sequential,2000000,heapq,3,0.125083307
+python,binary_heap,1. Push sequential,2000000,heapq,4,0.122904148
+python,binary_heap,1. Push sequential,2000000,heapq,5,0.119725516
+python,binary_heap,1. Push sequential,5000000,BinaryHeap,1,1.508564542
+python,binary_heap,1. Push sequential,5000000,BinaryHeap,2,1.474073179
+python,binary_heap,1. Push sequential,5000000,BinaryHeap,3,1.451037508
+python,binary_heap,1. Push sequential,5000000,BinaryHeap,4,1.546336275
+python,binary_heap,1. Push sequential,5000000,BinaryHeap,5,1.568357785
+python,binary_heap,1. Push sequential,5000000,heapq,1,0.306124922
+python,binary_heap,1. Push sequential,5000000,heapq,2,0.292034594
+python,binary_heap,1. Push sequential,5000000,heapq,3,0.298220896
+python,binary_heap,1. Push sequential,5000000,heapq,4,0.294911610
+python,binary_heap,1. Push sequential,5000000,heapq,5,0.289508506
+python,binary_heap,1. Push sequential,10000000,BinaryHeap,1,2.887659027
+python,binary_heap,1. Push sequential,10000000,BinaryHeap,2,2.944639403
+python,binary_heap,1. Push sequential,10000000,BinaryHeap,3,2.994741969
+python,binary_heap,1. Push sequential,10000000,BinaryHeap,4,2.944025109
+python,binary_heap,1. Push sequential,10000000,BinaryHeap,5,3.036230004
+python,binary_heap,1. Push sequential,10000000,heapq,1,0.595083332
+python,binary_heap,1. Push sequential,10000000,heapq,2,0.593125079
+python,binary_heap,1. Push sequential,10000000,heapq,3,0.580608317
+python,binary_heap,1. Push sequential,10000000,heapq,4,0.578792147
+python,binary_heap,1. Push sequential,10000000,heapq,5,0.574728142
+python,binary_heap,1. Push sequential,15000000,BinaryHeap,1,4.442381023
+python,binary_heap,1. Push sequential,15000000,BinaryHeap,2,4.378355167
+python,binary_heap,1. Push sequential,15000000,BinaryHeap,3,4.410695013
+python,binary_heap,1. Push sequential,15000000,BinaryHeap,4,4.386156105
+python,binary_heap,1. Push sequential,15000000,BinaryHeap,5,4.376421169
+python,binary_heap,1. Push sequential,15000000,heapq,1,0.888186779
+python,binary_heap,1. Push sequential,15000000,heapq,2,0.867602659
+python,binary_heap,1. Push sequential,15000000,heapq,3,0.868998193
+python,binary_heap,1. Push sequential,15000000,heapq,4,0.864492589
+python,binary_heap,1. Push sequential,15000000,heapq,5,0.867027751
+python,binary_heap,2. Push reverse sequential,10000,BinaryHeap,1,0.023916683
+python,binary_heap,2. Push reverse sequential,10000,BinaryHeap,2,0.025816827
+python,binary_heap,2. Push reverse sequential,10000,BinaryHeap,3,0.024511648
+python,binary_heap,2. Push reverse sequential,10000,BinaryHeap,4,0.025105733
+python,binary_heap,2. Push reverse sequential,10000,BinaryHeap,5,0.024714960
+python,binary_heap,2. Push reverse sequential,10000,heapq,1,0.001850896
+python,binary_heap,2. Push reverse sequential,10000,heapq,2,0.001823825
+python,binary_heap,2. Push reverse sequential,10000,heapq,3,0.001851322
+python,binary_heap,2. Push reverse sequential,10000,heapq,4,0.001942697
+python,binary_heap,2. Push reverse sequential,10000,heapq,5,0.001954855
+python,binary_heap,2. Push reverse sequential,50000,BinaryHeap,1,0.148883909
+python,binary_heap,2. Push reverse sequential,50000,BinaryHeap,2,0.144067924
+python,binary_heap,2. Push reverse sequential,50000,BinaryHeap,3,0.143692495
+python,binary_heap,2. Push reverse sequential,50000,BinaryHeap,4,0.147248485
+python,binary_heap,2. Push reverse sequential,50000,BinaryHeap,5,0.144680295
+python,binary_heap,2. Push reverse sequential,50000,heapq,1,0.011191701
+python,binary_heap,2. Push reverse sequential,50000,heapq,2,0.010974856
+python,binary_heap,2. Push reverse sequential,50000,heapq,3,0.011208758
+python,binary_heap,2. Push reverse sequential,50000,heapq,4,0.011326972
+python,binary_heap,2. Push reverse sequential,50000,heapq,5,0.011168373
+python,binary_heap,2. Push reverse sequential,100000,BinaryHeap,1,0.313704917
+python,binary_heap,2. Push reverse sequential,100000,BinaryHeap,2,0.317402819
+python,binary_heap,2. Push reverse sequential,100000,BinaryHeap,3,0.312208145
+python,binary_heap,2. Push reverse sequential,100000,BinaryHeap,4,0.325450359
+python,binary_heap,2. Push reverse sequential,100000,BinaryHeap,5,0.323577053
+python,binary_heap,2. Push reverse sequential,100000,heapq,1,0.027015517
+python,binary_heap,2. Push reverse sequential,100000,heapq,2,0.024750119
+python,binary_heap,2. Push reverse sequential,100000,heapq,3,0.025105161
+python,binary_heap,2. Push reverse sequential,100000,heapq,4,0.025254797
+python,binary_heap,2. Push reverse sequential,100000,heapq,5,0.024825195
+python,binary_heap,2. Push reverse sequential,200000,BinaryHeap,1,0.689126945
+python,binary_heap,2. Push reverse sequential,200000,BinaryHeap,2,0.683079211
+python,binary_heap,2. Push reverse sequential,200000,BinaryHeap,3,0.685700399
+python,binary_heap,2. Push reverse sequential,200000,BinaryHeap,4,0.689946331
+python,binary_heap,2. Push reverse sequential,200000,BinaryHeap,5,0.682634244
+python,binary_heap,2. Push reverse sequential,200000,heapq,1,0.051998314
+python,binary_heap,2. Push reverse sequential,200000,heapq,2,0.052104321
+python,binary_heap,2. Push reverse sequential,200000,heapq,3,0.054061088
+python,binary_heap,2. Push reverse sequential,200000,heapq,4,0.055639287
+python,binary_heap,2. Push reverse sequential,200000,heapq,5,0.052195276
+python,binary_heap,2. Push reverse sequential,500000,BinaryHeap,1,1.813132649
+python,binary_heap,2. Push reverse sequential,500000,BinaryHeap,2,1.801826220
+python,binary_heap,2. Push reverse sequential,500000,BinaryHeap,3,1.835972829
+python,binary_heap,2. Push reverse sequential,500000,BinaryHeap,4,1.858166976
+python,binary_heap,2. Push reverse sequential,500000,BinaryHeap,5,1.806089165
+python,binary_heap,2. Push reverse sequential,500000,heapq,1,0.144134276
+python,binary_heap,2. Push reverse sequential,500000,heapq,2,0.141002655
+python,binary_heap,2. Push reverse sequential,500000,heapq,3,0.139337040
+python,binary_heap,2. Push reverse sequential,500000,heapq,4,0.136984222
+python,binary_heap,2. Push reverse sequential,500000,heapq,5,0.145825905
+python,binary_heap,2. Push reverse sequential,1000000,BinaryHeap,1,3.888683052
+python,binary_heap,2. Push reverse sequential,1000000,BinaryHeap,2,3.889880070
+python,binary_heap,2. Push reverse sequential,1000000,BinaryHeap,3,3.913100521
+python,binary_heap,2. Push reverse sequential,1000000,BinaryHeap,4,3.836505251
+python,binary_heap,2. Push reverse sequential,1000000,BinaryHeap,5,3.905364141
+python,binary_heap,2. Push reverse sequential,1000000,heapq,1,0.291298620
+python,binary_heap,2. Push reverse sequential,1000000,heapq,2,0.301789055
+python,binary_heap,2. Push reverse sequential,1000000,heapq,3,0.295756004
+python,binary_heap,2. Push reverse sequential,1000000,heapq,4,0.301758813
+python,binary_heap,2. Push reverse sequential,1000000,heapq,5,0.297552402
+python,binary_heap,2. Push reverse sequential,2000000,BinaryHeap,1,8.116709954
+python,binary_heap,2. Push reverse sequential,2000000,BinaryHeap,2,8.103839575
+python,binary_heap,2. Push reverse sequential,2000000,BinaryHeap,3,8.124492473
+python,binary_heap,2. Push reverse sequential,2000000,BinaryHeap,4,8.116534785
+python,binary_heap,2. Push reverse sequential,2000000,BinaryHeap,5,8.158042452
+python,binary_heap,2. Push reverse sequential,2000000,heapq,1,0.623497171
+python,binary_heap,2. Push reverse sequential,2000000,heapq,2,0.624811114
+python,binary_heap,2. Push reverse sequential,2000000,heapq,3,0.620352005
+python,binary_heap,2. Push reverse sequential,2000000,heapq,4,0.648028175
+python,binary_heap,2. Push reverse sequential,2000000,heapq,5,0.626901183
+python,binary_heap,2. Push reverse sequential,5000000,BinaryHeap,1,21.853835468
+python,binary_heap,2. Push reverse sequential,5000000,BinaryHeap,2,21.713869410
+python,binary_heap,2. Push reverse sequential,5000000,BinaryHeap,3,21.756024643
+python,binary_heap,2. Push reverse sequential,5000000,BinaryHeap,4,21.685569009
+python,binary_heap,2. Push reverse sequential,5000000,BinaryHeap,5,21.711316377
+python,binary_heap,2. Push reverse sequential,5000000,heapq,1,1.659372303
+python,binary_heap,2. Push reverse sequential,5000000,heapq,2,1.631737591
+python,binary_heap,2. Push reverse sequential,5000000,heapq,3,1.645643561
+python,binary_heap,2. Push reverse sequential,5000000,heapq,4,1.634345935
+python,binary_heap,2. Push reverse sequential,5000000,heapq,5,1.642825291
+python,binary_heap,2. Push reverse sequential,10000000,BinaryHeap,1,45.488987737
+python,binary_heap,2. Push reverse sequential,10000000,BinaryHeap,2,45.505992710
+python,binary_heap,2. Push reverse sequential,10000000,BinaryHeap,3,45.470474356
+python,binary_heap,2. Push reverse sequential,10000000,BinaryHeap,4,45.330647676
+python,binary_heap,2. Push reverse sequential,10000000,BinaryHeap,5,45.398307991
+python,binary_heap,2. Push reverse sequential,10000000,heapq,1,3.432482024
+python,binary_heap,2. Push reverse sequential,10000000,heapq,2,3.422362623
+python,binary_heap,2. Push reverse sequential,10000000,heapq,3,3.449351522
+python,binary_heap,2. Push reverse sequential,10000000,heapq,4,3.438235189
+python,binary_heap,2. Push reverse sequential,10000000,heapq,5,3.453214311
+python,binary_heap,2. Push reverse sequential,15000000,BinaryHeap,1,71.690722390
+python,binary_heap,2. Push reverse sequential,15000000,BinaryHeap,2,72.042610372
+python,binary_heap,2. Push reverse sequential,15000000,BinaryHeap,3,70.543816967
+python,binary_heap,2. Push reverse sequential,15000000,BinaryHeap,4,70.521098467
+python,binary_heap,2. Push reverse sequential,15000000,BinaryHeap,5,70.456129100
+python,binary_heap,2. Push reverse sequential,15000000,heapq,1,5.130226473
+python,binary_heap,2. Push reverse sequential,15000000,heapq,2,5.097972323
+python,binary_heap,2. Push reverse sequential,15000000,heapq,3,5.067967275
+python,binary_heap,2. Push reverse sequential,15000000,heapq,4,5.113886258
+python,binary_heap,2. Push reverse sequential,15000000,heapq,5,5.120662005
+python,binary_heap,3. Push random,10000,BinaryHeap,1,0.005717254
+python,binary_heap,3. Push random,10000,BinaryHeap,2,0.005656028
+python,binary_heap,3. Push random,10000,BinaryHeap,3,0.005645390
+python,binary_heap,3. Push random,10000,BinaryHeap,4,0.006033941
+python,binary_heap,3. Push random,10000,BinaryHeap,5,0.005648011
+python,binary_heap,3. Push random,10000,heapq,1,0.000749450
+python,binary_heap,3. Push random,10000,heapq,2,0.000742082
+python,binary_heap,3. Push random,10000,heapq,3,0.000740641
+python,binary_heap,3. Push random,10000,heapq,4,0.000768532
+python,binary_heap,3. Push random,10000,heapq,5,0.000740058
+python,binary_heap,3. Push random,50000,BinaryHeap,1,0.029528613
+python,binary_heap,3. Push random,50000,BinaryHeap,2,0.029402888
+python,binary_heap,3. Push random,50000,BinaryHeap,3,0.030060499
+python,binary_heap,3. Push random,50000,BinaryHeap,4,0.029132761
+python,binary_heap,3. Push random,50000,BinaryHeap,5,0.028966795
+python,binary_heap,3. Push random,50000,heapq,1,0.004146544
+python,binary_heap,3. Push random,50000,heapq,2,0.004029803
+python,binary_heap,3. Push random,50000,heapq,3,0.004075683
+python,binary_heap,3. Push random,50000,heapq,4,0.004202037
+python,binary_heap,3. Push random,50000,heapq,5,0.004399598
+python,binary_heap,3. Push random,100000,BinaryHeap,1,0.060687851
+python,binary_heap,3. Push random,100000,BinaryHeap,2,0.059657409
+python,binary_heap,3. Push random,100000,BinaryHeap,3,0.060855633
+python,binary_heap,3. Push random,100000,BinaryHeap,4,0.059345194
+python,binary_heap,3. Push random,100000,BinaryHeap,5,0.059507500
+python,binary_heap,3. Push random,100000,heapq,1,0.009465793
+python,binary_heap,3. Push random,100000,heapq,2,0.009158203
+python,binary_heap,3. Push random,100000,heapq,3,0.009115834
+python,binary_heap,3. Push random,100000,heapq,4,0.009128271
+python,binary_heap,3. Push random,100000,heapq,5,0.009009004
+python,binary_heap,3. Push random,200000,BinaryHeap,1,0.131506400
+python,binary_heap,3. Push random,200000,BinaryHeap,2,0.122176172
+python,binary_heap,3. Push random,200000,BinaryHeap,3,0.121918262
+python,binary_heap,3. Push random,200000,BinaryHeap,4,0.121707595
+python,binary_heap,3. Push random,200000,BinaryHeap,5,0.123894514
+python,binary_heap,3. Push random,200000,heapq,1,0.019712143
+python,binary_heap,3. Push random,200000,heapq,2,0.019152029
+python,binary_heap,3. Push random,200000,heapq,3,0.020490335
+python,binary_heap,3. Push random,200000,heapq,4,0.019684207
+python,binary_heap,3. Push random,200000,heapq,5,0.020082500
+python,binary_heap,3. Push random,500000,BinaryHeap,1,0.307322246
+python,binary_heap,3. Push random,500000,BinaryHeap,2,0.308155023
+python,binary_heap,3. Push random,500000,BinaryHeap,3,0.306281158
+python,binary_heap,3. Push random,500000,BinaryHeap,4,0.307323153
+python,binary_heap,3. Push random,500000,BinaryHeap,5,0.312062075
+python,binary_heap,3. Push random,500000,heapq,1,0.057787966
+python,binary_heap,3. Push random,500000,heapq,2,0.059410481
+python,binary_heap,3. Push random,500000,heapq,3,0.057464829
+python,binary_heap,3. Push random,500000,heapq,4,0.056621898
+python,binary_heap,3. Push random,500000,heapq,5,0.058390592
+python,binary_heap,3. Push random,1000000,BinaryHeap,1,0.642505378
+python,binary_heap,3. Push random,1000000,BinaryHeap,2,0.635307615
+python,binary_heap,3. Push random,1000000,BinaryHeap,3,0.641251177
+python,binary_heap,3. Push random,1000000,BinaryHeap,4,0.636605666
+python,binary_heap,3. Push random,1000000,BinaryHeap,5,0.642662315
+python,binary_heap,3. Push random,1000000,heapq,1,0.132518523
+python,binary_heap,3. Push random,1000000,heapq,2,0.138393839
+python,binary_heap,3. Push random,1000000,heapq,3,0.132946092
+python,binary_heap,3. Push random,1000000,heapq,4,0.136765540
+python,binary_heap,3. Push random,1000000,heapq,5,0.131671998
+python,binary_heap,3. Push random,2000000,BinaryHeap,1,1.277447448
+python,binary_heap,3. Push random,2000000,BinaryHeap,2,1.278204993
+python,binary_heap,3. Push random,2000000,BinaryHeap,3,1.270787432
+python,binary_heap,3. Push random,2000000,BinaryHeap,4,1.285190329
+python,binary_heap,3. Push random,2000000,BinaryHeap,5,1.281928523
+python,binary_heap,3. Push random,2000000,heapq,1,0.275287935
+python,binary_heap,3. Push random,2000000,heapq,2,0.277123998
+python,binary_heap,3. Push random,2000000,heapq,3,0.276825482
+python,binary_heap,3. Push random,2000000,heapq,4,0.271957445
+python,binary_heap,3. Push random,2000000,heapq,5,0.270408608
+python,binary_heap,3. Push random,5000000,BinaryHeap,1,3.199099292
+python,binary_heap,3. Push random,5000000,BinaryHeap,2,3.200040835
+python,binary_heap,3. Push random,5000000,BinaryHeap,3,3.218592628
+python,binary_heap,3. Push random,5000000,BinaryHeap,4,3.247506569
+python,binary_heap,3. Push random,5000000,BinaryHeap,5,3.206134954
+python,binary_heap,3. Push random,5000000,heapq,1,0.687947564
+python,binary_heap,3. Push random,5000000,heapq,2,0.668399229
+python,binary_heap,3. Push random,5000000,heapq,3,0.691560208
+python,binary_heap,3. Push random,5000000,heapq,4,0.676462660
+python,binary_heap,3. Push random,5000000,heapq,5,0.662799415
+python,binary_heap,3. Push random,10000000,BinaryHeap,1,7.796394904
+python,binary_heap,3. Push random,10000000,BinaryHeap,2,7.323231746
+python,binary_heap,3. Push random,10000000,BinaryHeap,3,6.922384542
+python,binary_heap,3. Push random,10000000,BinaryHeap,4,8.953664819
+python,binary_heap,3. Push random,10000000,BinaryHeap,5,7.688256747
+python,binary_heap,3. Push random,10000000,heapq,1,1.440228506
+python,binary_heap,3. Push random,10000000,heapq,2,1.987779313
+python,binary_heap,3. Push random,10000000,heapq,3,2.273122735
+python,binary_heap,3. Push random,10000000,heapq,4,1.694623074
+python,binary_heap,3. Push random,10000000,heapq,5,1.393263923
+python,binary_heap,3. Push random,15000000,BinaryHeap,1,10.149630793
+python,binary_heap,3. Push random,15000000,BinaryHeap,2,10.005561811
+python,binary_heap,3. Push random,15000000,BinaryHeap,3,9.981033674
+python,binary_heap,3. Push random,15000000,BinaryHeap,4,10.019298780
+python,binary_heap,3. Push random,15000000,BinaryHeap,5,9.982365973
+python,binary_heap,3. Push random,15000000,heapq,1,2.308925783
+python,binary_heap,3. Push random,15000000,heapq,2,2.377108003
+python,binary_heap,3. Push random,15000000,heapq,3,2.350294955
+python,binary_heap,3. Push random,15000000,heapq,4,2.315716954
+python,binary_heap,3. Push random,15000000,heapq,5,2.344533870
+python,binary_heap,4. Heapify random,10000,BinaryHeap,1,0.005031858
+python,binary_heap,4. Heapify random,10000,BinaryHeap,2,0.004386559
+python,binary_heap,4. Heapify random,10000,BinaryHeap,3,0.004088017
+python,binary_heap,4. Heapify random,10000,BinaryHeap,4,0.005766039
+python,binary_heap,4. Heapify random,10000,BinaryHeap,5,0.004373778
+python,binary_heap,4. Heapify random,10000,heapq,1,0.000293357
+python,binary_heap,4. Heapify random,10000,heapq,2,0.000286832
+python,binary_heap,4. Heapify random,10000,heapq,3,0.000288647
+python,binary_heap,4. Heapify random,10000,heapq,4,0.000286000
+python,binary_heap,4. Heapify random,10000,heapq,5,0.000285955
+python,binary_heap,4. Heapify random,50000,BinaryHeap,1,0.026589329
+python,binary_heap,4. Heapify random,50000,BinaryHeap,2,0.024590292
+python,binary_heap,4. Heapify random,50000,BinaryHeap,3,0.022469284
+python,binary_heap,4. Heapify random,50000,BinaryHeap,4,0.022279749
+python,binary_heap,4. Heapify random,50000,BinaryHeap,5,0.021600735
+python,binary_heap,4. Heapify random,50000,heapq,1,0.001600223
+python,binary_heap,4. Heapify random,50000,heapq,2,0.001513087
+python,binary_heap,4. Heapify random,50000,heapq,3,0.001552419
+python,binary_heap,4. Heapify random,50000,heapq,4,0.001487861
+python,binary_heap,4. Heapify random,50000,heapq,5,0.001467819
+python,binary_heap,4. Heapify random,100000,BinaryHeap,1,0.051743969
+python,binary_heap,4. Heapify random,100000,BinaryHeap,2,0.048859034
+python,binary_heap,4. Heapify random,100000,BinaryHeap,3,0.046784137
+python,binary_heap,4. Heapify random,100000,BinaryHeap,4,0.047476059
+python,binary_heap,4. Heapify random,100000,BinaryHeap,5,0.046691367
+python,binary_heap,4. Heapify random,100000,heapq,1,0.003621002
+python,binary_heap,4. Heapify random,100000,heapq,2,0.004600985
+python,binary_heap,4. Heapify random,100000,heapq,3,0.003845624
+python,binary_heap,4. Heapify random,100000,heapq,4,0.003422290
+python,binary_heap,4. Heapify random,100000,heapq,5,0.003365877
+python,binary_heap,4. Heapify random,200000,BinaryHeap,1,0.103915480
+python,binary_heap,4. Heapify random,200000,BinaryHeap,2,0.102504194
+python,binary_heap,4. Heapify random,200000,BinaryHeap,3,0.102102817
+python,binary_heap,4. Heapify random,200000,BinaryHeap,4,0.111582845
+python,binary_heap,4. Heapify random,200000,BinaryHeap,5,0.111367053
+python,binary_heap,4. Heapify random,200000,heapq,1,0.007665253
+python,binary_heap,4. Heapify random,200000,heapq,2,0.007856444
+python,binary_heap,4. Heapify random,200000,heapq,3,0.008217041
+python,binary_heap,4. Heapify random,200000,heapq,4,0.007823216
+python,binary_heap,4. Heapify random,200000,heapq,5,0.007563065
+python,binary_heap,4. Heapify random,500000,BinaryHeap,1,0.277456551
+python,binary_heap,4. Heapify random,500000,BinaryHeap,2,0.260429666
+python,binary_heap,4. Heapify random,500000,BinaryHeap,3,0.275046613
+python,binary_heap,4. Heapify random,500000,BinaryHeap,4,0.258082923
+python,binary_heap,4. Heapify random,500000,BinaryHeap,5,0.270806517
+python,binary_heap,4. Heapify random,500000,heapq,1,0.022510924
+python,binary_heap,4. Heapify random,500000,heapq,2,0.022338071
+python,binary_heap,4. Heapify random,500000,heapq,3,0.022639893
+python,binary_heap,4. Heapify random,500000,heapq,4,0.023093611
+python,binary_heap,4. Heapify random,500000,heapq,5,0.022610494
+python,binary_heap,4. Heapify random,1000000,BinaryHeap,1,0.564222045
+python,binary_heap,4. Heapify random,1000000,BinaryHeap,2,0.558548672
+python,binary_heap,4. Heapify random,1000000,BinaryHeap,3,0.553461006
+python,binary_heap,4. Heapify random,1000000,BinaryHeap,4,0.549775387
+python,binary_heap,4. Heapify random,1000000,BinaryHeap,5,0.559682097
+python,binary_heap,4. Heapify random,1000000,heapq,1,0.054599543
+python,binary_heap,4. Heapify random,1000000,heapq,2,0.053187779
+python,binary_heap,4. Heapify random,1000000,heapq,3,0.053895271
+python,binary_heap,4. Heapify random,1000000,heapq,4,0.053529781
+python,binary_heap,4. Heapify random,1000000,heapq,5,0.058565437
+python,binary_heap,4. Heapify random,2000000,BinaryHeap,1,1.122321794
+python,binary_heap,4. Heapify random,2000000,BinaryHeap,2,1.133399941
+python,binary_heap,4. Heapify random,2000000,BinaryHeap,3,1.120617905
+python,binary_heap,4. Heapify random,2000000,BinaryHeap,4,1.117359936
+python,binary_heap,4. Heapify random,2000000,BinaryHeap,5,1.115751255
+python,binary_heap,4. Heapify random,2000000,heapq,1,0.108534378
+python,binary_heap,4. Heapify random,2000000,heapq,2,0.122608008
+python,binary_heap,4. Heapify random,2000000,heapq,3,0.109039819
+python,binary_heap,4. Heapify random,2000000,heapq,4,0.110576747
+python,binary_heap,4. Heapify random,2000000,heapq,5,0.110789477
+python,binary_heap,4. Heapify random,5000000,BinaryHeap,1,2.753233833
+python,binary_heap,4. Heapify random,5000000,BinaryHeap,2,2.779702940
+python,binary_heap,4. Heapify random,5000000,BinaryHeap,3,2.746430127
+python,binary_heap,4. Heapify random,5000000,BinaryHeap,4,2.734460933
+python,binary_heap,4. Heapify random,5000000,BinaryHeap,5,2.805181218
+python,binary_heap,4. Heapify random,5000000,heapq,1,0.254453071
+python,binary_heap,4. Heapify random,5000000,heapq,2,0.261312961
+python,binary_heap,4. Heapify random,5000000,heapq,3,0.286289809
+python,binary_heap,4. Heapify random,5000000,heapq,4,0.346179070
+python,binary_heap,4. Heapify random,5000000,heapq,5,0.341020118
+python,binary_heap,4. Heapify random,10000000,BinaryHeap,1,5.717628874
+python,binary_heap,4. Heapify random,10000000,BinaryHeap,2,5.655188790
+python,binary_heap,4. Heapify random,10000000,BinaryHeap,3,5.609417417
+python,binary_heap,4. Heapify random,10000000,BinaryHeap,4,5.593990580
+python,binary_heap,4. Heapify random,10000000,BinaryHeap,5,5.624661819
+python,binary_heap,4. Heapify random,10000000,heapq,1,0.563337685
+python,binary_heap,4. Heapify random,10000000,heapq,2,0.560202489
+python,binary_heap,4. Heapify random,10000000,heapq,3,0.557850265
+python,binary_heap,4. Heapify random,10000000,heapq,4,0.559211924
+python,binary_heap,4. Heapify random,10000000,heapq,5,0.555368599
+python,binary_heap,4. Heapify random,15000000,BinaryHeap,1,8.743771915
+python,binary_heap,4. Heapify random,15000000,BinaryHeap,2,8.703885737
+python,binary_heap,4. Heapify random,15000000,BinaryHeap,3,8.735679558
+python,binary_heap,4. Heapify random,15000000,BinaryHeap,4,8.687994341
+python,binary_heap,4. Heapify random,15000000,BinaryHeap,5,8.712656694
+python,binary_heap,4. Heapify random,15000000,heapq,1,0.938290444
+python,binary_heap,4. Heapify random,15000000,heapq,2,0.941454399
+python,binary_heap,4. Heapify random,15000000,heapq,3,0.935035727
+python,binary_heap,4. Heapify random,15000000,heapq,4,0.964375923
+python,binary_heap,4. Heapify random,15000000,heapq,5,0.952486473
+python,binary_heap,5. Pop all after heapify,10000,BinaryHeap,1,0.046744174
+python,binary_heap,5. Pop all after heapify,10000,BinaryHeap,2,0.046041042
+python,binary_heap,5. Pop all after heapify,10000,BinaryHeap,3,0.043248869
+python,binary_heap,5. Pop all after heapify,10000,BinaryHeap,4,0.040904211
+python,binary_heap,5. Pop all after heapify,10000,BinaryHeap,5,0.042558534
+python,binary_heap,5. Pop all after heapify,10000,heapq,1,0.003757752
+python,binary_heap,5. Pop all after heapify,10000,heapq,2,0.003735426
+python,binary_heap,5. Pop all after heapify,10000,heapq,3,0.003826735
+python,binary_heap,5. Pop all after heapify,10000,heapq,4,0.003733873
+python,binary_heap,5. Pop all after heapify,10000,heapq,5,0.003848835
+python,binary_heap,5. Pop all after heapify,50000,BinaryHeap,1,0.269217674
+python,binary_heap,5. Pop all after heapify,50000,BinaryHeap,2,0.277184455
+python,binary_heap,5. Pop all after heapify,50000,BinaryHeap,3,0.261404266
+python,binary_heap,5. Pop all after heapify,50000,BinaryHeap,4,0.267158280
+python,binary_heap,5. Pop all after heapify,50000,BinaryHeap,5,0.256658383
+python,binary_heap,5. Pop all after heapify,50000,heapq,1,0.028531174
+python,binary_heap,5. Pop all after heapify,50000,heapq,2,0.029342355
+python,binary_heap,5. Pop all after heapify,50000,heapq,3,0.026522932
+python,binary_heap,5. Pop all after heapify,50000,heapq,4,0.030956102
+python,binary_heap,5. Pop all after heapify,50000,heapq,5,0.033445684
+python,binary_heap,5. Pop all after heapify,100000,BinaryHeap,1,0.626201924
+python,binary_heap,5. Pop all after heapify,100000,BinaryHeap,2,0.599511095
+python,binary_heap,5. Pop all after heapify,100000,BinaryHeap,3,0.628735277
+python,binary_heap,5. Pop all after heapify,100000,BinaryHeap,4,0.607400688
+python,binary_heap,5. Pop all after heapify,100000,BinaryHeap,5,0.652098509
+python,binary_heap,5. Pop all after heapify,100000,heapq,1,0.080043513
+python,binary_heap,5. Pop all after heapify,100000,heapq,2,0.066442012
+python,binary_heap,5. Pop all after heapify,100000,heapq,3,0.064968205
+python,binary_heap,5. Pop all after heapify,100000,heapq,4,0.064473025
+python,binary_heap,5. Pop all after heapify,100000,heapq,5,0.068690065
+python,binary_heap,5. Pop all after heapify,200000,BinaryHeap,1,1.390511221
+python,binary_heap,5. Pop all after heapify,200000,BinaryHeap,2,1.494208732
+python,binary_heap,5. Pop all after heapify,200000,BinaryHeap,3,1.393255527
+python,binary_heap,5. Pop all after heapify,200000,BinaryHeap,4,1.531352343
+python,binary_heap,5. Pop all after heapify,200000,BinaryHeap,5,1.425416372
+python,binary_heap,5. Pop all after heapify,200000,heapq,1,0.176285959
+python,binary_heap,5. Pop all after heapify,200000,heapq,2,0.194510894
+python,binary_heap,5. Pop all after heapify,200000,heapq,3,0.174873803
+python,binary_heap,5. Pop all after heapify,200000,heapq,4,0.177432397
+python,binary_heap,5. Pop all after heapify,200000,heapq,5,0.191078559
+python,binary_heap,5. Pop all after heapify,500000,BinaryHeap,1,4.206545866
+python,binary_heap,5. Pop all after heapify,500000,BinaryHeap,2,4.082359902
+python,binary_heap,5. Pop all after heapify,500000,BinaryHeap,3,4.236444479
+python,binary_heap,5. Pop all after heapify,500000,BinaryHeap,4,4.043736802
+python,binary_heap,5. Pop all after heapify,500000,BinaryHeap,5,4.228467422
+python,binary_heap,5. Pop all after heapify,500000,heapq,1,0.711888942
+python,binary_heap,5. Pop all after heapify,500000,heapq,2,0.690758464
+python,binary_heap,5. Pop all after heapify,500000,heapq,3,0.698317569
+python,binary_heap,5. Pop all after heapify,500000,heapq,4,0.697019737
+python,binary_heap,5. Pop all after heapify,500000,heapq,5,0.692795276
+python,binary_heap,5. Pop all after heapify,1000000,BinaryHeap,1,9.302309745
+python,binary_heap,5. Pop all after heapify,1000000,BinaryHeap,2,9.247558136
+python,binary_heap,5. Pop all after heapify,1000000,BinaryHeap,3,9.325990061
+python,binary_heap,5. Pop all after heapify,1000000,BinaryHeap,4,9.254265108
+python,binary_heap,5. Pop all after heapify,1000000,BinaryHeap,5,9.266421353
+python,binary_heap,5. Pop all after heapify,1000000,heapq,1,1.991620850
+python,binary_heap,5. Pop all after heapify,1000000,heapq,2,1.992032339
+python,binary_heap,5. Pop all after heapify,1000000,heapq,3,1.983810268
+python,binary_heap,5. Pop all after heapify,1000000,heapq,4,1.975066649
+python,binary_heap,5. Pop all after heapify,1000000,heapq,5,1.983569397
+python,binary_heap,5. Pop all after heapify,2000000,BinaryHeap,1,21.128798373
+python,binary_heap,5. Pop all after heapify,2000000,BinaryHeap,2,20.602115894
+python,binary_heap,5. Pop all after heapify,2000000,BinaryHeap,3,21.167250975
+python,binary_heap,5. Pop all after heapify,2000000,BinaryHeap,4,20.343123208
+python,binary_heap,5. Pop all after heapify,2000000,BinaryHeap,5,21.093728567
+python,binary_heap,5. Pop all after heapify,2000000,heapq,1,4.998471667
+python,binary_heap,5. Pop all after heapify,2000000,heapq,2,4.976876406
+python,binary_heap,5. Pop all after heapify,2000000,heapq,3,4.981621058
+python,binary_heap,5. Pop all after heapify,2000000,heapq,4,4.950217847
+python,binary_heap,5. Pop all after heapify,2000000,heapq,5,4.952092864
+python,binary_heap,5. Pop all after heapify,5000000,BinaryHeap,1,59.153331251
+python,binary_heap,5. Pop all after heapify,5000000,BinaryHeap,2,62.691080057
+python,binary_heap,5. Pop all after heapify,5000000,BinaryHeap,3,59.293298956
+python,binary_heap,5. Pop all after heapify,5000000,BinaryHeap,4,59.261208926
+python,binary_heap,5. Pop all after heapify,5000000,BinaryHeap,5,59.255771265
+python,binary_heap,5. Pop all after heapify,5000000,heapq,1,16.173290290
+python,binary_heap,5. Pop all after heapify,5000000,heapq,2,16.171434568
+python,binary_heap,5. Pop all after heapify,5000000,heapq,3,16.152153858
+python,binary_heap,5. Pop all after heapify,5000000,heapq,4,16.199357855
+python,binary_heap,5. Pop all after heapify,5000000,heapq,5,16.172073312
+python,binary_heap,5. Pop all after heapify,10000000,BinaryHeap,1,135.964553393
+python,binary_heap,5. Pop all after heapify,10000000,BinaryHeap,2,132.345828229
+python,binary_heap,5. Pop all after heapify,10000000,BinaryHeap,3,135.567859972
+python,binary_heap,5. Pop all after heapify,10000000,BinaryHeap,4,132.813521260
+python,binary_heap,5. Pop all after heapify,10000000,BinaryHeap,5,135.514680486
+python,binary_heap,5. Pop all after heapify,10000000,heapq,1,39.058614261
+python,binary_heap,5. Pop all after heapify,10000000,heapq,2,39.139563725
+python,binary_heap,5. Pop all after heapify,10000000,heapq,3,39.045124282
+python,binary_heap,5. Pop all after heapify,10000000,heapq,4,39.225114307
+python,binary_heap,5. Pop all after heapify,10000000,heapq,5,39.177733789
+python,binary_heap,5. Pop all after heapify,15000000,BinaryHeap,1,213.126863508
+python,binary_heap,5. Pop all after heapify,15000000,BinaryHeap,2,212.659699462
+python,binary_heap,5. Pop all after heapify,15000000,BinaryHeap,3,212.421669799
+python,binary_heap,5. Pop all after heapify,15000000,BinaryHeap,4,212.792300945
+python,binary_heap,5. Pop all after heapify,15000000,BinaryHeap,5,213.132011317
+python,binary_heap,5. Pop all after heapify,15000000,heapq,1,66.185808741
+python,binary_heap,5. Pop all after heapify,15000000,heapq,2,65.800351242
+python,binary_heap,5. Pop all after heapify,15000000,heapq,3,65.692531612
+python,binary_heap,5. Pop all after heapify,15000000,heapq,4,65.816973239
+python,binary_heap,5. Pop all after heapify,15000000,heapq,5,65.848857611
+python,binary_heap,6. Alternating push/pop,10000,BinaryHeap,1,0.026625829
+python,binary_heap,6. Alternating push/pop,10000,BinaryHeap,2,0.027686731
+python,binary_heap,6. Alternating push/pop,10000,BinaryHeap,3,0.027024784
+python,binary_heap,6. Alternating push/pop,10000,BinaryHeap,4,0.026647669
+python,binary_heap,6. Alternating push/pop,10000,BinaryHeap,5,0.024568866
+python,binary_heap,6. Alternating push/pop,10000,heapq,1,0.002218120
+python,binary_heap,6. Alternating push/pop,10000,heapq,2,0.002120619
+python,binary_heap,6. Alternating push/pop,10000,heapq,3,0.002101201
+python,binary_heap,6. Alternating push/pop,10000,heapq,4,0.002172102
+python,binary_heap,6. Alternating push/pop,10000,heapq,5,0.002071867
+python,binary_heap,6. Alternating push/pop,50000,BinaryHeap,1,0.152678353
+python,binary_heap,6. Alternating push/pop,50000,BinaryHeap,2,0.157959084
+python,binary_heap,6. Alternating push/pop,50000,BinaryHeap,3,0.158931704
+python,binary_heap,6. Alternating push/pop,50000,BinaryHeap,4,0.155606858
+python,binary_heap,6. Alternating push/pop,50000,BinaryHeap,5,0.158531041
+python,binary_heap,6. Alternating push/pop,50000,heapq,1,0.015202910
+python,binary_heap,6. Alternating push/pop,50000,heapq,2,0.014734174
+python,binary_heap,6. Alternating push/pop,50000,heapq,3,0.014941201
+python,binary_heap,6. Alternating push/pop,50000,heapq,4,0.014701302
+python,binary_heap,6. Alternating push/pop,50000,heapq,5,0.015180222
+python,binary_heap,6. Alternating push/pop,100000,BinaryHeap,1,0.339450786
+python,binary_heap,6. Alternating push/pop,100000,BinaryHeap,2,0.361924150
+python,binary_heap,6. Alternating push/pop,100000,BinaryHeap,3,0.350808688
+python,binary_heap,6. Alternating push/pop,100000,BinaryHeap,4,0.342782669
+python,binary_heap,6. Alternating push/pop,100000,BinaryHeap,5,0.346356219
+python,binary_heap,6. Alternating push/pop,100000,heapq,1,0.038733755
+python,binary_heap,6. Alternating push/pop,100000,heapq,2,0.039680598
+python,binary_heap,6. Alternating push/pop,100000,heapq,3,0.038994803
+python,binary_heap,6. Alternating push/pop,100000,heapq,4,0.046709705
+python,binary_heap,6. Alternating push/pop,100000,heapq,5,0.050979015
+python,binary_heap,6. Alternating push/pop,200000,BinaryHeap,1,0.782476326
+python,binary_heap,6. Alternating push/pop,200000,BinaryHeap,2,0.786035108
+python,binary_heap,6. Alternating push/pop,200000,BinaryHeap,3,0.798939208
+python,binary_heap,6. Alternating push/pop,200000,BinaryHeap,4,0.775732491
+python,binary_heap,6. Alternating push/pop,200000,BinaryHeap,5,0.795721424
+python,binary_heap,6. Alternating push/pop,200000,heapq,1,0.100482089
+python,binary_heap,6. Alternating push/pop,200000,heapq,2,0.102013051
+python,binary_heap,6. Alternating push/pop,200000,heapq,3,0.101641212
+python,binary_heap,6. Alternating push/pop,200000,heapq,4,0.119955505
+python,binary_heap,6. Alternating push/pop,200000,heapq,5,0.102413041
+python,binary_heap,6. Alternating push/pop,500000,BinaryHeap,1,2.352628270
+python,binary_heap,6. Alternating push/pop,500000,BinaryHeap,2,2.308490949
+python,binary_heap,6. Alternating push/pop,500000,BinaryHeap,3,2.309835706
+python,binary_heap,6. Alternating push/pop,500000,BinaryHeap,4,2.327727157
+python,binary_heap,6. Alternating push/pop,500000,BinaryHeap,5,2.333537642
+python,binary_heap,6. Alternating push/pop,500000,heapq,1,0.370396082
+python,binary_heap,6. Alternating push/pop,500000,heapq,2,0.354710419
+python,binary_heap,6. Alternating push/pop,500000,heapq,3,0.375593762
+python,binary_heap,6. Alternating push/pop,500000,heapq,4,0.379217121
+python,binary_heap,6. Alternating push/pop,500000,heapq,5,0.373539637
+python,binary_heap,6. Alternating push/pop,1000000,BinaryHeap,1,5.140333931
+python,binary_heap,6. Alternating push/pop,1000000,BinaryHeap,2,5.138675851
+python,binary_heap,6. Alternating push/pop,1000000,BinaryHeap,3,5.154262596
+python,binary_heap,6. Alternating push/pop,1000000,BinaryHeap,4,5.102579840
+python,binary_heap,6. Alternating push/pop,1000000,BinaryHeap,5,5.133720427
+python,binary_heap,6. Alternating push/pop,1000000,heapq,1,0.993775044
+python,binary_heap,6. Alternating push/pop,1000000,heapq,2,0.995919149
+python,binary_heap,6. Alternating push/pop,1000000,heapq,3,1.003687701
+python,binary_heap,6. Alternating push/pop,1000000,heapq,4,0.988907012
+python,binary_heap,6. Alternating push/pop,1000000,heapq,5,0.992906204
+python,binary_heap,6. Alternating push/pop,2000000,BinaryHeap,1,12.545818385
+python,binary_heap,6. Alternating push/pop,2000000,BinaryHeap,2,11.595828149
+python,binary_heap,6. Alternating push/pop,2000000,BinaryHeap,3,11.106137383
+python,binary_heap,6. Alternating push/pop,2000000,BinaryHeap,4,11.019065826
+python,binary_heap,6. Alternating push/pop,2000000,BinaryHeap,5,11.038741103
+python,binary_heap,6. Alternating push/pop,2000000,heapq,1,2.504713377
+python,binary_heap,6. Alternating push/pop,2000000,heapq,2,2.518763487
+python,binary_heap,6. Alternating push/pop,2000000,heapq,3,2.500330419
+python,binary_heap,6. Alternating push/pop,2000000,heapq,4,2.590483204
+python,binary_heap,6. Alternating push/pop,2000000,heapq,5,2.519496160
+python,binary_heap,6. Alternating push/pop,5000000,BinaryHeap,1,31.095315919
+python,binary_heap,6. Alternating push/pop,5000000,BinaryHeap,2,31.167001035
+python,binary_heap,6. Alternating push/pop,5000000,BinaryHeap,3,30.969380504
+python,binary_heap,6. Alternating push/pop,5000000,BinaryHeap,4,31.013385299
+python,binary_heap,6. Alternating push/pop,5000000,BinaryHeap,5,30.963248549
+python,binary_heap,6. Alternating push/pop,5000000,heapq,1,7.929776364
+python,binary_heap,6. Alternating push/pop,5000000,heapq,2,7.861001355
+python,binary_heap,6. Alternating push/pop,5000000,heapq,3,7.872332476
+python,binary_heap,6. Alternating push/pop,5000000,heapq,4,7.839821684
+python,binary_heap,6. Alternating push/pop,5000000,heapq,5,7.874909473
+python,binary_heap,6. Alternating push/pop,10000000,BinaryHeap,1,68.005696020
+python,binary_heap,6. Alternating push/pop,10000000,BinaryHeap,2,67.893220497
+python,binary_heap,6. Alternating push/pop,10000000,BinaryHeap,3,67.933948833
+python,binary_heap,6. Alternating push/pop,10000000,BinaryHeap,4,68.108950544
+python,binary_heap,6. Alternating push/pop,10000000,BinaryHeap,5,67.668550948
+python,binary_heap,6. Alternating push/pop,10000000,heapq,1,18.325817159
+python,binary_heap,6. Alternating push/pop,10000000,heapq,2,18.330277119
+python,binary_heap,6. Alternating push/pop,10000000,heapq,3,18.330911567
+python,binary_heap,6. Alternating push/pop,10000000,heapq,4,18.376637378
+python,binary_heap,6. Alternating push/pop,10000000,heapq,5,18.415732414
+python,binary_heap,6. Alternating push/pop,15000000,BinaryHeap,1,110.826625806
+python,binary_heap,6. Alternating push/pop,15000000,BinaryHeap,2,108.944338895
+python,binary_heap,6. Alternating push/pop,15000000,BinaryHeap,3,108.171871101
+python,binary_heap,6. Alternating push/pop,15000000,BinaryHeap,4,108.348097611
+python,binary_heap,6. Alternating push/pop,15000000,BinaryHeap,5,108.290556980
+python,binary_heap,6. Alternating push/pop,15000000,heapq,1,30.513197339
+python,binary_heap,6. Alternating push/pop,15000000,heapq,2,30.556184892
+python,binary_heap,6. Alternating push/pop,15000000,heapq,3,30.842990545
+python,binary_heap,6. Alternating push/pop,15000000,heapq,4,31.066646910
+python,binary_heap,6. Alternating push/pop,15000000,heapq,5,31.090667676
+python,binary_heap,7. Top-k largest,10000,BinaryHeap,1,0.003382483
+python,binary_heap,7. Top-k largest,10000,BinaryHeap,2,0.003584139
+python,binary_heap,7. Top-k largest,10000,BinaryHeap,3,0.002945045
+python,binary_heap,7. Top-k largest,10000,BinaryHeap,4,0.003132267
+python,binary_heap,7. Top-k largest,10000,BinaryHeap,5,0.004027125
+python,binary_heap,7. Top-k largest,10000,heapq,1,0.000694595
+python,binary_heap,7. Top-k largest,10000,heapq,2,0.000614250
+python,binary_heap,7. Top-k largest,10000,heapq,3,0.000712883
+python,binary_heap,7. Top-k largest,10000,heapq,4,0.000731642
+python,binary_heap,7. Top-k largest,10000,heapq,5,0.000553175
+python,binary_heap,7. Top-k largest,50000,BinaryHeap,1,0.012125835
+python,binary_heap,7. Top-k largest,50000,BinaryHeap,2,0.013768414
+python,binary_heap,7. Top-k largest,50000,BinaryHeap,3,0.015267640
+python,binary_heap,7. Top-k largest,50000,BinaryHeap,4,0.015284506
+python,binary_heap,7. Top-k largest,50000,BinaryHeap,5,0.014395806
+python,binary_heap,7. Top-k largest,50000,heapq,1,0.003014122
+python,binary_heap,7. Top-k largest,50000,heapq,2,0.002741995
+python,binary_heap,7. Top-k largest,50000,heapq,3,0.003661520
+python,binary_heap,7. Top-k largest,50000,heapq,4,0.003492375
+python,binary_heap,7. Top-k largest,50000,heapq,5,0.003006009
+python,binary_heap,7. Top-k largest,100000,BinaryHeap,1,0.024814037
+python,binary_heap,7. Top-k largest,100000,BinaryHeap,2,0.027718812
+python,binary_heap,7. Top-k largest,100000,BinaryHeap,3,0.025339020
+python,binary_heap,7. Top-k largest,100000,BinaryHeap,4,0.023765598
+python,binary_heap,7. Top-k largest,100000,BinaryHeap,5,0.023544596
+python,binary_heap,7. Top-k largest,100000,heapq,1,0.008128371
+python,binary_heap,7. Top-k largest,100000,heapq,2,0.006667435
+python,binary_heap,7. Top-k largest,100000,heapq,3,0.006564454
+python,binary_heap,7. Top-k largest,100000,heapq,4,0.007016608
+python,binary_heap,7. Top-k largest,100000,heapq,5,0.006278764
+python,binary_heap,7. Top-k largest,200000,BinaryHeap,1,0.046858844
+python,binary_heap,7. Top-k largest,200000,BinaryHeap,2,0.041943817
+python,binary_heap,7. Top-k largest,200000,BinaryHeap,3,0.042275760
+python,binary_heap,7. Top-k largest,200000,BinaryHeap,4,0.042870806
+python,binary_heap,7. Top-k largest,200000,BinaryHeap,5,0.041813546
+python,binary_heap,7. Top-k largest,200000,heapq,1,0.014919826
+python,binary_heap,7. Top-k largest,200000,heapq,2,0.014527439
+python,binary_heap,7. Top-k largest,200000,heapq,3,0.013771737
+python,binary_heap,7. Top-k largest,200000,heapq,4,0.013049192
+python,binary_heap,7. Top-k largest,200000,heapq,5,0.013872178
+python,binary_heap,7. Top-k largest,500000,BinaryHeap,1,0.100076413
+python,binary_heap,7. Top-k largest,500000,BinaryHeap,2,0.100565443
+python,binary_heap,7. Top-k largest,500000,BinaryHeap,3,0.108365167
+python,binary_heap,7. Top-k largest,500000,BinaryHeap,4,0.104788400
+python,binary_heap,7. Top-k largest,500000,BinaryHeap,5,0.115170906
+python,binary_heap,7. Top-k largest,500000,heapq,1,0.034432678
+python,binary_heap,7. Top-k largest,500000,heapq,2,0.034026161
+python,binary_heap,7. Top-k largest,500000,heapq,3,0.033169754
+python,binary_heap,7. Top-k largest,500000,heapq,4,0.032463933
+python,binary_heap,7. Top-k largest,500000,heapq,5,0.034052295
+python,binary_heap,7. Top-k largest,1000000,BinaryHeap,1,0.197561892
+python,binary_heap,7. Top-k largest,1000000,BinaryHeap,2,0.199033521
+python,binary_heap,7. Top-k largest,1000000,BinaryHeap,3,0.209376979
+python,binary_heap,7. Top-k largest,1000000,BinaryHeap,4,0.196163763
+python,binary_heap,7. Top-k largest,1000000,BinaryHeap,5,0.203748613
+python,binary_heap,7. Top-k largest,1000000,heapq,1,0.068903250
+python,binary_heap,7. Top-k largest,1000000,heapq,2,0.067841305
+python,binary_heap,7. Top-k largest,1000000,heapq,3,0.067857170
+python,binary_heap,7. Top-k largest,1000000,heapq,4,0.066911369
+python,binary_heap,7. Top-k largest,1000000,heapq,5,0.065712306
+python,binary_heap,7. Top-k largest,2000000,BinaryHeap,1,0.402392839
+python,binary_heap,7. Top-k largest,2000000,BinaryHeap,2,0.409691944
+python,binary_heap,7. Top-k largest,2000000,BinaryHeap,3,0.414946814
+python,binary_heap,7. Top-k largest,2000000,BinaryHeap,4,0.411282263
+python,binary_heap,7. Top-k largest,2000000,BinaryHeap,5,0.436533181
+python,binary_heap,7. Top-k largest,2000000,heapq,1,0.132348546
+python,binary_heap,7. Top-k largest,2000000,heapq,2,0.139923481
+python,binary_heap,7. Top-k largest,2000000,heapq,3,0.144854899
+python,binary_heap,7. Top-k largest,2000000,heapq,4,0.137790864
+python,binary_heap,7. Top-k largest,2000000,heapq,5,0.134192157
+python,binary_heap,7. Top-k largest,5000000,BinaryHeap,1,0.995606085
+python,binary_heap,7. Top-k largest,5000000,BinaryHeap,2,0.993271104
+python,binary_heap,7. Top-k largest,5000000,BinaryHeap,3,1.008452276
+python,binary_heap,7. Top-k largest,5000000,BinaryHeap,4,0.996369115
+python,binary_heap,7. Top-k largest,5000000,BinaryHeap,5,0.969713476
+python,binary_heap,7. Top-k largest,5000000,heapq,1,0.302936031
+python,binary_heap,7. Top-k largest,5000000,heapq,2,0.318146066
+python,binary_heap,7. Top-k largest,5000000,heapq,3,0.306090038
+python,binary_heap,7. Top-k largest,5000000,heapq,4,0.328795225
+python,binary_heap,7. Top-k largest,5000000,heapq,5,0.316882952
+python,binary_heap,7. Top-k largest,10000000,BinaryHeap,1,2.008535356
+python,binary_heap,7. Top-k largest,10000000,BinaryHeap,2,2.028174189
+python,binary_heap,7. Top-k largest,10000000,BinaryHeap,3,2.044250089
+python,binary_heap,7. Top-k largest,10000000,BinaryHeap,4,2.053050645
+python,binary_heap,7. Top-k largest,10000000,BinaryHeap,5,2.034054604
+python,binary_heap,7. Top-k largest,10000000,heapq,1,0.670565696
+python,binary_heap,7. Top-k largest,10000000,heapq,2,0.687137124
+python,binary_heap,7. Top-k largest,10000000,heapq,3,0.661082945
+python,binary_heap,7. Top-k largest,10000000,heapq,4,0.673862238
+python,binary_heap,7. Top-k largest,10000000,heapq,5,0.681223309
+python,binary_heap,7. Top-k largest,15000000,BinaryHeap,1,3.066239575
+python,binary_heap,7. Top-k largest,15000000,BinaryHeap,2,3.085187255
+python,binary_heap,7. Top-k largest,15000000,BinaryHeap,3,3.047209501
+python,binary_heap,7. Top-k largest,15000000,BinaryHeap,4,3.125669703
+python,binary_heap,7. Top-k largest,15000000,BinaryHeap,5,3.112512350
+python,binary_heap,7. Top-k largest,15000000,heapq,1,1.068567803
+python,binary_heap,7. Top-k largest,15000000,heapq,2,1.091978970
+python,binary_heap,7. Top-k largest,15000000,heapq,3,1.075495244
+python,binary_heap,7. Top-k largest,15000000,heapq,4,1.066690063
+python,binary_heap,7. Top-k largest,15000000,heapq,5,1.081648532

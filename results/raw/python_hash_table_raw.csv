@@ -1,0 +1,901 @@
+language,structure,case,n,implementation,run,time_sec
+python,hash_table,1. Insert sequential,10000,HashTable,1,0.052975202
+python,hash_table,1. Insert sequential,10000,HashTable,2,0.055221230
+python,hash_table,1. Insert sequential,10000,HashTable,3,0.051398800
+python,hash_table,1. Insert sequential,10000,HashTable,4,0.049637126
+python,hash_table,1. Insert sequential,10000,HashTable,5,0.050195632
+python,hash_table,1. Insert sequential,10000,dict,1,0.000666539
+python,hash_table,1. Insert sequential,10000,dict,2,0.000379300
+python,hash_table,1. Insert sequential,10000,dict,3,0.000376575
+python,hash_table,1. Insert sequential,10000,dict,4,0.000376782
+python,hash_table,1. Insert sequential,10000,dict,5,0.000380685
+python,hash_table,1. Insert sequential,50000,HashTable,1,0.229352897
+python,hash_table,1. Insert sequential,50000,HashTable,2,0.213461308
+python,hash_table,1. Insert sequential,50000,HashTable,3,0.236104331
+python,hash_table,1. Insert sequential,50000,HashTable,4,0.202734957
+python,hash_table,1. Insert sequential,50000,HashTable,5,0.237846877
+python,hash_table,1. Insert sequential,50000,dict,1,0.006453866
+python,hash_table,1. Insert sequential,50000,dict,2,0.004667816
+python,hash_table,1. Insert sequential,50000,dict,3,0.003583014
+python,hash_table,1. Insert sequential,50000,dict,4,0.003542904
+python,hash_table,1. Insert sequential,50000,dict,5,0.002827314
+python,hash_table,1. Insert sequential,100000,HashTable,1,0.427405351
+python,hash_table,1. Insert sequential,100000,HashTable,2,0.415112353
+python,hash_table,1. Insert sequential,100000,HashTable,3,0.437369247
+python,hash_table,1. Insert sequential,100000,HashTable,4,0.416965581
+python,hash_table,1. Insert sequential,100000,HashTable,5,0.420552716
+python,hash_table,1. Insert sequential,100000,dict,1,0.012472769
+python,hash_table,1. Insert sequential,100000,dict,2,0.005339380
+python,hash_table,1. Insert sequential,100000,dict,3,0.005814022
+python,hash_table,1. Insert sequential,100000,dict,4,0.005273857
+python,hash_table,1. Insert sequential,100000,dict,5,0.009253436
+python,hash_table,1. Insert sequential,200000,HashTable,1,0.888315272
+python,hash_table,1. Insert sequential,200000,HashTable,2,0.894975547
+python,hash_table,1. Insert sequential,200000,HashTable,3,0.885985785
+python,hash_table,1. Insert sequential,200000,HashTable,4,0.862529684
+python,hash_table,1. Insert sequential,200000,HashTable,5,0.910742155
+python,hash_table,1. Insert sequential,200000,dict,1,0.035736109
+python,hash_table,1. Insert sequential,200000,dict,2,0.018733551
+python,hash_table,1. Insert sequential,200000,dict,3,0.025726403
+python,hash_table,1. Insert sequential,200000,dict,4,0.022968027
+python,hash_table,1. Insert sequential,200000,dict,5,0.027240918
+python,hash_table,1. Insert sequential,500000,HashTable,1,2.065959202
+python,hash_table,1. Insert sequential,500000,HashTable,2,2.324517988
+python,hash_table,1. Insert sequential,500000,HashTable,3,2.087516816
+python,hash_table,1. Insert sequential,500000,HashTable,4,2.089347439
+python,hash_table,1. Insert sequential,500000,HashTable,5,2.031635080
+python,hash_table,1. Insert sequential,500000,dict,1,0.082779614
+python,hash_table,1. Insert sequential,500000,dict,2,0.049035830
+python,hash_table,1. Insert sequential,500000,dict,3,0.046414699
+python,hash_table,1. Insert sequential,500000,dict,4,0.054970648
+python,hash_table,1. Insert sequential,500000,dict,5,0.052188344
+python,hash_table,1. Insert sequential,1000000,HashTable,1,4.051369763
+python,hash_table,1. Insert sequential,1000000,HashTable,2,3.964009124
+python,hash_table,1. Insert sequential,1000000,HashTable,3,3.874459446
+python,hash_table,1. Insert sequential,1000000,HashTable,4,3.956121685
+python,hash_table,1. Insert sequential,1000000,HashTable,5,3.908273714
+python,hash_table,1. Insert sequential,1000000,dict,1,0.142279230
+python,hash_table,1. Insert sequential,1000000,dict,2,0.103074010
+python,hash_table,1. Insert sequential,1000000,dict,3,0.125477389
+python,hash_table,1. Insert sequential,1000000,dict,4,0.101863653
+python,hash_table,1. Insert sequential,1000000,dict,5,0.097522209
+python,hash_table,1. Insert sequential,2000000,HashTable,1,7.776674702
+python,hash_table,1. Insert sequential,2000000,HashTable,2,7.847969065
+python,hash_table,1. Insert sequential,2000000,HashTable,3,7.760820466
+python,hash_table,1. Insert sequential,2000000,HashTable,4,7.698467329
+python,hash_table,1. Insert sequential,2000000,HashTable,5,7.666949621
+python,hash_table,1. Insert sequential,2000000,dict,1,0.334469876
+python,hash_table,1. Insert sequential,2000000,dict,2,0.242072560
+python,hash_table,1. Insert sequential,2000000,dict,3,0.248351710
+python,hash_table,1. Insert sequential,2000000,dict,4,0.236333840
+python,hash_table,1. Insert sequential,2000000,dict,5,0.247221875
+python,hash_table,1. Insert sequential,5000000,HashTable,1,17.993183491
+python,hash_table,1. Insert sequential,5000000,HashTable,2,17.975081316
+python,hash_table,1. Insert sequential,5000000,HashTable,3,17.831503565
+python,hash_table,1. Insert sequential,5000000,HashTable,4,17.994165564
+python,hash_table,1. Insert sequential,5000000,HashTable,5,18.013113583
+python,hash_table,1. Insert sequential,5000000,dict,1,0.715889532
+python,hash_table,1. Insert sequential,5000000,dict,2,0.687803988
+python,hash_table,1. Insert sequential,5000000,dict,3,0.638225714
+python,hash_table,1. Insert sequential,5000000,dict,4,0.652073910
+python,hash_table,1. Insert sequential,5000000,dict,5,0.637691415
+python,hash_table,1. Insert sequential,10000000,HashTable,1,35.435506861
+python,hash_table,1. Insert sequential,10000000,HashTable,2,35.066017657
+python,hash_table,1. Insert sequential,10000000,HashTable,3,35.728635799
+python,hash_table,1. Insert sequential,10000000,HashTable,4,35.414738024
+python,hash_table,1. Insert sequential,10000000,HashTable,5,34.892155505
+python,hash_table,1. Insert sequential,10000000,dict,1,1.453750273
+python,hash_table,1. Insert sequential,10000000,dict,2,1.448223644
+python,hash_table,1. Insert sequential,10000000,dict,3,1.479832655
+python,hash_table,1. Insert sequential,10000000,dict,4,1.431345662
+python,hash_table,1. Insert sequential,10000000,dict,5,1.455044712
+python,hash_table,1. Insert sequential,15000000,HashTable,1,60.367491615
+python,hash_table,1. Insert sequential,15000000,HashTable,2,60.793150992
+python,hash_table,1. Insert sequential,15000000,HashTable,3,60.857468736
+python,hash_table,1. Insert sequential,15000000,HashTable,4,60.530319607
+python,hash_table,1. Insert sequential,15000000,HashTable,5,61.554320247
+python,hash_table,1. Insert sequential,15000000,dict,1,2.667318788
+python,hash_table,1. Insert sequential,15000000,dict,2,2.636913273
+python,hash_table,1. Insert sequential,15000000,dict,3,2.631368403
+python,hash_table,1. Insert sequential,15000000,dict,4,2.632825776
+python,hash_table,1. Insert sequential,15000000,dict,5,2.582580501
+python,hash_table,2. Insert random,10000,HashTable,1,0.090445071
+python,hash_table,2. Insert random,10000,HashTable,2,0.057354184
+python,hash_table,2. Insert random,10000,HashTable,3,0.046157396
+python,hash_table,2. Insert random,10000,HashTable,4,0.049195071
+python,hash_table,2. Insert random,10000,HashTable,5,0.059772348
+python,hash_table,2. Insert random,10000,dict,1,0.001203391
+python,hash_table,2. Insert random,10000,dict,2,0.000629294
+python,hash_table,2. Insert random,10000,dict,3,0.000520119
+python,hash_table,2. Insert random,10000,dict,4,0.000601656
+python,hash_table,2. Insert random,10000,dict,5,0.001098058
+python,hash_table,2. Insert random,50000,HashTable,1,0.304177852
+python,hash_table,2. Insert random,50000,HashTable,2,0.299651200
+python,hash_table,2. Insert random,50000,HashTable,3,0.274555852
+python,hash_table,2. Insert random,50000,HashTable,4,0.291548821
+python,hash_table,2. Insert random,50000,HashTable,5,0.292420162
+python,hash_table,2. Insert random,50000,dict,1,0.008376946
+python,hash_table,2. Insert random,50000,dict,2,0.005606067
+python,hash_table,2. Insert random,50000,dict,3,0.007593916
+python,hash_table,2. Insert random,50000,dict,4,0.005559266
+python,hash_table,2. Insert random,50000,dict,5,0.006547843
+python,hash_table,2. Insert random,100000,HashTable,1,0.617781368
+python,hash_table,2. Insert random,100000,HashTable,2,0.591789031
+python,hash_table,2. Insert random,100000,HashTable,3,0.606067920
+python,hash_table,2. Insert random,100000,HashTable,4,0.616319892
+python,hash_table,2. Insert random,100000,HashTable,5,0.621771780
+python,hash_table,2. Insert random,100000,dict,1,0.019269312
+python,hash_table,2. Insert random,100000,dict,2,0.017200158
+python,hash_table,2. Insert random,100000,dict,3,0.013604464
+python,hash_table,2. Insert random,100000,dict,4,0.015950650
+python,hash_table,2. Insert random,100000,dict,5,0.011570509
+python,hash_table,2. Insert random,200000,HashTable,1,1.338558056
+python,hash_table,2. Insert random,200000,HashTable,2,1.309798722
+python,hash_table,2. Insert random,200000,HashTable,3,1.346846028
+python,hash_table,2. Insert random,200000,HashTable,4,1.353902015
+python,hash_table,2. Insert random,200000,HashTable,5,1.358528382
+python,hash_table,2. Insert random,200000,dict,1,0.064700266
+python,hash_table,2. Insert random,200000,dict,2,0.054875668
+python,hash_table,2. Insert random,200000,dict,3,0.053244463
+python,hash_table,2. Insert random,200000,dict,4,0.051898161
+python,hash_table,2. Insert random,200000,dict,5,0.046896213
+python,hash_table,2. Insert random,500000,HashTable,1,3.150657321
+python,hash_table,2. Insert random,500000,HashTable,2,3.269913001
+python,hash_table,2. Insert random,500000,HashTable,3,3.192847473
+python,hash_table,2. Insert random,500000,HashTable,4,3.285247473
+python,hash_table,2. Insert random,500000,HashTable,5,3.150019935
+python,hash_table,2. Insert random,500000,dict,1,0.201114664
+python,hash_table,2. Insert random,500000,dict,2,0.159136570
+python,hash_table,2. Insert random,500000,dict,3,0.127677033
+python,hash_table,2. Insert random,500000,dict,4,0.149392759
+python,hash_table,2. Insert random,500000,dict,5,0.153547395
+python,hash_table,2. Insert random,1000000,HashTable,1,6.663344920
+python,hash_table,2. Insert random,1000000,HashTable,2,6.758482688
+python,hash_table,2. Insert random,1000000,HashTable,3,6.661272626
+python,hash_table,2. Insert random,1000000,HashTable,4,6.733088601
+python,hash_table,2. Insert random,1000000,HashTable,5,6.702823077
+python,hash_table,2. Insert random,1000000,dict,1,0.415445391
+python,hash_table,2. Insert random,1000000,dict,2,0.372864611
+python,hash_table,2. Insert random,1000000,dict,3,0.394863671
+python,hash_table,2. Insert random,1000000,dict,4,0.356836469
+python,hash_table,2. Insert random,1000000,dict,5,0.387073430
+python,hash_table,2. Insert random,2000000,HashTable,1,13.675146815
+python,hash_table,2. Insert random,2000000,HashTable,2,13.721500789
+python,hash_table,2. Insert random,2000000,HashTable,3,13.615268044
+python,hash_table,2. Insert random,2000000,HashTable,4,13.610032310
+python,hash_table,2. Insert random,2000000,HashTable,5,13.692826352
+python,hash_table,2. Insert random,2000000,dict,1,0.981430114
+python,hash_table,2. Insert random,2000000,dict,2,0.948355693
+python,hash_table,2. Insert random,2000000,dict,3,0.936240790
+python,hash_table,2. Insert random,2000000,dict,4,0.941935218
+python,hash_table,2. Insert random,2000000,dict,5,0.961922802
+python,hash_table,2. Insert random,5000000,HashTable,1,33.437238245
+python,hash_table,2. Insert random,5000000,HashTable,2,33.329380243
+python,hash_table,2. Insert random,5000000,HashTable,3,33.517304456
+python,hash_table,2. Insert random,5000000,HashTable,4,33.579882180
+python,hash_table,2. Insert random,5000000,HashTable,5,33.276421090
+python,hash_table,2. Insert random,5000000,dict,1,3.019067094
+python,hash_table,2. Insert random,5000000,dict,2,2.959151061
+python,hash_table,2. Insert random,5000000,dict,3,2.925114634
+python,hash_table,2. Insert random,5000000,dict,4,2.849677956
+python,hash_table,2. Insert random,5000000,dict,5,2.929933461
+python,hash_table,2. Insert random,10000000,HashTable,1,68.945945908
+python,hash_table,2. Insert random,10000000,HashTable,2,69.298716244
+python,hash_table,2. Insert random,10000000,HashTable,3,69.171112545
+python,hash_table,2. Insert random,10000000,HashTable,4,69.186043161
+python,hash_table,2. Insert random,10000000,HashTable,5,69.347696898
+python,hash_table,2. Insert random,10000000,dict,1,6.989572830
+python,hash_table,2. Insert random,10000000,dict,2,6.920687013
+python,hash_table,2. Insert random,10000000,dict,3,6.838609944
+python,hash_table,2. Insert random,10000000,dict,4,6.917307609
+python,hash_table,2. Insert random,10000000,dict,5,6.947828286
+python,hash_table,2. Insert random,15000000,HashTable,1,116.394693364
+python,hash_table,2. Insert random,15000000,HashTable,2,116.383205076
+python,hash_table,2. Insert random,15000000,HashTable,3,116.684947026
+python,hash_table,2. Insert random,15000000,HashTable,4,116.329983098
+python,hash_table,2. Insert random,15000000,HashTable,5,116.533381297
+python,hash_table,2. Insert random,15000000,dict,1,12.035202390
+python,hash_table,2. Insert random,15000000,dict,2,12.005550962
+python,hash_table,2. Insert random,15000000,dict,3,11.919558306
+python,hash_table,2. Insert random,15000000,dict,4,11.935786006
+python,hash_table,2. Insert random,15000000,dict,5,11.943057021
+python,hash_table,3. Get existing sequential,10000,HashTable,1,0.011247480
+python,hash_table,3. Get existing sequential,10000,HashTable,2,0.006457185
+python,hash_table,3. Get existing sequential,10000,HashTable,3,0.010893320
+python,hash_table,3. Get existing sequential,10000,HashTable,4,0.011474438
+python,hash_table,3. Get existing sequential,10000,HashTable,5,0.010287667
+python,hash_table,3. Get existing sequential,10000,dict,1,0.000788165
+python,hash_table,3. Get existing sequential,10000,dict,2,0.000485731
+python,hash_table,3. Get existing sequential,10000,dict,3,0.000543847
+python,hash_table,3. Get existing sequential,10000,dict,4,0.000489805
+python,hash_table,3. Get existing sequential,10000,dict,5,0.000380147
+python,hash_table,3. Get existing sequential,50000,HashTable,1,0.034633375
+python,hash_table,3. Get existing sequential,50000,HashTable,2,0.048631959
+python,hash_table,3. Get existing sequential,50000,HashTable,3,0.043761113
+python,hash_table,3. Get existing sequential,50000,HashTable,4,0.045993598
+python,hash_table,3. Get existing sequential,50000,HashTable,5,0.049708054
+python,hash_table,3. Get existing sequential,50000,dict,1,0.005460133
+python,hash_table,3. Get existing sequential,50000,dict,2,0.004151747
+python,hash_table,3. Get existing sequential,50000,dict,3,0.003403835
+python,hash_table,3. Get existing sequential,50000,dict,4,0.004210234
+python,hash_table,3. Get existing sequential,50000,dict,5,0.004320341
+python,hash_table,3. Get existing sequential,100000,HashTable,1,0.099692568
+python,hash_table,3. Get existing sequential,100000,HashTable,2,0.089692153
+python,hash_table,3. Get existing sequential,100000,HashTable,3,0.094879800
+python,hash_table,3. Get existing sequential,100000,HashTable,4,0.095570637
+python,hash_table,3. Get existing sequential,100000,HashTable,5,0.092593680
+python,hash_table,3. Get existing sequential,100000,dict,1,0.006604702
+python,hash_table,3. Get existing sequential,100000,dict,2,0.005528033
+python,hash_table,3. Get existing sequential,100000,dict,3,0.004170151
+python,hash_table,3. Get existing sequential,100000,dict,4,0.006973966
+python,hash_table,3. Get existing sequential,100000,dict,5,0.007125469
+python,hash_table,3. Get existing sequential,200000,HashTable,1,0.211563166
+python,hash_table,3. Get existing sequential,200000,HashTable,2,0.201315998
+python,hash_table,3. Get existing sequential,200000,HashTable,3,0.186563143
+python,hash_table,3. Get existing sequential,200000,HashTable,4,0.197013278
+python,hash_table,3. Get existing sequential,200000,HashTable,5,0.186280021
+python,hash_table,3. Get existing sequential,200000,dict,1,0.013475458
+python,hash_table,3. Get existing sequential,200000,dict,2,0.013453018
+python,hash_table,3. Get existing sequential,200000,dict,3,0.012816010
+python,hash_table,3. Get existing sequential,200000,dict,4,0.016234691
+python,hash_table,3. Get existing sequential,200000,dict,5,0.011949966
+python,hash_table,3. Get existing sequential,500000,HashTable,1,0.466785107
+python,hash_table,3. Get existing sequential,500000,HashTable,2,0.455937611
+python,hash_table,3. Get existing sequential,500000,HashTable,3,0.452219678
+python,hash_table,3. Get existing sequential,500000,HashTable,4,0.454564642
+python,hash_table,3. Get existing sequential,500000,HashTable,5,0.486560860
+python,hash_table,3. Get existing sequential,500000,dict,1,0.030239667
+python,hash_table,3. Get existing sequential,500000,dict,2,0.033780864
+python,hash_table,3. Get existing sequential,500000,dict,3,0.029781946
+python,hash_table,3. Get existing sequential,500000,dict,4,0.031947358
+python,hash_table,3. Get existing sequential,500000,dict,5,0.028682551
+python,hash_table,3. Get existing sequential,1000000,HashTable,1,0.936398310
+python,hash_table,3. Get existing sequential,1000000,HashTable,2,0.940931493
+python,hash_table,3. Get existing sequential,1000000,HashTable,3,0.977910783
+python,hash_table,3. Get existing sequential,1000000,HashTable,4,0.933228274
+python,hash_table,3. Get existing sequential,1000000,HashTable,5,0.943555853
+python,hash_table,3. Get existing sequential,1000000,dict,1,0.059607270
+python,hash_table,3. Get existing sequential,1000000,dict,2,0.060703898
+python,hash_table,3. Get existing sequential,1000000,dict,3,0.064736422
+python,hash_table,3. Get existing sequential,1000000,dict,4,0.063449510
+python,hash_table,3. Get existing sequential,1000000,dict,5,0.067565474
+python,hash_table,3. Get existing sequential,2000000,HashTable,1,1.902605253
+python,hash_table,3. Get existing sequential,2000000,HashTable,2,1.841650471
+python,hash_table,3. Get existing sequential,2000000,HashTable,3,1.920845297
+python,hash_table,3. Get existing sequential,2000000,HashTable,4,1.897853547
+python,hash_table,3. Get existing sequential,2000000,HashTable,5,1.879734552
+python,hash_table,3. Get existing sequential,2000000,dict,1,0.123673847
+python,hash_table,3. Get existing sequential,2000000,dict,2,0.126823132
+python,hash_table,3. Get existing sequential,2000000,dict,3,0.122360392
+python,hash_table,3. Get existing sequential,2000000,dict,4,0.125956759
+python,hash_table,3. Get existing sequential,2000000,dict,5,0.131156152
+python,hash_table,3. Get existing sequential,5000000,HashTable,1,4.745770309
+python,hash_table,3. Get existing sequential,5000000,HashTable,2,4.574021323
+python,hash_table,3. Get existing sequential,5000000,HashTable,3,4.696878376
+python,hash_table,3. Get existing sequential,5000000,HashTable,4,4.667713309
+python,hash_table,3. Get existing sequential,5000000,HashTable,5,4.637760099
+python,hash_table,3. Get existing sequential,5000000,dict,1,0.308827842
+python,hash_table,3. Get existing sequential,5000000,dict,2,0.307820976
+python,hash_table,3. Get existing sequential,5000000,dict,3,0.306818258
+python,hash_table,3. Get existing sequential,5000000,dict,4,0.310220778
+python,hash_table,3. Get existing sequential,5000000,dict,5,0.304067316
+python,hash_table,3. Get existing sequential,10000000,HashTable,1,9.346925601
+python,hash_table,3. Get existing sequential,10000000,HashTable,2,9.306959432
+python,hash_table,3. Get existing sequential,10000000,HashTable,3,9.310062726
+python,hash_table,3. Get existing sequential,10000000,HashTable,4,9.340307053
+python,hash_table,3. Get existing sequential,10000000,HashTable,5,9.264617228
+python,hash_table,3. Get existing sequential,10000000,dict,1,0.623121598
+python,hash_table,3. Get existing sequential,10000000,dict,2,0.624936100
+python,hash_table,3. Get existing sequential,10000000,dict,3,0.622280062
+python,hash_table,3. Get existing sequential,10000000,dict,4,0.616846725
+python,hash_table,3. Get existing sequential,10000000,dict,5,0.637432296
+python,hash_table,3. Get existing sequential,15000000,HashTable,1,14.212325257
+python,hash_table,3. Get existing sequential,15000000,HashTable,2,14.159720317
+python,hash_table,3. Get existing sequential,15000000,HashTable,3,14.075427736
+python,hash_table,3. Get existing sequential,15000000,HashTable,4,14.030099410
+python,hash_table,3. Get existing sequential,15000000,HashTable,5,14.122497103
+python,hash_table,3. Get existing sequential,15000000,dict,1,0.966487946
+python,hash_table,3. Get existing sequential,15000000,dict,2,0.959858698
+python,hash_table,3. Get existing sequential,15000000,dict,3,0.944263885
+python,hash_table,3. Get existing sequential,15000000,dict,4,0.930571018
+python,hash_table,3. Get existing sequential,15000000,dict,5,0.934156929
+python,hash_table,4. Get existing random order,10000,HashTable,1,0.014374716
+python,hash_table,4. Get existing random order,10000,HashTable,2,0.013120596
+python,hash_table,4. Get existing random order,10000,HashTable,3,0.009698832
+python,hash_table,4. Get existing random order,10000,HashTable,4,0.010093387
+python,hash_table,4. Get existing random order,10000,HashTable,5,0.011257835
+python,hash_table,4. Get existing random order,10000,dict,1,0.000930233
+python,hash_table,4. Get existing random order,10000,dict,2,0.000588459
+python,hash_table,4. Get existing random order,10000,dict,3,0.000587821
+python,hash_table,4. Get existing random order,10000,dict,4,0.000854410
+python,hash_table,4. Get existing random order,10000,dict,5,0.001427303
+python,hash_table,4. Get existing random order,50000,HashTable,1,0.080584289
+python,hash_table,4. Get existing random order,50000,HashTable,2,0.075306723
+python,hash_table,4. Get existing random order,50000,HashTable,3,0.076278962
+python,hash_table,4. Get existing random order,50000,HashTable,4,0.083391390
+python,hash_table,4. Get existing random order,50000,HashTable,5,0.089767015
+python,hash_table,4. Get existing random order,50000,dict,1,0.017669710
+python,hash_table,4. Get existing random order,50000,dict,2,0.014041706
+python,hash_table,4. Get existing random order,50000,dict,3,0.010041865
+python,hash_table,4. Get existing random order,50000,dict,4,0.010650307
+python,hash_table,4. Get existing random order,50000,dict,5,0.011993041
+python,hash_table,4. Get existing random order,100000,HashTable,1,0.200402507
+python,hash_table,4. Get existing random order,100000,HashTable,2,0.190150778
+python,hash_table,4. Get existing random order,100000,HashTable,3,0.187417348
+python,hash_table,4. Get existing random order,100000,HashTable,4,0.193990551
+python,hash_table,4. Get existing random order,100000,HashTable,5,0.193950110
+python,hash_table,4. Get existing random order,100000,dict,1,0.044013602
+python,hash_table,4. Get existing random order,100000,dict,2,0.035916243
+python,hash_table,4. Get existing random order,100000,dict,3,0.023023460
+python,hash_table,4. Get existing random order,100000,dict,4,0.042997699
+python,hash_table,4. Get existing random order,100000,dict,5,0.032212263
+python,hash_table,4. Get existing random order,200000,HashTable,1,0.432765302
+python,hash_table,4. Get existing random order,200000,HashTable,2,0.426629478
+python,hash_table,4. Get existing random order,200000,HashTable,3,0.439761118
+python,hash_table,4. Get existing random order,200000,HashTable,4,0.437611043
+python,hash_table,4. Get existing random order,200000,HashTable,5,0.438705802
+python,hash_table,4. Get existing random order,200000,dict,1,0.128488969
+python,hash_table,4. Get existing random order,200000,dict,2,0.095727912
+python,hash_table,4. Get existing random order,200000,dict,3,0.104588887
+python,hash_table,4. Get existing random order,200000,dict,4,0.107920004
+python,hash_table,4. Get existing random order,200000,dict,5,0.120336069
+python,hash_table,4. Get existing random order,500000,HashTable,1,1.170680642
+python,hash_table,4. Get existing random order,500000,HashTable,2,1.203351751
+python,hash_table,4. Get existing random order,500000,HashTable,3,1.205861165
+python,hash_table,4. Get existing random order,500000,HashTable,4,1.188484212
+python,hash_table,4. Get existing random order,500000,HashTable,5,1.161715551
+python,hash_table,4. Get existing random order,500000,dict,1,0.437447503
+python,hash_table,4. Get existing random order,500000,dict,2,0.435062237
+python,hash_table,4. Get existing random order,500000,dict,3,0.456344563
+python,hash_table,4. Get existing random order,500000,dict,4,0.408442624
+python,hash_table,4. Get existing random order,500000,dict,5,0.421912015
+python,hash_table,4. Get existing random order,1000000,HashTable,1,2.369847726
+python,hash_table,4. Get existing random order,1000000,HashTable,2,2.481858644
+python,hash_table,4. Get existing random order,1000000,HashTable,3,2.445394122
+python,hash_table,4. Get existing random order,1000000,HashTable,4,2.400238934
+python,hash_table,4. Get existing random order,1000000,HashTable,5,2.439957825
+python,hash_table,4. Get existing random order,1000000,dict,1,0.909505276
+python,hash_table,4. Get existing random order,1000000,dict,2,0.975084474
+python,hash_table,4. Get existing random order,1000000,dict,3,0.959527109
+python,hash_table,4. Get existing random order,1000000,dict,4,0.935779467
+python,hash_table,4. Get existing random order,1000000,dict,5,0.920408508
+python,hash_table,4. Get existing random order,2000000,HashTable,1,5.011826164
+python,hash_table,4. Get existing random order,2000000,HashTable,2,4.977861620
+python,hash_table,4. Get existing random order,2000000,HashTable,3,4.978534473
+python,hash_table,4. Get existing random order,2000000,HashTable,4,4.969838310
+python,hash_table,4. Get existing random order,2000000,HashTable,5,5.002132128
+python,hash_table,4. Get existing random order,2000000,dict,1,2.109756028
+python,hash_table,4. Get existing random order,2000000,dict,2,2.102364766
+python,hash_table,4. Get existing random order,2000000,dict,3,2.082212376
+python,hash_table,4. Get existing random order,2000000,dict,4,2.131762222
+python,hash_table,4. Get existing random order,2000000,dict,5,2.101558646
+python,hash_table,4. Get existing random order,5000000,HashTable,1,14.365432237
+python,hash_table,4. Get existing random order,5000000,HashTable,2,14.517826635
+python,hash_table,4. Get existing random order,5000000,HashTable,3,14.418349936
+python,hash_table,4. Get existing random order,5000000,HashTable,4,14.467163381
+python,hash_table,4. Get existing random order,5000000,HashTable,5,14.437715386
+python,hash_table,4. Get existing random order,5000000,dict,1,5.898951229
+python,hash_table,4. Get existing random order,5000000,dict,2,5.963348428
+python,hash_table,4. Get existing random order,5000000,dict,3,5.926812243
+python,hash_table,4. Get existing random order,5000000,dict,4,5.938881910
+python,hash_table,4. Get existing random order,5000000,dict,5,5.852329514
+python,hash_table,4. Get existing random order,10000000,HashTable,1,30.547070081
+python,hash_table,4. Get existing random order,10000000,HashTable,2,30.407157660
+python,hash_table,4. Get existing random order,10000000,HashTable,3,30.441822323
+python,hash_table,4. Get existing random order,10000000,HashTable,4,30.424030818
+python,hash_table,4. Get existing random order,10000000,HashTable,5,30.610066204
+python,hash_table,4. Get existing random order,10000000,dict,1,12.807204417
+python,hash_table,4. Get existing random order,10000000,dict,2,12.863625987
+python,hash_table,4. Get existing random order,10000000,dict,3,12.976404620
+python,hash_table,4. Get existing random order,10000000,dict,4,12.937958128
+python,hash_table,4. Get existing random order,10000000,dict,5,12.857626166
+python,hash_table,4. Get existing random order,15000000,HashTable,1,44.351080702
+python,hash_table,4. Get existing random order,15000000,HashTable,2,44.517252277
+python,hash_table,4. Get existing random order,15000000,HashTable,3,44.318348762
+python,hash_table,4. Get existing random order,15000000,HashTable,4,44.572499173
+python,hash_table,4. Get existing random order,15000000,HashTable,5,44.277289535
+python,hash_table,4. Get existing random order,15000000,dict,1,19.524934273
+python,hash_table,4. Get existing random order,15000000,dict,2,19.432485556
+python,hash_table,4. Get existing random order,15000000,dict,3,19.526718709
+python,hash_table,4. Get existing random order,15000000,dict,4,19.530720743
+python,hash_table,4. Get existing random order,15000000,dict,5,19.554254912
+python,hash_table,5. Get missing keys,10000,HashTable,1,0.014116771
+python,hash_table,5. Get missing keys,10000,HashTable,2,0.014541777
+python,hash_table,5. Get missing keys,10000,HashTable,3,0.012610442
+python,hash_table,5. Get missing keys,10000,HashTable,4,0.014293372
+python,hash_table,5. Get missing keys,10000,HashTable,5,0.008592993
+python,hash_table,5. Get missing keys,10000,dict,1,0.002199608
+python,hash_table,5. Get missing keys,10000,dict,2,0.001429804
+python,hash_table,5. Get missing keys,10000,dict,3,0.001334794
+python,hash_table,5. Get missing keys,10000,dict,4,0.001310388
+python,hash_table,5. Get missing keys,10000,dict,5,0.001299743
+python,hash_table,5. Get missing keys,50000,HashTable,1,0.085741582
+python,hash_table,5. Get missing keys,50000,HashTable,2,0.082239932
+python,hash_table,5. Get missing keys,50000,HashTable,3,0.084941385
+python,hash_table,5. Get missing keys,50000,HashTable,4,0.081237927
+python,hash_table,5. Get missing keys,50000,HashTable,5,0.068104164
+python,hash_table,5. Get missing keys,50000,dict,1,0.014244951
+python,hash_table,5. Get missing keys,50000,dict,2,0.009617257
+python,hash_table,5. Get missing keys,50000,dict,3,0.009062836
+python,hash_table,5. Get missing keys,50000,dict,4,0.011228576
+python,hash_table,5. Get missing keys,50000,dict,5,0.006736210
+python,hash_table,5. Get missing keys,100000,HashTable,1,0.193792829
+python,hash_table,5. Get missing keys,100000,HashTable,2,0.195032297
+python,hash_table,5. Get missing keys,100000,HashTable,3,0.187764661
+python,hash_table,5. Get missing keys,100000,HashTable,4,0.202337984
+python,hash_table,5. Get missing keys,100000,HashTable,5,0.183549785
+python,hash_table,5. Get missing keys,100000,dict,1,0.034742868
+python,hash_table,5. Get missing keys,100000,dict,2,0.032019038
+python,hash_table,5. Get missing keys,100000,dict,3,0.035037015
+python,hash_table,5. Get missing keys,100000,dict,4,0.032010020
+python,hash_table,5. Get missing keys,100000,dict,5,0.022122835
+python,hash_table,5. Get missing keys,200000,HashTable,1,0.426900119
+python,hash_table,5. Get missing keys,200000,HashTable,2,0.401253402
+python,hash_table,5. Get missing keys,200000,HashTable,3,0.414084198
+python,hash_table,5. Get missing keys,200000,HashTable,4,0.382453257
+python,hash_table,5. Get missing keys,200000,HashTable,5,0.409047092
+python,hash_table,5. Get missing keys,200000,dict,1,0.097444656
+python,hash_table,5. Get missing keys,200000,dict,2,0.092139570
+python,hash_table,5. Get missing keys,200000,dict,3,0.074994203
+python,hash_table,5. Get missing keys,200000,dict,4,0.099285230
+python,hash_table,5. Get missing keys,200000,dict,5,0.084082154
+python,hash_table,5. Get missing keys,500000,HashTable,1,1.225409530
+python,hash_table,5. Get missing keys,500000,HashTable,2,1.222539429
+python,hash_table,5. Get missing keys,500000,HashTable,3,1.252715559
+python,hash_table,5. Get missing keys,500000,HashTable,4,1.197050858
+python,hash_table,5. Get missing keys,500000,HashTable,5,1.158241199
+python,hash_table,5. Get missing keys,500000,dict,1,0.274105611
+python,hash_table,5. Get missing keys,500000,dict,2,0.300062639
+python,hash_table,5. Get missing keys,500000,dict,3,0.250639874
+python,hash_table,5. Get missing keys,500000,dict,4,0.255829933
+python,hash_table,5. Get missing keys,500000,dict,5,0.270684146
+python,hash_table,5. Get missing keys,1000000,HashTable,1,2.457902375
+python,hash_table,5. Get missing keys,1000000,HashTable,2,2.467820255
+python,hash_table,5. Get missing keys,1000000,HashTable,3,2.522267903
+python,hash_table,5. Get missing keys,1000000,HashTable,4,2.441849227
+python,hash_table,5. Get missing keys,1000000,HashTable,5,2.507716820
+python,hash_table,5. Get missing keys,1000000,dict,1,0.701697491
+python,hash_table,5. Get missing keys,1000000,dict,2,0.652230571
+python,hash_table,5. Get missing keys,1000000,dict,3,0.686517398
+python,hash_table,5. Get missing keys,1000000,dict,4,0.659586046
+python,hash_table,5. Get missing keys,1000000,dict,5,0.629579998
+python,hash_table,5. Get missing keys,2000000,HashTable,1,5.144579677
+python,hash_table,5. Get missing keys,2000000,HashTable,2,5.118425458
+python,hash_table,5. Get missing keys,2000000,HashTable,3,5.145576751
+python,hash_table,5. Get missing keys,2000000,HashTable,4,5.102626089
+python,hash_table,5. Get missing keys,2000000,HashTable,5,5.125671715
+python,hash_table,5. Get missing keys,2000000,dict,1,1.498453557
+python,hash_table,5. Get missing keys,2000000,dict,2,1.506244278
+python,hash_table,5. Get missing keys,2000000,dict,3,1.521621764
+python,hash_table,5. Get missing keys,2000000,dict,4,1.514155488
+python,hash_table,5. Get missing keys,2000000,dict,5,1.517630051
+python,hash_table,5. Get missing keys,5000000,HashTable,1,16.993782096
+python,hash_table,5. Get missing keys,5000000,HashTable,2,16.931878010
+python,hash_table,5. Get missing keys,5000000,HashTable,3,16.965681031
+python,hash_table,5. Get missing keys,5000000,HashTable,4,16.922961186
+python,hash_table,5. Get missing keys,5000000,HashTable,5,16.994093348
+python,hash_table,5. Get missing keys,5000000,dict,1,4.536830124
+python,hash_table,5. Get missing keys,5000000,dict,2,4.538268822
+python,hash_table,5. Get missing keys,5000000,dict,3,4.499353085
+python,hash_table,5. Get missing keys,5000000,dict,4,4.561587585
+python,hash_table,5. Get missing keys,5000000,dict,5,4.540375078
+python,hash_table,5. Get missing keys,10000000,HashTable,1,36.933827982
+python,hash_table,5. Get missing keys,10000000,HashTable,2,36.762436911
+python,hash_table,5. Get missing keys,10000000,HashTable,3,36.896465107
+python,hash_table,5. Get missing keys,10000000,HashTable,4,37.236112849
+python,hash_table,5. Get missing keys,10000000,HashTable,5,41.018945954
+python,hash_table,5. Get missing keys,10000000,dict,1,10.327917368
+python,hash_table,5. Get missing keys,10000000,dict,2,10.241110615
+python,hash_table,5. Get missing keys,10000000,dict,3,10.327349591
+python,hash_table,5. Get missing keys,10000000,dict,4,10.249050277
+python,hash_table,5. Get missing keys,10000000,dict,5,10.227656703
+python,hash_table,5. Get missing keys,15000000,HashTable,1,46.321191888
+python,hash_table,5. Get missing keys,15000000,HashTable,2,46.245916016
+python,hash_table,5. Get missing keys,15000000,HashTable,3,46.444407048
+python,hash_table,5. Get missing keys,15000000,HashTable,4,47.209611501
+python,hash_table,5. Get missing keys,15000000,HashTable,5,46.205278996
+python,hash_table,5. Get missing keys,15000000,dict,1,14.606966090
+python,hash_table,5. Get missing keys,15000000,dict,2,14.485227480
+python,hash_table,5. Get missing keys,15000000,dict,3,14.795768552
+python,hash_table,5. Get missing keys,15000000,dict,4,14.388795650
+python,hash_table,5. Get missing keys,15000000,dict,5,14.694596074
+python,hash_table,6. Delete,10000,HashTable,1,0.046519567
+python,hash_table,6. Delete,10000,HashTable,2,0.015573035
+python,hash_table,6. Delete,10000,HashTable,3,0.011725995
+python,hash_table,6. Delete,10000,HashTable,4,0.009677398
+python,hash_table,6. Delete,10000,HashTable,5,0.014131049
+python,hash_table,6. Delete,10000,dict,1,0.000745114
+python,hash_table,6. Delete,10000,dict,2,0.000907153
+python,hash_table,6. Delete,10000,dict,3,0.000770537
+python,hash_table,6. Delete,10000,dict,4,0.000751444
+python,hash_table,6. Delete,10000,dict,5,0.000737802
+python,hash_table,6. Delete,50000,HashTable,1,0.075918606
+python,hash_table,6. Delete,50000,HashTable,2,0.080192989
+python,hash_table,6. Delete,50000,HashTable,3,0.078712293
+python,hash_table,6. Delete,50000,HashTable,4,0.085764336
+python,hash_table,6. Delete,50000,HashTable,5,0.084829611
+python,hash_table,6. Delete,50000,dict,1,0.004897383
+python,hash_table,6. Delete,50000,dict,2,0.004885239
+python,hash_table,6. Delete,50000,dict,3,0.004960027
+python,hash_table,6. Delete,50000,dict,4,0.003265498
+python,hash_table,6. Delete,50000,dict,5,0.002491349
+python,hash_table,6. Delete,100000,HashTable,1,0.160800043
+python,hash_table,6. Delete,100000,HashTable,2,0.160022175
+python,hash_table,6. Delete,100000,HashTable,3,0.150118709
+python,hash_table,6. Delete,100000,HashTable,4,0.156856763
+python,hash_table,6. Delete,100000,HashTable,5,0.178378762
+python,hash_table,6. Delete,100000,dict,1,0.005768144
+python,hash_table,6. Delete,100000,dict,2,0.004447801
+python,hash_table,6. Delete,100000,dict,3,0.005849965
+python,hash_table,6. Delete,100000,dict,4,0.007065081
+python,hash_table,6. Delete,100000,dict,5,0.004066942
+python,hash_table,6. Delete,200000,HashTable,1,0.343229204
+python,hash_table,6. Delete,200000,HashTable,2,0.336817737
+python,hash_table,6. Delete,200000,HashTable,3,0.365284640
+python,hash_table,6. Delete,200000,HashTable,4,0.327552622
+python,hash_table,6. Delete,200000,HashTable,5,0.305042737
+python,hash_table,6. Delete,200000,dict,1,0.009128563
+python,hash_table,6. Delete,200000,dict,2,0.011068542
+python,hash_table,6. Delete,200000,dict,3,0.010299938
+python,hash_table,6. Delete,200000,dict,4,0.015480036
+python,hash_table,6. Delete,200000,dict,5,0.009512742
+python,hash_table,6. Delete,500000,HashTable,1,0.874792021
+python,hash_table,6. Delete,500000,HashTable,2,0.864230593
+python,hash_table,6. Delete,500000,HashTable,3,0.860778364
+python,hash_table,6. Delete,500000,HashTable,4,0.861238272
+python,hash_table,6. Delete,500000,HashTable,5,0.895647101
+python,hash_table,6. Delete,500000,dict,1,0.030350074
+python,hash_table,6. Delete,500000,dict,2,0.034938213
+python,hash_table,6. Delete,500000,dict,3,0.040039660
+python,hash_table,6. Delete,500000,dict,4,0.032310814
+python,hash_table,6. Delete,500000,dict,5,0.036230222
+python,hash_table,6. Delete,1000000,HashTable,1,1.874541450
+python,hash_table,6. Delete,1000000,HashTable,2,1.816394688
+python,hash_table,6. Delete,1000000,HashTable,3,1.734700338
+python,hash_table,6. Delete,1000000,HashTable,4,1.784194474
+python,hash_table,6. Delete,1000000,HashTable,5,1.810160141
+python,hash_table,6. Delete,1000000,dict,1,0.069805045
+python,hash_table,6. Delete,1000000,dict,2,0.066821761
+python,hash_table,6. Delete,1000000,dict,3,0.063099191
+python,hash_table,6. Delete,1000000,dict,4,0.073060337
+python,hash_table,6. Delete,1000000,dict,5,0.063972737
+python,hash_table,6. Delete,2000000,HashTable,1,3.373034835
+python,hash_table,6. Delete,2000000,HashTable,2,3.421822294
+python,hash_table,6. Delete,2000000,HashTable,3,3.397019428
+python,hash_table,6. Delete,2000000,HashTable,4,3.488775344
+python,hash_table,6. Delete,2000000,HashTable,5,3.362640675
+python,hash_table,6. Delete,2000000,dict,1,0.124938413
+python,hash_table,6. Delete,2000000,dict,2,0.132695814
+python,hash_table,6. Delete,2000000,dict,3,0.117317123
+python,hash_table,6. Delete,2000000,dict,4,0.135481391
+python,hash_table,6. Delete,2000000,dict,5,0.116570558
+python,hash_table,6. Delete,5000000,HashTable,1,9.573692523
+python,hash_table,6. Delete,5000000,HashTable,2,9.418751691
+python,hash_table,6. Delete,5000000,HashTable,3,9.386165445
+python,hash_table,6. Delete,5000000,HashTable,4,9.304091359
+python,hash_table,6. Delete,5000000,HashTable,5,9.558028735
+python,hash_table,6. Delete,5000000,dict,1,0.317982410
+python,hash_table,6. Delete,5000000,dict,2,0.322037760
+python,hash_table,6. Delete,5000000,dict,3,0.308147447
+python,hash_table,6. Delete,5000000,dict,4,0.332989064
+python,hash_table,6. Delete,5000000,dict,5,0.304184865
+python,hash_table,6. Delete,10000000,HashTable,1,18.302201515
+python,hash_table,6. Delete,10000000,HashTable,2,18.145477376
+python,hash_table,6. Delete,10000000,HashTable,3,18.193959296
+python,hash_table,6. Delete,10000000,HashTable,4,17.962415259
+python,hash_table,6. Delete,10000000,HashTable,5,18.112066453
+python,hash_table,6. Delete,10000000,dict,1,0.638826342
+python,hash_table,6. Delete,10000000,dict,2,0.601495601
+python,hash_table,6. Delete,10000000,dict,3,0.623861538
+python,hash_table,6. Delete,10000000,dict,4,0.630203647
+python,hash_table,6. Delete,10000000,dict,5,0.636353880
+python,hash_table,6. Delete,15000000,HashTable,1,26.547964390
+python,hash_table,6. Delete,15000000,HashTable,2,26.450538596
+python,hash_table,6. Delete,15000000,HashTable,3,26.342185608
+python,hash_table,6. Delete,15000000,HashTable,4,26.772347740
+python,hash_table,6. Delete,15000000,HashTable,5,26.728134206
+python,hash_table,6. Delete,15000000,dict,1,0.937224801
+python,hash_table,6. Delete,15000000,dict,2,0.949168370
+python,hash_table,6. Delete,15000000,dict,3,0.938545344
+python,hash_table,6. Delete,15000000,dict,4,0.907498993
+python,hash_table,6. Delete,15000000,dict,5,0.956709691
+python,hash_table,7. Get after deletions,10000,HashTable,1,0.007535533
+python,hash_table,7. Get after deletions,10000,HashTable,2,0.005393058
+python,hash_table,7. Get after deletions,10000,HashTable,3,0.007595314
+python,hash_table,7. Get after deletions,10000,HashTable,4,0.005726435
+python,hash_table,7. Get after deletions,10000,HashTable,5,0.003977675
+python,hash_table,7. Get after deletions,10000,dict,1,0.000483272
+python,hash_table,7. Get after deletions,10000,dict,2,0.000328692
+python,hash_table,7. Get after deletions,10000,dict,3,0.000244185
+python,hash_table,7. Get after deletions,10000,dict,4,0.000240462
+python,hash_table,7. Get after deletions,10000,dict,5,0.000379656
+python,hash_table,7. Get after deletions,50000,HashTable,1,0.052459182
+python,hash_table,7. Get after deletions,50000,HashTable,2,0.042128136
+python,hash_table,7. Get after deletions,50000,HashTable,3,0.038950046
+python,hash_table,7. Get after deletions,50000,HashTable,4,0.039001677
+python,hash_table,7. Get after deletions,50000,HashTable,5,0.035215178
+python,hash_table,7. Get after deletions,50000,dict,1,0.007769529
+python,hash_table,7. Get after deletions,50000,dict,2,0.002750686
+python,hash_table,7. Get after deletions,50000,dict,3,0.003149259
+python,hash_table,7. Get after deletions,50000,dict,4,0.002761996
+python,hash_table,7. Get after deletions,50000,dict,5,0.001715057
+python,hash_table,7. Get after deletions,100000,HashTable,1,0.091744288
+python,hash_table,7. Get after deletions,100000,HashTable,2,0.086333452
+python,hash_table,7. Get after deletions,100000,HashTable,3,0.104485731
+python,hash_table,7. Get after deletions,100000,HashTable,4,0.087713331
+python,hash_table,7. Get after deletions,100000,HashTable,5,0.093663396
+python,hash_table,7. Get after deletions,100000,dict,1,0.019154929
+python,hash_table,7. Get after deletions,100000,dict,2,0.016325267
+python,hash_table,7. Get after deletions,100000,dict,3,0.016251669
+python,hash_table,7. Get after deletions,100000,dict,4,0.013120277
+python,hash_table,7. Get after deletions,100000,dict,5,0.012099019
+python,hash_table,7. Get after deletions,200000,HashTable,1,0.203836352
+python,hash_table,7. Get after deletions,200000,HashTable,2,0.213085037
+python,hash_table,7. Get after deletions,200000,HashTable,3,0.184619447
+python,hash_table,7. Get after deletions,200000,HashTable,4,0.220131025
+python,hash_table,7. Get after deletions,200000,HashTable,5,0.177691579
+python,hash_table,7. Get after deletions,200000,dict,1,0.037463629
+python,hash_table,7. Get after deletions,200000,dict,2,0.024136355
+python,hash_table,7. Get after deletions,200000,dict,3,0.032660252
+python,hash_table,7. Get after deletions,200000,dict,4,0.034032348
+python,hash_table,7. Get after deletions,200000,dict,5,0.043817718
+python,hash_table,7. Get after deletions,500000,HashTable,1,0.541884163
+python,hash_table,7. Get after deletions,500000,HashTable,2,0.546518883
+python,hash_table,7. Get after deletions,500000,HashTable,3,0.549794406
+python,hash_table,7. Get after deletions,500000,HashTable,4,0.540138638
+python,hash_table,7. Get after deletions,500000,HashTable,5,0.549087556
+python,hash_table,7. Get after deletions,500000,dict,1,0.127200775
+python,hash_table,7. Get after deletions,500000,dict,2,0.091010885
+python,hash_table,7. Get after deletions,500000,dict,3,0.077162138
+python,hash_table,7. Get after deletions,500000,dict,4,0.084776381
+python,hash_table,7. Get after deletions,500000,dict,5,0.086383967
+python,hash_table,7. Get after deletions,1000000,HashTable,1,1.117124368
+python,hash_table,7. Get after deletions,1000000,HashTable,2,1.103944814
+python,hash_table,7. Get after deletions,1000000,HashTable,3,1.095755559
+python,hash_table,7. Get after deletions,1000000,HashTable,4,1.103086157
+python,hash_table,7. Get after deletions,1000000,HashTable,5,1.074871324
+python,hash_table,7. Get after deletions,1000000,dict,1,0.257447170
+python,hash_table,7. Get after deletions,1000000,dict,2,0.247611213
+python,hash_table,7. Get after deletions,1000000,dict,3,0.248418019
+python,hash_table,7. Get after deletions,1000000,dict,4,0.225603375
+python,hash_table,7. Get after deletions,1000000,dict,5,0.258644038
+python,hash_table,7. Get after deletions,2000000,HashTable,1,2.235227356
+python,hash_table,7. Get after deletions,2000000,HashTable,2,2.221080761
+python,hash_table,7. Get after deletions,2000000,HashTable,3,2.290799578
+python,hash_table,7. Get after deletions,2000000,HashTable,4,2.311099463
+python,hash_table,7. Get after deletions,2000000,HashTable,5,2.276839829
+python,hash_table,7. Get after deletions,2000000,dict,1,0.538101386
+python,hash_table,7. Get after deletions,2000000,dict,2,0.565020611
+python,hash_table,7. Get after deletions,2000000,dict,3,0.522978832
+python,hash_table,7. Get after deletions,2000000,dict,4,0.509771365
+python,hash_table,7. Get after deletions,2000000,dict,5,0.543616126
+python,hash_table,7. Get after deletions,5000000,HashTable,1,6.377738036
+python,hash_table,7. Get after deletions,5000000,HashTable,2,6.373249210
+python,hash_table,7. Get after deletions,5000000,HashTable,3,6.416157818
+python,hash_table,7. Get after deletions,5000000,HashTable,4,6.435817309
+python,hash_table,7. Get after deletions,5000000,HashTable,5,6.322975882
+python,hash_table,7. Get after deletions,5000000,dict,1,1.551654114
+python,hash_table,7. Get after deletions,5000000,dict,2,1.533657620
+python,hash_table,7. Get after deletions,5000000,dict,3,1.496897854
+python,hash_table,7. Get after deletions,5000000,dict,4,1.560235161
+python,hash_table,7. Get after deletions,5000000,dict,5,1.571258816
+python,hash_table,7. Get after deletions,10000000,HashTable,1,13.389357814
+python,hash_table,7. Get after deletions,10000000,HashTable,2,13.361042772
+python,hash_table,7. Get after deletions,10000000,HashTable,3,13.300980744
+python,hash_table,7. Get after deletions,10000000,HashTable,4,13.252823786
+python,hash_table,7. Get after deletions,10000000,HashTable,5,13.370552959
+python,hash_table,7. Get after deletions,10000000,dict,1,3.311234164
+python,hash_table,7. Get after deletions,10000000,dict,2,3.209916021
+python,hash_table,7. Get after deletions,10000000,dict,3,3.281922872
+python,hash_table,7. Get after deletions,10000000,dict,4,3.366420240
+python,hash_table,7. Get after deletions,10000000,dict,5,3.231276473
+python,hash_table,7. Get after deletions,15000000,HashTable,1,19.398455090
+python,hash_table,7. Get after deletions,15000000,HashTable,2,19.579213059
+python,hash_table,7. Get after deletions,15000000,HashTable,3,19.565951579
+python,hash_table,7. Get after deletions,15000000,HashTable,4,19.323688823
+python,hash_table,7. Get after deletions,15000000,HashTable,5,19.741661104
+python,hash_table,7. Get after deletions,15000000,dict,1,4.745866106
+python,hash_table,7. Get after deletions,15000000,dict,2,4.724154477
+python,hash_table,7. Get after deletions,15000000,dict,3,4.795971642
+python,hash_table,7. Get after deletions,15000000,dict,4,4.739470378
+python,hash_table,7. Get after deletions,15000000,dict,5,4.709086758
+python,hash_table,8. Insert after deletions,10000,HashTable,1,0.011817410
+python,hash_table,8. Insert after deletions,10000,HashTable,2,0.012025460
+python,hash_table,8. Insert after deletions,10000,HashTable,3,0.011921610
+python,hash_table,8. Insert after deletions,10000,HashTable,4,0.009413065
+python,hash_table,8. Insert after deletions,10000,HashTable,5,0.007407257
+python,hash_table,8. Insert after deletions,10000,dict,1,0.000408691
+python,hash_table,8. Insert after deletions,10000,dict,2,0.000487311
+python,hash_table,8. Insert after deletions,10000,dict,3,0.000405932
+python,hash_table,8. Insert after deletions,10000,dict,4,0.000394137
+python,hash_table,8. Insert after deletions,10000,dict,5,0.000406123
+python,hash_table,8. Insert after deletions,50000,HashTable,1,0.055076924
+python,hash_table,8. Insert after deletions,50000,HashTable,2,0.056058102
+python,hash_table,8. Insert after deletions,50000,HashTable,3,0.052103656
+python,hash_table,8. Insert after deletions,50000,HashTable,4,0.048986953
+python,hash_table,8. Insert after deletions,50000,HashTable,5,0.063801970
+python,hash_table,8. Insert after deletions,50000,dict,1,0.004749026
+python,hash_table,8. Insert after deletions,50000,dict,2,0.002841439
+python,hash_table,8. Insert after deletions,50000,dict,3,0.001264928
+python,hash_table,8. Insert after deletions,50000,dict,4,0.002469787
+python,hash_table,8. Insert after deletions,50000,dict,5,0.001214979
+python,hash_table,8. Insert after deletions,100000,HashTable,1,0.109471437
+python,hash_table,8. Insert after deletions,100000,HashTable,2,0.102299030
+python,hash_table,8. Insert after deletions,100000,HashTable,3,0.107639082
+python,hash_table,8. Insert after deletions,100000,HashTable,4,0.116122622
+python,hash_table,8. Insert after deletions,100000,HashTable,5,0.121222770
+python,hash_table,8. Insert after deletions,100000,dict,1,0.007920904
+python,hash_table,8. Insert after deletions,100000,dict,2,0.003355432
+python,hash_table,8. Insert after deletions,100000,dict,3,0.005461793
+python,hash_table,8. Insert after deletions,100000,dict,4,0.003081066
+python,hash_table,8. Insert after deletions,100000,dict,5,0.003188974
+python,hash_table,8. Insert after deletions,200000,HashTable,1,0.218063659
+python,hash_table,8. Insert after deletions,200000,HashTable,2,0.233345618
+python,hash_table,8. Insert after deletions,200000,HashTable,3,0.237434477
+python,hash_table,8. Insert after deletions,200000,HashTable,4,0.240378066
+python,hash_table,8. Insert after deletions,200000,HashTable,5,0.247631686
+python,hash_table,8. Insert after deletions,200000,dict,1,0.015010209
+python,hash_table,8. Insert after deletions,200000,dict,2,0.013969206
+python,hash_table,8. Insert after deletions,200000,dict,3,0.014289523
+python,hash_table,8. Insert after deletions,200000,dict,4,0.016812015
+python,hash_table,8. Insert after deletions,200000,dict,5,0.012295776
+python,hash_table,8. Insert after deletions,500000,HashTable,1,1.237717697
+python,hash_table,8. Insert after deletions,500000,HashTable,2,1.241083236
+python,hash_table,8. Insert after deletions,500000,HashTable,3,1.239770798
+python,hash_table,8. Insert after deletions,500000,HashTable,4,1.230322506
+python,hash_table,8. Insert after deletions,500000,HashTable,5,1.301443375
+python,hash_table,8. Insert after deletions,500000,dict,1,0.047566908
+python,hash_table,8. Insert after deletions,500000,dict,2,0.039608855
+python,hash_table,8. Insert after deletions,500000,dict,3,0.029729532
+python,hash_table,8. Insert after deletions,500000,dict,4,0.033696881
+python,hash_table,8. Insert after deletions,500000,dict,5,0.035891432
+python,hash_table,8. Insert after deletions,1000000,HashTable,1,2.529584801
+python,hash_table,8. Insert after deletions,1000000,HashTable,2,2.472215012
+python,hash_table,8. Insert after deletions,1000000,HashTable,3,2.501698311
+python,hash_table,8. Insert after deletions,1000000,HashTable,4,2.525921302
+python,hash_table,8. Insert after deletions,1000000,HashTable,5,2.496642458
+python,hash_table,8. Insert after deletions,1000000,dict,1,0.098446471
+python,hash_table,8. Insert after deletions,1000000,dict,2,0.081567756
+python,hash_table,8. Insert after deletions,1000000,dict,3,0.064749388
+python,hash_table,8. Insert after deletions,1000000,dict,4,0.081089381
+python,hash_table,8. Insert after deletions,1000000,dict,5,0.075392533
+python,hash_table,8. Insert after deletions,2000000,HashTable,1,5.024893478
+python,hash_table,8. Insert after deletions,2000000,HashTable,2,4.904639060
+python,hash_table,8. Insert after deletions,2000000,HashTable,3,4.956489160
+python,hash_table,8. Insert after deletions,2000000,HashTable,4,4.914511354
+python,hash_table,8. Insert after deletions,2000000,HashTable,5,4.888753957
+python,hash_table,8. Insert after deletions,2000000,dict,1,0.203615337
+python,hash_table,8. Insert after deletions,2000000,dict,2,0.201797162
+python,hash_table,8. Insert after deletions,2000000,dict,3,0.161650807
+python,hash_table,8. Insert after deletions,2000000,dict,4,0.162803159
+python,hash_table,8. Insert after deletions,2000000,dict,5,0.191376503
+python,hash_table,8. Insert after deletions,5000000,HashTable,1,10.595550067
+python,hash_table,8. Insert after deletions,5000000,HashTable,2,10.531142939
+python,hash_table,8. Insert after deletions,5000000,HashTable,3,10.722053064
+python,hash_table,8. Insert after deletions,5000000,HashTable,4,10.706494566
+python,hash_table,8. Insert after deletions,5000000,HashTable,5,10.643364991
+python,hash_table,8. Insert after deletions,5000000,dict,1,0.469277178
+python,hash_table,8. Insert after deletions,5000000,dict,2,0.481516194
+python,hash_table,8. Insert after deletions,5000000,dict,3,0.468569250
+python,hash_table,8. Insert after deletions,5000000,dict,4,0.435189052
+python,hash_table,8. Insert after deletions,5000000,dict,5,0.450493921
+python,hash_table,8. Insert after deletions,10000000,HashTable,1,21.493502715
+python,hash_table,8. Insert after deletions,10000000,HashTable,2,21.178817324
+python,hash_table,8. Insert after deletions,10000000,HashTable,3,20.954975768
+python,hash_table,8. Insert after deletions,10000000,HashTable,4,20.831340590
+python,hash_table,8. Insert after deletions,10000000,HashTable,5,20.960738494
+python,hash_table,8. Insert after deletions,10000000,dict,1,0.986578641
+python,hash_table,8. Insert after deletions,10000000,dict,2,0.964437215
+python,hash_table,8. Insert after deletions,10000000,dict,3,0.941725281
+python,hash_table,8. Insert after deletions,10000000,dict,4,0.959151101
+python,hash_table,8. Insert after deletions,10000000,dict,5,0.958639494
+python,hash_table,8. Insert after deletions,15000000,HashTable,1,17.183609855
+python,hash_table,8. Insert after deletions,15000000,HashTable,2,17.161753103
+python,hash_table,8. Insert after deletions,15000000,HashTable,3,17.197968495
+python,hash_table,8. Insert after deletions,15000000,HashTable,4,17.057246235
+python,hash_table,8. Insert after deletions,15000000,HashTable,5,17.170143758
+python,hash_table,8. Insert after deletions,15000000,dict,1,1.790476583
+python,hash_table,8. Insert after deletions,15000000,dict,2,1.779898201
+python,hash_table,8. Insert after deletions,15000000,dict,3,1.810007690
+python,hash_table,8. Insert after deletions,15000000,dict,4,1.788282052
+python,hash_table,8. Insert after deletions,15000000,dict,5,1.784229111
+python,hash_table,9. Mixed workload,10000,HashTable,1,0.017033046
+python,hash_table,9. Mixed workload,10000,HashTable,2,0.012189537
+python,hash_table,9. Mixed workload,10000,HashTable,3,0.012228833
+python,hash_table,9. Mixed workload,10000,HashTable,4,0.018077460
+python,hash_table,9. Mixed workload,10000,HashTable,5,0.017408505
+python,hash_table,9. Mixed workload,10000,dict,1,0.002227278
+python,hash_table,9. Mixed workload,10000,dict,2,0.001415235
+python,hash_table,9. Mixed workload,10000,dict,3,0.000942429
+python,hash_table,9. Mixed workload,10000,dict,4,0.000953940
+python,hash_table,9. Mixed workload,10000,dict,5,0.000910873
+python,hash_table,9. Mixed workload,50000,HashTable,1,0.099864689
+python,hash_table,9. Mixed workload,50000,HashTable,2,0.095983068
+python,hash_table,9. Mixed workload,50000,HashTable,3,0.106523976
+python,hash_table,9. Mixed workload,50000,HashTable,4,0.094384102
+python,hash_table,9. Mixed workload,50000,HashTable,5,0.085633141
+python,hash_table,9. Mixed workload,50000,dict,1,0.010503892
+python,hash_table,9. Mixed workload,50000,dict,2,0.010546407
+python,hash_table,9. Mixed workload,50000,dict,3,0.007895503
+python,hash_table,9. Mixed workload,50000,dict,4,0.015522812
+python,hash_table,9. Mixed workload,50000,dict,5,0.010205947
+python,hash_table,9. Mixed workload,100000,HashTable,1,0.229755054
+python,hash_table,9. Mixed workload,100000,HashTable,2,0.219578012
+python,hash_table,9. Mixed workload,100000,HashTable,3,0.248228007
+python,hash_table,9. Mixed workload,100000,HashTable,4,0.232223499
+python,hash_table,9. Mixed workload,100000,HashTable,5,0.219939570
+python,hash_table,9. Mixed workload,100000,dict,1,0.038757959
+python,hash_table,9. Mixed workload,100000,dict,2,0.026651545
+python,hash_table,9. Mixed workload,100000,dict,3,0.023781012
+python,hash_table,9. Mixed workload,100000,dict,4,0.029664737
+python,hash_table,9. Mixed workload,100000,dict,5,0.029272199
+python,hash_table,9. Mixed workload,200000,HashTable,1,0.522879406
+python,hash_table,9. Mixed workload,200000,HashTable,2,0.463493541
+python,hash_table,9. Mixed workload,200000,HashTable,3,0.511277995
+python,hash_table,9. Mixed workload,200000,HashTable,4,0.533074657
+python,hash_table,9. Mixed workload,200000,HashTable,5,0.514572376
+python,hash_table,9. Mixed workload,200000,dict,1,0.089797688
+python,hash_table,9. Mixed workload,200000,dict,2,0.084943839
+python,hash_table,9. Mixed workload,200000,dict,3,0.089654266
+python,hash_table,9. Mixed workload,200000,dict,4,0.122324461
+python,hash_table,9. Mixed workload,200000,dict,5,0.083130516
+python,hash_table,9. Mixed workload,500000,HashTable,1,1.477323141
+python,hash_table,9. Mixed workload,500000,HashTable,2,1.427107566
+python,hash_table,9. Mixed workload,500000,HashTable,3,1.443908696
+python,hash_table,9. Mixed workload,500000,HashTable,4,1.441674140
+python,hash_table,9. Mixed workload,500000,HashTable,5,1.472153766
+python,hash_table,9. Mixed workload,500000,dict,1,0.382949300
+python,hash_table,9. Mixed workload,500000,dict,2,0.381619281
+python,hash_table,9. Mixed workload,500000,dict,3,0.335877156
+python,hash_table,9. Mixed workload,500000,dict,4,0.366786201
+python,hash_table,9. Mixed workload,500000,dict,5,0.362118043
+python,hash_table,9. Mixed workload,1000000,HashTable,1,2.971305361
+python,hash_table,9. Mixed workload,1000000,HashTable,2,2.951722680
+python,hash_table,9. Mixed workload,1000000,HashTable,3,2.951832544
+python,hash_table,9. Mixed workload,1000000,HashTable,4,2.966396325
+python,hash_table,9. Mixed workload,1000000,HashTable,5,2.965729294
+python,hash_table,9. Mixed workload,1000000,dict,1,0.902888488
+python,hash_table,9. Mixed workload,1000000,dict,2,0.860753488
+python,hash_table,9. Mixed workload,1000000,dict,3,0.842576391
+python,hash_table,9. Mixed workload,1000000,dict,4,0.864900231
+python,hash_table,9. Mixed workload,1000000,dict,5,0.887451022
+python,hash_table,9. Mixed workload,2000000,HashTable,1,6.258821356
+python,hash_table,9. Mixed workload,2000000,HashTable,2,6.266388031
+python,hash_table,9. Mixed workload,2000000,HashTable,3,6.260374282
+python,hash_table,9. Mixed workload,2000000,HashTable,4,6.294963618
+python,hash_table,9. Mixed workload,2000000,HashTable,5,6.276448291
+python,hash_table,9. Mixed workload,2000000,dict,1,2.051267308
+python,hash_table,9. Mixed workload,2000000,dict,2,2.059483260
+python,hash_table,9. Mixed workload,2000000,dict,3,1.958174501
+python,hash_table,9. Mixed workload,2000000,dict,4,1.994028758
+python,hash_table,9. Mixed workload,2000000,dict,5,1.968908203
+python,hash_table,9. Mixed workload,5000000,HashTable,1,25.438866184
+python,hash_table,9. Mixed workload,5000000,HashTable,2,25.230982359
+python,hash_table,9. Mixed workload,5000000,HashTable,3,25.156472103
+python,hash_table,9. Mixed workload,5000000,HashTable,4,25.034897115
+python,hash_table,9. Mixed workload,5000000,HashTable,5,25.203906023
+python,hash_table,9. Mixed workload,5000000,dict,1,5.387339223
+python,hash_table,9. Mixed workload,5000000,dict,2,5.382880610
+python,hash_table,9. Mixed workload,5000000,dict,3,5.384326875
+python,hash_table,9. Mixed workload,5000000,dict,4,5.336801773
+python,hash_table,9. Mixed workload,5000000,dict,5,5.416135249
+python,hash_table,9. Mixed workload,10000000,HashTable,1,53.598598205
+python,hash_table,9. Mixed workload,10000000,HashTable,2,53.785176933
+python,hash_table,9. Mixed workload,10000000,HashTable,3,54.132830883
+python,hash_table,9. Mixed workload,10000000,HashTable,4,53.510321676
+python,hash_table,9. Mixed workload,10000000,HashTable,5,53.977435297
+python,hash_table,9. Mixed workload,10000000,dict,1,11.582517261
+python,hash_table,9. Mixed workload,10000000,dict,2,11.592719108
+python,hash_table,9. Mixed workload,10000000,dict,3,11.558169857
+python,hash_table,9. Mixed workload,10000000,dict,4,11.622153601
+python,hash_table,9. Mixed workload,10000000,dict,5,11.485935716
+python,hash_table,9. Mixed workload,15000000,HashTable,1,62.262515097
+python,hash_table,9. Mixed workload,15000000,HashTable,2,62.166990202
+python,hash_table,9. Mixed workload,15000000,HashTable,3,62.112972082
+python,hash_table,9. Mixed workload,15000000,HashTable,4,62.115659745
+python,hash_table,9. Mixed workload,15000000,HashTable,5,62.155479707
+python,hash_table,9. Mixed workload,15000000,dict,1,17.733145683
+python,hash_table,9. Mixed workload,15000000,dict,2,17.819487553
+python,hash_table,9. Mixed workload,15000000,dict,3,17.921904632
+python,hash_table,9. Mixed workload,15000000,dict,4,17.879885219
+python,hash_table,9. Mixed workload,15000000,dict,5,17.882944532

@@ -2,6 +2,7 @@ import pytest
 
 from hash_table import HashTable
 
+
 class BadHash:
     """
     Ключ с управляемым hash, чтобы гарантированно создавать коллизии
@@ -29,6 +30,7 @@ def test_put_and_get_basic():
     assert len(ht) == 1
     assert "a" in ht
 
+
 def test_update_existing_key_does_not_increase_size():
     ht = HashTable()
 
@@ -38,11 +40,13 @@ def test_update_existing_key_does_not_increase_size():
     assert ht.get("a") == 20
     assert len(ht) == 1
 
+
 def test_get_missing_key_returns_none():
     ht = HashTable()
 
     assert ht.get("missing") is None
     assert "missing" not in ht
+
 
 def test_getitem_returns_value_for_existing_key():
     ht = HashTable()
@@ -50,11 +54,13 @@ def test_getitem_returns_value_for_existing_key():
 
     assert ht["x"] == 99
 
+
 def test_getitem_raises_keyerror_for_missing_key():
     ht = HashTable()
 
     with pytest.raises(KeyError):
         _ = ht["missing"]
+
 
 def test_delete_existing_key():
     ht = HashTable()
@@ -66,17 +72,20 @@ def test_delete_existing_key():
     assert "a" not in ht
     assert len(ht) == 0
 
+
 def test_delete_missing_key_raises_keyerror():
     ht = HashTable()
 
     with pytest.raises(KeyError):
         ht.delete("missing")
 
+
 def test_delitem_raises_keyerror_for_missing_key():
     ht = HashTable()
 
     with pytest.raises(KeyError):
         del ht["missing"]
+
 
 def test_len_tracks_number_of_live_elements():
     ht = HashTable()
@@ -87,6 +96,7 @@ def test_len_tracks_number_of_live_elements():
     ht.delete("b")
 
     assert len(ht) == 1
+
 
 def test_collision_handling():
     ht = HashTable(capacity=8)
@@ -104,6 +114,7 @@ def test_collision_handling():
     assert ht.get(k3) == 300
     assert len(ht) == 3
 
+
 def test_tombstone_does_not_break_search_chain():
     ht = HashTable(capacity=8)
 
@@ -120,6 +131,7 @@ def test_tombstone_does_not_break_search_chain():
     assert ht.get(k3) == 30
     assert k3 in ht
     assert len(ht) == 2
+
 
 def test_insert_reuses_deleted_slot():
     ht = HashTable(capacity=8)
@@ -141,6 +153,7 @@ def test_insert_reuses_deleted_slot():
     assert len(ht) == 2
     assert ht._deleted_count == deleted_before - 1
 
+
 def test_resize_preserves_all_elements():
     ht = HashTable(capacity=4)
 
@@ -156,6 +169,7 @@ def test_resize_preserves_all_elements():
 
     assert len(ht) == 10
     assert ht._capacity == 32
+
 
 def test_rebuild_on_deleted_ratio_preserves_remaining_elements():
     ht = HashTable(capacity=8)
@@ -185,6 +199,7 @@ def test_setitem_and_delitem_work():
     assert ht["b"] == 2
     assert len(ht) == 1
 
+
 def test_none_value():
     ht = HashTable()
 
@@ -192,6 +207,7 @@ def test_none_value():
 
     assert ht.get("a") is None
     assert "a" in ht
+
 
 def test_multiple_resizes():
     ht = HashTable(capacity=2)
@@ -203,6 +219,7 @@ def test_multiple_resizes():
         assert ht.get(i) == i
 
     assert len(ht) == 50
+
 
 def test_copy_preserves_all_elements():
     ht = HashTable()
@@ -217,6 +234,7 @@ def test_copy_preserves_all_elements():
     assert ht_copy.get("a") == 1
     assert ht_copy.get("b") == 2
     assert ht_copy.get("c") == 3
+
 
 def test_copy_is_independent_from_original():
     ht = HashTable()

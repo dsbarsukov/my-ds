@@ -1,15 +1,12 @@
 #include <algorithm>
 #include <chrono>
-#include <iomanip>
-#include <iostream>
-#include <optional>
 #include <random>
 #include <string>
-#include <tuple>
 #include <utility>
 #include <vector>
 #include <boost/unordered/unordered_flat_map.hpp>
 
+#include "common.hpp"
 #include "hash_table.h"
 
 using namespace std;
@@ -41,86 +38,12 @@ struct MixedPrepared {
     boost::unordered_flat_map<int, int> map;
 };
 
-struct ProbeStats {
-    double time;
-    size_t calls;
-    size_t steps;
-};
-
-// -----------------------------
-// Вспомогательные функции
-// -----------------------------
-
-double median(vector<double> values) {
-    sort(values.begin(), values.end());
-    size_t n = values.size();
-
-    if (n % 2 == 1) {
-        return values[n / 2];
-    }
-    return (values[n / 2 - 1] + values[n / 2]) / 2.0;
-}
-
-void print_section(const string& title) {
-    cout << "\n" << string(70, '=') << "\n";
-    cout << title << "\n";
-    cout << string(70, '=') << "\n";
-}
-
-void print_result_table(const string& scenario_name, const vector<tuple<int, double, double>>& results) {
-    cout << "\n" << scenario_name << "\n";
-    cout << string(70, '-') << "\n";
-    cout << setw(13) << "N | " << setw(21) << "HashTable | " << setw(21) << "unordered_flat_map | " << setw(10) << "ratio" << "\n";
-    cout << string(70, '-') << "\n";
-
-    for (const auto& [n, ht_time, map_time] : results) {
-        double ratio = (map_time > 0.0) ? (ht_time / map_time) : 0.0;
-
-        cout << setw(10) << n << " | " << setw(14) << fixed << setprecision(6) << ht_time << " sec | " << setw(14) << fixed << setprecision(6) << map_time << " sec | " << setw(9) << fixed << setprecision(2) << ratio << "x\n";
-    }
-}
-
-// -----------------------------
-// Генерация данных
-// -----------------------------
-
-vector<int> make_sequential_keys(int n) {
-    vector<int> keys;
-    keys.reserve(n);
-
-    for (int i = 0; i < n; ++i) {
-        keys.push_back(i);
-    }
-    return keys;
-}
-
-vector<int> make_random_unique_keys(int n, int seed) {
-    mt19937 rng(seed);
-    vector<int> pool;
-    pool.reserve(n * 20);
-
-    for (int i = 0; i < n * 20; ++i) {
-        pool.push_back(i);
-    }
-
-    shuffle(pool.begin(), pool.end(), rng);
-    pool.resize(n);
-    return pool;
-}
-
-vector<int> make_shuffled(const vector<int>& keys, int seed) {
-    mt19937 rng(seed);
-    vector<int> data = keys;
-    shuffle(data.begin(), data.end(), rng);
-    return data;
-}
-
 // ----------------------------
 // 1. Insert sequential
 // ----------------------------
 
 BasicPrepared prepare_case_insert_sequential(int n) {
-    return {make_sequential_keys(n), HashTable<int, int>(), {}};
+    return {make_sequential_values(n), HashTable<int, int>(), {}};
 }
 
 double measure_insert_sequential_hash_table(const BasicPrepared& prepared) {
@@ -154,7 +77,7 @@ double measure_insert_sequential_unordered_flat_map(const BasicPrepared& prepare
 // ----------------------------
 
 BasicPrepared prepare_case_insert_random(int n) {
-    return {make_random_unique_keys(n, RANDOM_SEED), HashTable<int, int>(), {}};
+    return {make_random_unique_values(n, RANDOM_SEED), HashTable<int, int>(), {}};
 }
 
 double measure_insert_random_hash_table(const BasicPrepared& prepared) {
@@ -188,16 +111,16 @@ double measure_insert_random_unordered_flat_map(const BasicPrepared& prepared) {
 // ----------------------------
 
 BasicPrepared prepare_case_get_existing_sequential(int n) {
-    vector<int> keys = make_sequential_keys(n);
-    HashTable<int, int> ht;
-    boost::unordered_flat_map<int, int> map;
+    vector<int> keys = make_sequential_values(n);
+    HashTable<int, int> base_ht;
+    boost::unordered_flat_map<int, int> base_map;
 
     for (int key : keys) {
-        ht.put(key, key);
-        map[key] = key;
+        base_ht.put(key, key);
+        base_map[key] = key;
     }
 
-    return {keys, ht, map};
+    return {keys, base_ht, base_map};
 }
 
 double measure_get_existing_sequential_hash_table(const BasicPrepared& prepared) {
@@ -233,18 +156,18 @@ double measure_get_existing_sequential_unordered_flat_map(const BasicPrepared& p
 // ----------------------------
 
 BasicPrepared prepare_case_get_existing_random(int n) {
-    vector<int> insert_keys = make_random_unique_keys(n, RANDOM_SEED);
+    vector<int> insert_keys = make_random_unique_values(n, RANDOM_SEED);
     vector<int> query_keys = make_shuffled(insert_keys, RANDOM_SEED + 1);
 
-    HashTable<int, int> ht;
-    boost::unordered_flat_map<int, int> map;
+    HashTable<int, int> base_ht;
+    boost::unordered_flat_map<int, int> base_map;
 
     for (int key : insert_keys) {
-        ht.put(key, key);
-        map[key] = key;
+        base_ht.put(key, key);
+        base_map[key] = key;
     }
 
-    return {query_keys, ht, map};
+    return {query_keys, base_ht, base_map};
 }
 
 double measure_get_existing_random_hash_table(const BasicPrepared& prepared) {
@@ -280,29 +203,29 @@ double measure_get_existing_random_unordered_flat_map(const BasicPrepared& prepa
 // ----------------------------
 
 BasicPrepared prepare_case_get_missing(int n) {
-    vector<int> existing_keys = make_random_unique_keys(n, RANDOM_SEED);
+    vector<int> existing_keys = make_random_unique_values(n, RANDOM_SEED);
 
     mt19937 rng(RANDOM_SEED + 1);
-    vector<int> pool;
-    pool.reserve(n * 20);
+    vector<int> missing_keys;
+    missing_keys.reserve(n * 20);
 
     for (int i = n * 20; i < n * 40; ++i) {
-        pool.push_back(i);
+        missing_keys.push_back(i);
     }
 
-    shuffle(pool.begin(), pool.end(), rng);
-    pool.resize(n);
-    vector<int> missing_keys = make_shuffled(pool, RANDOM_SEED + 2);
+    shuffle(missing_keys.begin(), missing_keys.end(), rng);
+    missing_keys.resize(n);
+    missing_keys = make_shuffled(missing_keys, RANDOM_SEED + 2);
 
-    HashTable<int, int> ht;
-    boost::unordered_flat_map<int, int> map;
+    HashTable<int, int> base_ht;
+    boost::unordered_flat_map<int, int> base_map;
 
     for (int key : existing_keys) {
-        ht.put(key, key);
-        map[key] = key;
+        base_ht.put(key, key);
+        base_map[key] = key;
     }
 
-    return {missing_keys, ht, map};
+    return {missing_keys, base_ht, base_map};
 }
 
 double measure_get_missing_hash_table(const BasicPrepared& prepared) {
@@ -338,16 +261,16 @@ double measure_get_missing_unordered_flat_map(const BasicPrepared& prepared) {
 // ----------------------------
 
 BasicPrepared prepare_case_delete(int n) {
-    vector<int> keys = make_sequential_keys(n);
-    HashTable<int, int> ht;
-    boost::unordered_flat_map<int, int> map;
+    vector<int> keys = make_sequential_values(n);
+    HashTable<int, int> base_ht;
+    boost::unordered_flat_map<int, int> base_map;
 
     for (int key : keys) {
-        ht.put(key, key);
-        map[key] = key;
+        base_ht.put(key, key);
+        base_map[key] = key;
     }
 
-    return {keys, ht, map};
+    return {keys, base_ht, base_map};
 }
 
 double measure_delete_hash_table(const BasicPrepared& prepared) {
@@ -381,9 +304,12 @@ double measure_delete_unordered_flat_map(const BasicPrepared& prepared) {
 // ----------------------------
 
 BasicPrepared prepare_case_get_after_deletions(int n) {
-    vector<int> keys = make_random_unique_keys(n, RANDOM_SEED);
+    vector<int> keys = make_random_unique_values(n, RANDOM_SEED);
     vector<int> keys_to_delete;
     vector<int> keys_to_keep;
+
+    keys_to_delete.reserve((keys.size() + 1) / 2);
+    keys_to_keep.reserve(keys.size() / 2);
 
     for (size_t i = 0; i < keys.size(); ++i) {
         if (i % 2 == 0) {
@@ -393,28 +319,28 @@ BasicPrepared prepare_case_get_after_deletions(int n) {
         }
     }
 
-    HashTable<int, int> ht;
-    boost::unordered_flat_map<int, int> map;
+    HashTable<int, int> base_ht;
+    boost::unordered_flat_map<int, int> base_map;
 
     for (int key : keys) {
-        ht.put(key, key);
-        map[key] = key;
+        base_ht.put(key, key);
+        base_map[key] = key;
     }
 
     for (int key : keys_to_delete) {
-        ht.erase(key);
-        map.erase(key);
+        base_ht.erase(key);
+        base_map.erase(key);
     }
 
-    return {keys_to_keep, ht, map};
+    return {keys_to_keep, base_ht, base_map};
 }
 
 double measure_get_after_deletions_hash_table(const BasicPrepared& prepared) {
-    const vector<int>& keys = prepared.keys;
+    const vector<int>& keys_to_keep = prepared.keys;
     const HashTable<int, int>& ht = prepared.ht;
 
     Time::time_point start = Time::now();
-    for (int key : keys) {
+    for (int key : keys_to_keep) {
         auto value = ht.get(key);
         (void)value;
     }
@@ -424,11 +350,11 @@ double measure_get_after_deletions_hash_table(const BasicPrepared& prepared) {
 }
 
 double measure_get_after_deletions_unordered_flat_map(const BasicPrepared& prepared) {
-    const vector<int>& keys = prepared.keys;
+    const vector<int>& keys_to_keep = prepared.keys;
     const boost::unordered_flat_map<int, int>& map = prepared.map;
 
     Time::time_point start = Time::now();
-    for (int key : keys) {
+    for (int key : keys_to_keep) {
         auto it = map.find(key);
         (void)it;
     }
@@ -442,9 +368,11 @@ double measure_get_after_deletions_unordered_flat_map(const BasicPrepared& prepa
 // ----------------------------
 
 BasicPrepared prepare_case_insert_after_deletions(int n) {
-    vector<int> initial_keys = make_sequential_keys(n);
+    vector<int> initial_keys = make_sequential_values(n);
     vector<int> keys_to_delete;
     vector<int> new_keys;
+
+    keys_to_delete.reserve((initial_keys.size() + 1) / 2);
 
     for (size_t i = 0; i < initial_keys.size(); ++i) {
         if (i % 2 == 0) {
@@ -452,24 +380,25 @@ BasicPrepared prepare_case_insert_after_deletions(int n) {
         }
     }
 
+    new_keys.reserve(keys_to_delete.size());
     for (size_t i = 0; i < keys_to_delete.size(); ++i) {
         new_keys.push_back(n + static_cast<int>(i));
     }
 
-    HashTable<int, int> ht;
-    boost::unordered_flat_map<int, int> map;
+    HashTable<int, int> base_ht;
+    boost::unordered_flat_map<int, int> base_map;
 
     for (int key : initial_keys) {
-        ht.put(key, key);
-        map[key] = key;
+        base_ht.put(key, key);
+        base_map[key] = key;
     }
 
     for (int key : keys_to_delete) {
-        ht.erase(key);
-        map.erase(key);
+        base_ht.erase(key);
+        base_map.erase(key);
     }
 
-    return {new_keys, ht, map};
+    return {new_keys, base_ht, base_map};
 }
 
 double measure_insert_after_deletions_hash_table(const BasicPrepared& prepared) {
@@ -505,21 +434,22 @@ double measure_insert_after_deletions_unordered_flat_map(const BasicPrepared& pr
 MixedPrepared prepare_case_mixed(int n, int seed) {
     mt19937 rng(seed);
 
-    vector<int> initial_fill = make_random_unique_keys(n / 2, seed);
+    vector<int> initial_fill = make_random_unique_values(n / 2, seed);
     vector<int> live_keys_list = initial_fill;
 
     vector<pair<string, int>> operations;
-    int next_new_key = *max_element(initial_fill.begin(), initial_fill.end()) + 1;
+    operations.reserve(n);
 
-    uniform_real_distribution<double> prob(0.0, 1.0);
+    int next_new_key = *max_element(initial_fill.begin(), initial_fill.end()) + 1;
+    uniform_real_distribution<double> probability(0.0, 1.0);
 
     for (int _ = 0; _ < n; ++_) {
-        double op_choice = prob(rng);
+        double op_choice = probability(rng);
 
         if (op_choice < 0.5) {
             // GET
             int key;
-            if (!live_keys_list.empty() && prob(rng) < 0.8) {
+            if (!live_keys_list.empty() && probability(rng) < 0.8) {
                 uniform_int_distribution<int> idx_dist(0, static_cast<int>(live_keys_list.size()) - 1);
                 key = live_keys_list[idx_dist(rng)];
             } else {
@@ -532,7 +462,7 @@ MixedPrepared prepare_case_mixed(int n, int seed) {
         else if (op_choice < 0.8) {
             // PUT
             int key;
-            if (!live_keys_list.empty() && prob(rng) < 0.3) {
+            if (!live_keys_list.empty() && probability(rng) < 0.3) {
                 uniform_int_distribution<int> idx_dist(0, static_cast<int>(live_keys_list.size()) - 1);
                 key = live_keys_list[idx_dist(rng)];
             } else {
@@ -561,22 +491,20 @@ MixedPrepared prepare_case_mixed(int n, int seed) {
         }
     }
 
-    HashTable<int, int> ht;
-    boost::unordered_flat_map<int, int> map;
+    HashTable<int, int> base_ht;
+    boost::unordered_flat_map<int, int> base_map;
 
     for (int key : initial_fill) {
-        ht.put(key, key);
-        map[key] = key;
+        base_ht.put(key, key);
+        base_map[key] = key;
     }
 
-    return {operations, ht, map};
+    return {operations, base_ht, base_map};
 }
 
-ProbeStats measure_mixed_hash_table(const MixedPrepared& prepared) {
+double measure_mixed_hash_table(const MixedPrepared& prepared) {
     const vector<pair<string, int>>& operations = prepared.operations;
     HashTable<int, int> ht = prepared.ht.copy();
-
-    ht.reset_probe_stats();
 
     Time::time_point start = Time::now();
 
@@ -597,12 +525,7 @@ ProbeStats measure_mixed_hash_table(const MixedPrepared& prepared) {
     }
 
     Time::time_point end = Time::now();
-
-    return {
-        Seconds(end - start).count(),
-        ht.find_slot_calls(),
-        ht.find_slot_total_steps()
-    };
+    return Seconds(end - start).count();
 }
 
 double measure_mixed_unordered_flat_map(const MixedPrepared& prepared) {
@@ -628,98 +551,129 @@ double measure_mixed_unordered_flat_map(const MixedPrepared& prepared) {
     return Seconds(end - start).count();
 }
 
-// ----------------------------
-// Универсальные запускатели
-// ----------------------------
-
-void benchmark_case(const string& scenario_name, const vector<int>& sizes, BasicPrepared (*prepare_case)(int), double (*measure_ht)(const BasicPrepared&), double (*measure_map)(const BasicPrepared&), int repeats = REPEATS) {
-    vector<tuple<int, double, double>> results;
-
-    for (int n : sizes) {
-        BasicPrepared prepared = prepare_case(n);
-
-        vector<double> ht_runs;
-        vector<double> map_runs;
-
-        for (int i = 0; i < repeats; ++i) {
-            ht_runs.push_back(measure_ht(prepared));
-            map_runs.push_back(measure_map(prepared));
-        }
-
-        double ht_med = median(ht_runs);
-        double map_med = median(map_runs);
-
-        results.push_back({n, ht_med, map_med});
-    }
-
-    print_result_table(scenario_name, results);
-}
-
-void benchmark_case_mixed(const vector<int>& sizes, int repeats = REPEATS) {
-    vector<tuple<int, double, double>> results;
-
-    for (int n : sizes) {
-        MixedPrepared prepared = prepare_case_mixed(n, RANDOM_SEED);
-
-        vector<double> ht_runs;
-        vector<double> map_runs;
-        vector<size_t> calls_runs;
-        vector<size_t> steps_runs;
-
-        for (int i = 0; i < repeats; ++i) {
-            ProbeStats stats = measure_mixed_hash_table(prepared);
-            ht_runs.push_back(stats.time);
-            calls_runs.push_back(stats.calls);
-            steps_runs.push_back(stats.steps);
-
-            map_runs.push_back(measure_mixed_unordered_flat_map(prepared));
-        }
-
-        double ht_med = median(ht_runs);
-        double map_med = median(map_runs);
-        results.push_back({n, ht_med, map_med});
-
-        size_t total_calls = 0;
-        size_t total_steps = 0;
-
-        for (size_t x : calls_runs) total_calls += x;
-        for (size_t x : steps_runs) total_steps += x;
-
-        double avg_probe_length = total_calls > 0 ? static_cast<double>(total_steps) / total_calls : 0.0;
-
-        cout << "\nProbe stats for N = " << n << "\n";
-        cout << "avg_probe_length: " << avg_probe_length << "\n";
-        cout << "find_slot_calls: " << static_cast<double>(total_calls) / repeats << "\n";
-        cout << "total_steps: " << static_cast<double>(total_steps) / repeats << "\n";
-    }
-
-    print_result_table("9. Mixed workload", results);
-}
-
 // -----------------------------
 // Запуск всех benchmark-ов
 // -----------------------------
 
 void run_all() {
-    print_section("HashTable vs unordered_flat_map benchmarks");
+    write_csv_header(cout);
 
-    benchmark_case("1. Insert sequential", SIZES, prepare_case_insert_sequential, measure_insert_sequential_hash_table, measure_insert_sequential_unordered_flat_map);
+    benchmark_case<BasicPrepared>(
+        cout,
+        "hash_table",
+        "1. Insert sequential",
+        SIZES,
+        prepare_case_insert_sequential,
+        {
+            {"HashTable", measure_insert_sequential_hash_table},
+            {"unordered_flat_map", measure_insert_sequential_unordered_flat_map}
+        },
+        REPEATS
+    );
 
-    benchmark_case("2. Insert random", SIZES, prepare_case_insert_random, measure_insert_random_hash_table, measure_insert_random_unordered_flat_map);
+    benchmark_case<BasicPrepared>(
+        cout,
+        "hash_table",
+        "2. Insert random",
+        SIZES,
+        prepare_case_insert_random,
+        {
+            {"HashTable", measure_insert_random_hash_table},
+            {"unordered_flat_map", measure_insert_random_unordered_flat_map}
+        },
+        REPEATS
+    );
 
-    benchmark_case("3. Get existing sequential", SIZES, prepare_case_get_existing_sequential, measure_get_existing_sequential_hash_table, measure_get_existing_sequential_unordered_flat_map);
+    benchmark_case<BasicPrepared>(
+        cout,
+        "hash_table",
+        "3. Get existing sequential",
+        SIZES,
+        prepare_case_get_existing_sequential,
+        {
+            {"HashTable", measure_get_existing_sequential_hash_table},
+            {"unordered_flat_map", measure_get_existing_sequential_unordered_flat_map}
+        },
+        REPEATS
+    );
 
-    benchmark_case("4. Get existing random order", SIZES, prepare_case_get_existing_random, measure_get_existing_random_hash_table, measure_get_existing_random_unordered_flat_map);
+    benchmark_case<BasicPrepared>(
+        cout,
+        "hash_table",
+        "4. Get existing random order",
+        SIZES,
+        prepare_case_get_existing_random,
+        {
+            {"HashTable", measure_get_existing_random_hash_table},
+            {"unordered_flat_map", measure_get_existing_random_unordered_flat_map}
+        },
+        REPEATS
+    );
 
-    benchmark_case("5. Get missing keys", SIZES, prepare_case_get_missing, measure_get_missing_hash_table, measure_get_missing_unordered_flat_map);
+    benchmark_case<BasicPrepared>(
+        cout,
+        "hash_table",
+        "5. Get missing keys",
+        SIZES,
+        prepare_case_get_missing,
+        {
+            {"HashTable", measure_get_missing_hash_table},
+            {"unordered_flat_map", measure_get_missing_unordered_flat_map}
+        },
+        REPEATS
+    );
 
-    benchmark_case("6. Delete", SIZES, prepare_case_delete, measure_delete_hash_table, measure_delete_unordered_flat_map);
+    benchmark_case<BasicPrepared>(
+        cout,
+        "hash_table",
+        "6. Delete",
+        SIZES,
+        prepare_case_delete,
+        {
+            {"HashTable", measure_delete_hash_table},
+            {"unordered_flat_map", measure_delete_unordered_flat_map}
+        },
+        REPEATS
+    );
 
-    benchmark_case("7. Get after deletions", SIZES, prepare_case_get_after_deletions, measure_get_after_deletions_hash_table, measure_get_after_deletions_unordered_flat_map);
+    benchmark_case<BasicPrepared>(
+        cout,
+        "hash_table",
+        "7. Get after deletions",
+        SIZES,
+        prepare_case_get_after_deletions,
+        {
+            {"HashTable", measure_get_after_deletions_hash_table},
+            {"unordered_flat_map", measure_get_after_deletions_unordered_flat_map}
+        },
+        REPEATS
+    );
 
-    benchmark_case("8. Insert after deletions", SIZES, prepare_case_insert_after_deletions, measure_insert_after_deletions_hash_table, measure_insert_after_deletions_unordered_flat_map);
+    benchmark_case<BasicPrepared>(
+        cout,
+        "hash_table",
+        "8. Insert after deletions",
+        SIZES,
+        prepare_case_insert_after_deletions,
+        {
+            {"HashTable", measure_insert_after_deletions_hash_table},
+            {"unordered_flat_map", measure_insert_after_deletions_unordered_flat_map}
+        },
+        REPEATS
+    );
 
-    benchmark_case_mixed(SIZES);
+    benchmark_case<MixedPrepared>(
+        cout,
+        "hash_table",
+        "9. Mixed workload",
+        SIZES,
+        [](int n) { return prepare_case_mixed(n, RANDOM_SEED); },
+        {
+            {"HashTable", measure_mixed_hash_table},
+            {"unordered_flat_map", measure_mixed_unordered_flat_map}
+        },
+        REPEATS
+    );
 }
 
 int main() {

@@ -1,0 +1,701 @@
+language,structure,case,n,implementation,run,time_sec
+cpp,binary_heap,1. Push sequential,10000,BinaryHeap,1,0.000603007
+cpp,binary_heap,1. Push sequential,10000,BinaryHeap,2,0.000621621
+cpp,binary_heap,1. Push sequential,10000,BinaryHeap,3,0.000421155
+cpp,binary_heap,1. Push sequential,10000,BinaryHeap,4,0.000444341
+cpp,binary_heap,1. Push sequential,10000,BinaryHeap,5,0.000582775
+cpp,binary_heap,1. Push sequential,10000,priority_queue,1,0.000837749
+cpp,binary_heap,1. Push sequential,10000,priority_queue,2,0.000957303
+cpp,binary_heap,1. Push sequential,10000,priority_queue,3,0.000873200
+cpp,binary_heap,1. Push sequential,10000,priority_queue,4,0.000799286
+cpp,binary_heap,1. Push sequential,10000,priority_queue,5,0.000800438
+cpp,binary_heap,1. Push sequential,50000,BinaryHeap,1,0.002155181
+cpp,binary_heap,1. Push sequential,50000,BinaryHeap,2,0.002023044
+cpp,binary_heap,1. Push sequential,50000,BinaryHeap,3,0.002040309
+cpp,binary_heap,1. Push sequential,50000,BinaryHeap,4,0.001984171
+cpp,binary_heap,1. Push sequential,50000,BinaryHeap,5,0.001983109
+cpp,binary_heap,1. Push sequential,50000,priority_queue,1,0.004302517
+cpp,binary_heap,1. Push sequential,50000,priority_queue,2,0.005150453
+cpp,binary_heap,1. Push sequential,50000,priority_queue,3,0.004417682
+cpp,binary_heap,1. Push sequential,50000,priority_queue,4,0.005223965
+cpp,binary_heap,1. Push sequential,50000,priority_queue,5,0.004481743
+cpp,binary_heap,1. Push sequential,100000,BinaryHeap,1,0.004543954
+cpp,binary_heap,1. Push sequential,100000,BinaryHeap,2,0.004992649
+cpp,binary_heap,1. Push sequential,100000,BinaryHeap,3,0.004685765
+cpp,binary_heap,1. Push sequential,100000,BinaryHeap,4,0.004268286
+cpp,binary_heap,1. Push sequential,100000,BinaryHeap,5,0.004475241
+cpp,binary_heap,1. Push sequential,100000,priority_queue,1,0.009186198
+cpp,binary_heap,1. Push sequential,100000,priority_queue,2,0.008729385
+cpp,binary_heap,1. Push sequential,100000,priority_queue,3,0.009990225
+cpp,binary_heap,1. Push sequential,100000,priority_queue,4,0.008601186
+cpp,binary_heap,1. Push sequential,100000,priority_queue,5,0.008783319
+cpp,binary_heap,1. Push sequential,200000,BinaryHeap,1,0.011040571
+cpp,binary_heap,1. Push sequential,200000,BinaryHeap,2,0.008878904
+cpp,binary_heap,1. Push sequential,200000,BinaryHeap,3,0.008440292
+cpp,binary_heap,1. Push sequential,200000,BinaryHeap,4,0.008803581
+cpp,binary_heap,1. Push sequential,200000,BinaryHeap,5,0.008935034
+cpp,binary_heap,1. Push sequential,200000,priority_queue,1,0.020911169
+cpp,binary_heap,1. Push sequential,200000,priority_queue,2,0.018371971
+cpp,binary_heap,1. Push sequential,200000,priority_queue,3,0.016765336
+cpp,binary_heap,1. Push sequential,200000,priority_queue,4,0.016703157
+cpp,binary_heap,1. Push sequential,200000,priority_queue,5,0.017204568
+cpp,binary_heap,1. Push sequential,500000,BinaryHeap,1,0.022210740
+cpp,binary_heap,1. Push sequential,500000,BinaryHeap,2,0.022562157
+cpp,binary_heap,1. Push sequential,500000,BinaryHeap,3,0.023835940
+cpp,binary_heap,1. Push sequential,500000,BinaryHeap,4,0.024489132
+cpp,binary_heap,1. Push sequential,500000,BinaryHeap,5,0.021764732
+cpp,binary_heap,1. Push sequential,500000,priority_queue,1,0.042404045
+cpp,binary_heap,1. Push sequential,500000,priority_queue,2,0.046037315
+cpp,binary_heap,1. Push sequential,500000,priority_queue,3,0.045746146
+cpp,binary_heap,1. Push sequential,500000,priority_queue,4,0.042529309
+cpp,binary_heap,1. Push sequential,500000,priority_queue,5,0.041325320
+cpp,binary_heap,1. Push sequential,1000000,BinaryHeap,1,0.047505293
+cpp,binary_heap,1. Push sequential,1000000,BinaryHeap,2,0.042675890
+cpp,binary_heap,1. Push sequential,1000000,BinaryHeap,3,0.042708502
+cpp,binary_heap,1. Push sequential,1000000,BinaryHeap,4,0.043506939
+cpp,binary_heap,1. Push sequential,1000000,BinaryHeap,5,0.042147004
+cpp,binary_heap,1. Push sequential,1000000,priority_queue,1,0.090566354
+cpp,binary_heap,1. Push sequential,1000000,priority_queue,2,0.090011038
+cpp,binary_heap,1. Push sequential,1000000,priority_queue,3,0.088097519
+cpp,binary_heap,1. Push sequential,1000000,priority_queue,4,0.087852607
+cpp,binary_heap,1. Push sequential,1000000,priority_queue,5,0.096830588
+cpp,binary_heap,1. Push sequential,2000000,BinaryHeap,1,0.098802600
+cpp,binary_heap,1. Push sequential,2000000,BinaryHeap,2,0.093760318
+cpp,binary_heap,1. Push sequential,2000000,BinaryHeap,3,0.095025636
+cpp,binary_heap,1. Push sequential,2000000,BinaryHeap,4,0.100733793
+cpp,binary_heap,1. Push sequential,2000000,BinaryHeap,5,0.093234058
+cpp,binary_heap,1. Push sequential,2000000,priority_queue,1,0.176435107
+cpp,binary_heap,1. Push sequential,2000000,priority_queue,2,0.176723881
+cpp,binary_heap,1. Push sequential,2000000,priority_queue,3,0.187926680
+cpp,binary_heap,1. Push sequential,2000000,priority_queue,4,0.185562432
+cpp,binary_heap,1. Push sequential,2000000,priority_queue,5,0.177759512
+cpp,binary_heap,1. Push sequential,5000000,BinaryHeap,1,0.247560415
+cpp,binary_heap,1. Push sequential,5000000,BinaryHeap,2,0.237292091
+cpp,binary_heap,1. Push sequential,5000000,BinaryHeap,3,0.231899375
+cpp,binary_heap,1. Push sequential,5000000,BinaryHeap,4,0.233657969
+cpp,binary_heap,1. Push sequential,5000000,BinaryHeap,5,0.231920150
+cpp,binary_heap,1. Push sequential,5000000,priority_queue,1,0.452036376
+cpp,binary_heap,1. Push sequential,5000000,priority_queue,2,0.457736854
+cpp,binary_heap,1. Push sequential,5000000,priority_queue,3,0.450932033
+cpp,binary_heap,1. Push sequential,5000000,priority_queue,4,0.454271264
+cpp,binary_heap,1. Push sequential,5000000,priority_queue,5,0.453021515
+cpp,binary_heap,1. Push sequential,10000000,BinaryHeap,1,0.505833827
+cpp,binary_heap,1. Push sequential,10000000,BinaryHeap,2,0.488581102
+cpp,binary_heap,1. Push sequential,10000000,BinaryHeap,3,0.474297412
+cpp,binary_heap,1. Push sequential,10000000,BinaryHeap,4,0.474812342
+cpp,binary_heap,1. Push sequential,10000000,BinaryHeap,5,0.467308030
+cpp,binary_heap,1. Push sequential,10000000,priority_queue,1,0.905695223
+cpp,binary_heap,1. Push sequential,10000000,priority_queue,2,0.893135343
+cpp,binary_heap,1. Push sequential,10000000,priority_queue,3,0.893081495
+cpp,binary_heap,1. Push sequential,10000000,priority_queue,4,0.889212150
+cpp,binary_heap,1. Push sequential,10000000,priority_queue,5,0.878889235
+cpp,binary_heap,1. Push sequential,15000000,BinaryHeap,1,0.714728733
+cpp,binary_heap,1. Push sequential,15000000,BinaryHeap,2,0.711551705
+cpp,binary_heap,1. Push sequential,15000000,BinaryHeap,3,0.683698926
+cpp,binary_heap,1. Push sequential,15000000,BinaryHeap,4,0.684969462
+cpp,binary_heap,1. Push sequential,15000000,BinaryHeap,5,0.670053827
+cpp,binary_heap,1. Push sequential,15000000,priority_queue,1,1.324115829
+cpp,binary_heap,1. Push sequential,15000000,priority_queue,2,1.300944725
+cpp,binary_heap,1. Push sequential,15000000,priority_queue,3,1.282577116
+cpp,binary_heap,1. Push sequential,15000000,priority_queue,4,1.320899703
+cpp,binary_heap,1. Push sequential,15000000,priority_queue,5,1.313233651
+cpp,binary_heap,2. Push reverse sequential,10000,BinaryHeap,1,0.002386324
+cpp,binary_heap,2. Push reverse sequential,10000,BinaryHeap,2,0.002168392
+cpp,binary_heap,2. Push reverse sequential,10000,BinaryHeap,3,0.002445715
+cpp,binary_heap,2. Push reverse sequential,10000,BinaryHeap,4,0.002227336
+cpp,binary_heap,2. Push reverse sequential,10000,BinaryHeap,5,0.002446170
+cpp,binary_heap,2. Push reverse sequential,10000,priority_queue,1,0.003361697
+cpp,binary_heap,2. Push reverse sequential,10000,priority_queue,2,0.003349781
+cpp,binary_heap,2. Push reverse sequential,10000,priority_queue,3,0.003276470
+cpp,binary_heap,2. Push reverse sequential,10000,priority_queue,4,0.003261573
+cpp,binary_heap,2. Push reverse sequential,10000,priority_queue,5,0.003520426
+cpp,binary_heap,2. Push reverse sequential,50000,BinaryHeap,1,0.013244447
+cpp,binary_heap,2. Push reverse sequential,50000,BinaryHeap,2,0.012759902
+cpp,binary_heap,2. Push reverse sequential,50000,BinaryHeap,3,0.013110020
+cpp,binary_heap,2. Push reverse sequential,50000,BinaryHeap,4,0.013188496
+cpp,binary_heap,2. Push reverse sequential,50000,BinaryHeap,5,0.013339585
+cpp,binary_heap,2. Push reverse sequential,50000,priority_queue,1,0.019203047
+cpp,binary_heap,2. Push reverse sequential,50000,priority_queue,2,0.018636281
+cpp,binary_heap,2. Push reverse sequential,50000,priority_queue,3,0.018425053
+cpp,binary_heap,2. Push reverse sequential,50000,priority_queue,4,0.018577396
+cpp,binary_heap,2. Push reverse sequential,50000,priority_queue,5,0.018920907
+cpp,binary_heap,2. Push reverse sequential,100000,BinaryHeap,1,0.027197414
+cpp,binary_heap,2. Push reverse sequential,100000,BinaryHeap,2,0.027605752
+cpp,binary_heap,2. Push reverse sequential,100000,BinaryHeap,3,0.027629132
+cpp,binary_heap,2. Push reverse sequential,100000,BinaryHeap,4,0.027582628
+cpp,binary_heap,2. Push reverse sequential,100000,BinaryHeap,5,0.027036020
+cpp,binary_heap,2. Push reverse sequential,100000,priority_queue,1,0.038817309
+cpp,binary_heap,2. Push reverse sequential,100000,priority_queue,2,0.039563129
+cpp,binary_heap,2. Push reverse sequential,100000,priority_queue,3,0.039279431
+cpp,binary_heap,2. Push reverse sequential,100000,priority_queue,4,0.038926866
+cpp,binary_heap,2. Push reverse sequential,100000,priority_queue,5,0.038841674
+cpp,binary_heap,2. Push reverse sequential,200000,BinaryHeap,1,0.057937305
+cpp,binary_heap,2. Push reverse sequential,200000,BinaryHeap,2,0.058454250
+cpp,binary_heap,2. Push reverse sequential,200000,BinaryHeap,3,0.056792664
+cpp,binary_heap,2. Push reverse sequential,200000,BinaryHeap,4,0.056439655
+cpp,binary_heap,2. Push reverse sequential,200000,BinaryHeap,5,0.056501380
+cpp,binary_heap,2. Push reverse sequential,200000,priority_queue,1,0.082460953
+cpp,binary_heap,2. Push reverse sequential,200000,priority_queue,2,0.081991631
+cpp,binary_heap,2. Push reverse sequential,200000,priority_queue,3,0.082882737
+cpp,binary_heap,2. Push reverse sequential,200000,priority_queue,4,0.084096527
+cpp,binary_heap,2. Push reverse sequential,200000,priority_queue,5,0.082460781
+cpp,binary_heap,2. Push reverse sequential,500000,BinaryHeap,1,0.153858459
+cpp,binary_heap,2. Push reverse sequential,500000,BinaryHeap,2,0.150632913
+cpp,binary_heap,2. Push reverse sequential,500000,BinaryHeap,3,0.152359152
+cpp,binary_heap,2. Push reverse sequential,500000,BinaryHeap,4,0.154668785
+cpp,binary_heap,2. Push reverse sequential,500000,BinaryHeap,5,0.151284268
+cpp,binary_heap,2. Push reverse sequential,500000,priority_queue,1,0.219347287
+cpp,binary_heap,2. Push reverse sequential,500000,priority_queue,2,0.220876408
+cpp,binary_heap,2. Push reverse sequential,500000,priority_queue,3,0.217147846
+cpp,binary_heap,2. Push reverse sequential,500000,priority_queue,4,0.221511527
+cpp,binary_heap,2. Push reverse sequential,500000,priority_queue,5,0.215934376
+cpp,binary_heap,2. Push reverse sequential,1000000,BinaryHeap,1,0.313094906
+cpp,binary_heap,2. Push reverse sequential,1000000,BinaryHeap,2,0.309718563
+cpp,binary_heap,2. Push reverse sequential,1000000,BinaryHeap,3,0.315382530
+cpp,binary_heap,2. Push reverse sequential,1000000,BinaryHeap,4,0.313560420
+cpp,binary_heap,2. Push reverse sequential,1000000,BinaryHeap,5,0.315902884
+cpp,binary_heap,2. Push reverse sequential,1000000,priority_queue,1,0.451388170
+cpp,binary_heap,2. Push reverse sequential,1000000,priority_queue,2,0.444528165
+cpp,binary_heap,2. Push reverse sequential,1000000,priority_queue,3,0.465146730
+cpp,binary_heap,2. Push reverse sequential,1000000,priority_queue,4,0.462986732
+cpp,binary_heap,2. Push reverse sequential,1000000,priority_queue,5,0.455986527
+cpp,binary_heap,2. Push reverse sequential,2000000,BinaryHeap,1,0.658473423
+cpp,binary_heap,2. Push reverse sequential,2000000,BinaryHeap,2,0.672089848
+cpp,binary_heap,2. Push reverse sequential,2000000,BinaryHeap,3,0.673725084
+cpp,binary_heap,2. Push reverse sequential,2000000,BinaryHeap,4,0.672488119
+cpp,binary_heap,2. Push reverse sequential,2000000,BinaryHeap,5,0.656179339
+cpp,binary_heap,2. Push reverse sequential,2000000,priority_queue,1,0.940233473
+cpp,binary_heap,2. Push reverse sequential,2000000,priority_queue,2,0.950879454
+cpp,binary_heap,2. Push reverse sequential,2000000,priority_queue,3,0.937663251
+cpp,binary_heap,2. Push reverse sequential,2000000,priority_queue,4,0.937228986
+cpp,binary_heap,2. Push reverse sequential,2000000,priority_queue,5,0.947683871
+cpp,binary_heap,2. Push reverse sequential,5000000,BinaryHeap,1,1.754355089
+cpp,binary_heap,2. Push reverse sequential,5000000,BinaryHeap,2,1.743413662
+cpp,binary_heap,2. Push reverse sequential,5000000,BinaryHeap,3,1.761285659
+cpp,binary_heap,2. Push reverse sequential,5000000,BinaryHeap,4,1.748680758
+cpp,binary_heap,2. Push reverse sequential,5000000,BinaryHeap,5,1.744666491
+cpp,binary_heap,2. Push reverse sequential,5000000,priority_queue,1,2.490703366
+cpp,binary_heap,2. Push reverse sequential,5000000,priority_queue,2,2.453897484
+cpp,binary_heap,2. Push reverse sequential,5000000,priority_queue,3,2.451693197
+cpp,binary_heap,2. Push reverse sequential,5000000,priority_queue,4,2.494763521
+cpp,binary_heap,2. Push reverse sequential,5000000,priority_queue,5,2.466207310
+cpp,binary_heap,2. Push reverse sequential,10000000,BinaryHeap,1,3.637570739
+cpp,binary_heap,2. Push reverse sequential,10000000,BinaryHeap,2,3.563644998
+cpp,binary_heap,2. Push reverse sequential,10000000,BinaryHeap,3,3.609604035
+cpp,binary_heap,2. Push reverse sequential,10000000,BinaryHeap,4,3.544711573
+cpp,binary_heap,2. Push reverse sequential,10000000,BinaryHeap,5,3.575323089
+cpp,binary_heap,2. Push reverse sequential,10000000,priority_queue,1,5.032271626
+cpp,binary_heap,2. Push reverse sequential,10000000,priority_queue,2,5.053778178
+cpp,binary_heap,2. Push reverse sequential,10000000,priority_queue,3,5.001170964
+cpp,binary_heap,2. Push reverse sequential,10000000,priority_queue,4,5.051427046
+cpp,binary_heap,2. Push reverse sequential,10000000,priority_queue,5,4.988774764
+cpp,binary_heap,2. Push reverse sequential,15000000,BinaryHeap,1,5.423288329
+cpp,binary_heap,2. Push reverse sequential,15000000,BinaryHeap,2,5.372288399
+cpp,binary_heap,2. Push reverse sequential,15000000,BinaryHeap,3,5.406875209
+cpp,binary_heap,2. Push reverse sequential,15000000,BinaryHeap,4,5.368201168
+cpp,binary_heap,2. Push reverse sequential,15000000,BinaryHeap,5,5.418639748
+cpp,binary_heap,2. Push reverse sequential,15000000,priority_queue,1,7.616420613
+cpp,binary_heap,2. Push reverse sequential,15000000,priority_queue,2,7.620984846
+cpp,binary_heap,2. Push reverse sequential,15000000,priority_queue,3,7.695037587
+cpp,binary_heap,2. Push reverse sequential,15000000,priority_queue,4,7.633696207
+cpp,binary_heap,2. Push reverse sequential,15000000,priority_queue,5,7.608416067
+cpp,binary_heap,3. Push random,10000,BinaryHeap,1,0.000820714
+cpp,binary_heap,3. Push random,10000,BinaryHeap,2,0.000795604
+cpp,binary_heap,3. Push random,10000,BinaryHeap,3,0.000740685
+cpp,binary_heap,3. Push random,10000,BinaryHeap,4,0.000805991
+cpp,binary_heap,3. Push random,10000,BinaryHeap,5,0.000756818
+cpp,binary_heap,3. Push random,10000,priority_queue,1,0.001329096
+cpp,binary_heap,3. Push random,10000,priority_queue,2,0.001356901
+cpp,binary_heap,3. Push random,10000,priority_queue,3,0.001301986
+cpp,binary_heap,3. Push random,10000,priority_queue,4,0.001434853
+cpp,binary_heap,3. Push random,10000,priority_queue,5,0.001306278
+cpp,binary_heap,3. Push random,50000,BinaryHeap,1,0.003911207
+cpp,binary_heap,3. Push random,50000,BinaryHeap,2,0.003850827
+cpp,binary_heap,3. Push random,50000,BinaryHeap,3,0.003728228
+cpp,binary_heap,3. Push random,50000,BinaryHeap,4,0.004074287
+cpp,binary_heap,3. Push random,50000,BinaryHeap,5,0.003739367
+cpp,binary_heap,3. Push random,50000,priority_queue,1,0.006738866
+cpp,binary_heap,3. Push random,50000,priority_queue,2,0.006851516
+cpp,binary_heap,3. Push random,50000,priority_queue,3,0.006682428
+cpp,binary_heap,3. Push random,50000,priority_queue,4,0.006749421
+cpp,binary_heap,3. Push random,50000,priority_queue,5,0.006838395
+cpp,binary_heap,3. Push random,100000,BinaryHeap,1,0.007759979
+cpp,binary_heap,3. Push random,100000,BinaryHeap,2,0.007855696
+cpp,binary_heap,3. Push random,100000,BinaryHeap,3,0.007520668
+cpp,binary_heap,3. Push random,100000,BinaryHeap,4,0.007972751
+cpp,binary_heap,3. Push random,100000,BinaryHeap,5,0.007566600
+cpp,binary_heap,3. Push random,100000,priority_queue,1,0.013547204
+cpp,binary_heap,3. Push random,100000,priority_queue,2,0.013576050
+cpp,binary_heap,3. Push random,100000,priority_queue,3,0.013175420
+cpp,binary_heap,3. Push random,100000,priority_queue,4,0.013050869
+cpp,binary_heap,3. Push random,100000,priority_queue,5,0.013043328
+cpp,binary_heap,3. Push random,200000,BinaryHeap,1,0.015684239
+cpp,binary_heap,3. Push random,200000,BinaryHeap,2,0.015104722
+cpp,binary_heap,3. Push random,200000,BinaryHeap,3,0.015039064
+cpp,binary_heap,3. Push random,200000,BinaryHeap,4,0.014964304
+cpp,binary_heap,3. Push random,200000,BinaryHeap,5,0.015013431
+cpp,binary_heap,3. Push random,200000,priority_queue,1,0.026192484
+cpp,binary_heap,3. Push random,200000,priority_queue,2,0.026180839
+cpp,binary_heap,3. Push random,200000,priority_queue,3,0.026264068
+cpp,binary_heap,3. Push random,200000,priority_queue,4,0.026140873
+cpp,binary_heap,3. Push random,200000,priority_queue,5,0.026085224
+cpp,binary_heap,3. Push random,500000,BinaryHeap,1,0.038410371
+cpp,binary_heap,3. Push random,500000,BinaryHeap,2,0.037504283
+cpp,binary_heap,3. Push random,500000,BinaryHeap,3,0.038005259
+cpp,binary_heap,3. Push random,500000,BinaryHeap,4,0.037573453
+cpp,binary_heap,3. Push random,500000,BinaryHeap,5,0.037416898
+cpp,binary_heap,3. Push random,500000,priority_queue,1,0.066945272
+cpp,binary_heap,3. Push random,500000,priority_queue,2,0.066793844
+cpp,binary_heap,3. Push random,500000,priority_queue,3,0.065729806
+cpp,binary_heap,3. Push random,500000,priority_queue,4,0.065585154
+cpp,binary_heap,3. Push random,500000,priority_queue,5,0.065643292
+cpp,binary_heap,3. Push random,1000000,BinaryHeap,1,0.077085951
+cpp,binary_heap,3. Push random,1000000,BinaryHeap,2,0.075056826
+cpp,binary_heap,3. Push random,1000000,BinaryHeap,3,0.075354065
+cpp,binary_heap,3. Push random,1000000,BinaryHeap,4,0.075145423
+cpp,binary_heap,3. Push random,1000000,BinaryHeap,5,0.075514478
+cpp,binary_heap,3. Push random,1000000,priority_queue,1,0.134426399
+cpp,binary_heap,3. Push random,1000000,priority_queue,2,0.131427462
+cpp,binary_heap,3. Push random,1000000,priority_queue,3,0.131099059
+cpp,binary_heap,3. Push random,1000000,priority_queue,4,0.131885299
+cpp,binary_heap,3. Push random,1000000,priority_queue,5,0.133472670
+cpp,binary_heap,3. Push random,2000000,BinaryHeap,1,0.150773597
+cpp,binary_heap,3. Push random,2000000,BinaryHeap,2,0.152792777
+cpp,binary_heap,3. Push random,2000000,BinaryHeap,3,0.151000014
+cpp,binary_heap,3. Push random,2000000,BinaryHeap,4,0.150553770
+cpp,binary_heap,3. Push random,2000000,BinaryHeap,5,0.152782084
+cpp,binary_heap,3. Push random,2000000,priority_queue,1,0.264392323
+cpp,binary_heap,3. Push random,2000000,priority_queue,2,0.265567031
+cpp,binary_heap,3. Push random,2000000,priority_queue,3,0.263738653
+cpp,binary_heap,3. Push random,2000000,priority_queue,4,0.265384621
+cpp,binary_heap,3. Push random,2000000,priority_queue,5,0.264243236
+cpp,binary_heap,3. Push random,5000000,BinaryHeap,1,0.402677191
+cpp,binary_heap,3. Push random,5000000,BinaryHeap,2,0.379129845
+cpp,binary_heap,3. Push random,5000000,BinaryHeap,3,0.385909151
+cpp,binary_heap,3. Push random,5000000,BinaryHeap,4,0.382739438
+cpp,binary_heap,3. Push random,5000000,BinaryHeap,5,0.384971641
+cpp,binary_heap,3. Push random,5000000,priority_queue,1,0.670764355
+cpp,binary_heap,3. Push random,5000000,priority_queue,2,0.668385853
+cpp,binary_heap,3. Push random,5000000,priority_queue,3,0.670735458
+cpp,binary_heap,3. Push random,5000000,priority_queue,4,0.668898808
+cpp,binary_heap,3. Push random,5000000,priority_queue,5,0.671036548
+cpp,binary_heap,3. Push random,10000000,BinaryHeap,1,0.773587870
+cpp,binary_heap,3. Push random,10000000,BinaryHeap,2,0.773964976
+cpp,binary_heap,3. Push random,10000000,BinaryHeap,3,0.773065890
+cpp,binary_heap,3. Push random,10000000,BinaryHeap,4,0.768270746
+cpp,binary_heap,3. Push random,10000000,BinaryHeap,5,0.780233582
+cpp,binary_heap,3. Push random,10000000,priority_queue,1,1.361443894
+cpp,binary_heap,3. Push random,10000000,priority_queue,2,1.370686578
+cpp,binary_heap,3. Push random,10000000,priority_queue,3,1.340644384
+cpp,binary_heap,3. Push random,10000000,priority_queue,4,1.341410165
+cpp,binary_heap,3. Push random,10000000,priority_queue,5,1.330377544
+cpp,binary_heap,3. Push random,15000000,BinaryHeap,1,1.172435132
+cpp,binary_heap,3. Push random,15000000,BinaryHeap,2,1.147546597
+cpp,binary_heap,3. Push random,15000000,BinaryHeap,3,1.164212120
+cpp,binary_heap,3. Push random,15000000,BinaryHeap,4,1.180597351
+cpp,binary_heap,3. Push random,15000000,BinaryHeap,5,1.172778528
+cpp,binary_heap,3. Push random,15000000,priority_queue,1,1.996081395
+cpp,binary_heap,3. Push random,15000000,priority_queue,2,1.999140735
+cpp,binary_heap,3. Push random,15000000,priority_queue,3,1.999379148
+cpp,binary_heap,3. Push random,15000000,priority_queue,4,1.997975464
+cpp,binary_heap,3. Push random,15000000,priority_queue,5,1.992425034
+cpp,binary_heap,4. Heapify random,10000,BinaryHeap,1,0.000346637
+cpp,binary_heap,4. Heapify random,10000,BinaryHeap,2,0.000307104
+cpp,binary_heap,4. Heapify random,10000,BinaryHeap,3,0.000306693
+cpp,binary_heap,4. Heapify random,10000,BinaryHeap,4,0.000306439
+cpp,binary_heap,4. Heapify random,10000,BinaryHeap,5,0.000306236
+cpp,binary_heap,4. Heapify random,10000,priority_queue,1,0.000497000
+cpp,binary_heap,4. Heapify random,10000,priority_queue,2,0.000482018
+cpp,binary_heap,4. Heapify random,10000,priority_queue,3,0.000580384
+cpp,binary_heap,4. Heapify random,10000,priority_queue,4,0.000488519
+cpp,binary_heap,4. Heapify random,10000,priority_queue,5,0.000480139
+cpp,binary_heap,4. Heapify random,50000,BinaryHeap,1,0.001808569
+cpp,binary_heap,4. Heapify random,50000,BinaryHeap,2,0.001699528
+cpp,binary_heap,4. Heapify random,50000,BinaryHeap,3,0.001548249
+cpp,binary_heap,4. Heapify random,50000,BinaryHeap,4,0.001536731
+cpp,binary_heap,4. Heapify random,50000,BinaryHeap,5,0.001574460
+cpp,binary_heap,4. Heapify random,50000,priority_queue,1,0.002436869
+cpp,binary_heap,4. Heapify random,50000,priority_queue,2,0.002419112
+cpp,binary_heap,4. Heapify random,50000,priority_queue,3,0.002397342
+cpp,binary_heap,4. Heapify random,50000,priority_queue,4,0.002714690
+cpp,binary_heap,4. Heapify random,50000,priority_queue,5,0.002448325
+cpp,binary_heap,4. Heapify random,100000,BinaryHeap,1,0.003456826
+cpp,binary_heap,4. Heapify random,100000,BinaryHeap,2,0.003160756
+cpp,binary_heap,4. Heapify random,100000,BinaryHeap,3,0.003591355
+cpp,binary_heap,4. Heapify random,100000,BinaryHeap,4,0.003370110
+cpp,binary_heap,4. Heapify random,100000,BinaryHeap,5,0.003189139
+cpp,binary_heap,4. Heapify random,100000,priority_queue,1,0.004929163
+cpp,binary_heap,4. Heapify random,100000,priority_queue,2,0.005075349
+cpp,binary_heap,4. Heapify random,100000,priority_queue,3,0.005181367
+cpp,binary_heap,4. Heapify random,100000,priority_queue,4,0.004799250
+cpp,binary_heap,4. Heapify random,100000,priority_queue,5,0.004796275
+cpp,binary_heap,4. Heapify random,200000,BinaryHeap,1,0.006918158
+cpp,binary_heap,4. Heapify random,200000,BinaryHeap,2,0.006883217
+cpp,binary_heap,4. Heapify random,200000,BinaryHeap,3,0.006471048
+cpp,binary_heap,4. Heapify random,200000,BinaryHeap,4,0.006556823
+cpp,binary_heap,4. Heapify random,200000,BinaryHeap,5,0.006282954
+cpp,binary_heap,4. Heapify random,200000,priority_queue,1,0.009622704
+cpp,binary_heap,4. Heapify random,200000,priority_queue,2,0.009590999
+cpp,binary_heap,4. Heapify random,200000,priority_queue,3,0.009593155
+cpp,binary_heap,4. Heapify random,200000,priority_queue,4,0.009605659
+cpp,binary_heap,4. Heapify random,200000,priority_queue,5,0.009602943
+cpp,binary_heap,4. Heapify random,500000,BinaryHeap,1,0.016994155
+cpp,binary_heap,4. Heapify random,500000,BinaryHeap,2,0.015995572
+cpp,binary_heap,4. Heapify random,500000,BinaryHeap,3,0.016231574
+cpp,binary_heap,4. Heapify random,500000,BinaryHeap,4,0.016322979
+cpp,binary_heap,4. Heapify random,500000,BinaryHeap,5,0.016101407
+cpp,binary_heap,4. Heapify random,500000,priority_queue,1,0.024560131
+cpp,binary_heap,4. Heapify random,500000,priority_queue,2,0.024313916
+cpp,binary_heap,4. Heapify random,500000,priority_queue,3,0.024293504
+cpp,binary_heap,4. Heapify random,500000,priority_queue,4,0.024225473
+cpp,binary_heap,4. Heapify random,500000,priority_queue,5,0.025007084
+cpp,binary_heap,4. Heapify random,1000000,BinaryHeap,1,0.034411463
+cpp,binary_heap,4. Heapify random,1000000,BinaryHeap,2,0.033193091
+cpp,binary_heap,4. Heapify random,1000000,BinaryHeap,3,0.032748987
+cpp,binary_heap,4. Heapify random,1000000,BinaryHeap,4,0.032679641
+cpp,binary_heap,4. Heapify random,1000000,BinaryHeap,5,0.033001849
+cpp,binary_heap,4. Heapify random,1000000,priority_queue,1,0.049348023
+cpp,binary_heap,4. Heapify random,1000000,priority_queue,2,0.049459648
+cpp,binary_heap,4. Heapify random,1000000,priority_queue,3,0.049155775
+cpp,binary_heap,4. Heapify random,1000000,priority_queue,4,0.051374030
+cpp,binary_heap,4. Heapify random,1000000,priority_queue,5,0.052380348
+cpp,binary_heap,4. Heapify random,2000000,BinaryHeap,1,0.070781952
+cpp,binary_heap,4. Heapify random,2000000,BinaryHeap,2,0.066268498
+cpp,binary_heap,4. Heapify random,2000000,BinaryHeap,3,0.066617421
+cpp,binary_heap,4. Heapify random,2000000,BinaryHeap,4,0.069975826
+cpp,binary_heap,4. Heapify random,2000000,BinaryHeap,5,0.067900704
+cpp,binary_heap,4. Heapify random,2000000,priority_queue,1,0.099669120
+cpp,binary_heap,4. Heapify random,2000000,priority_queue,2,0.100821411
+cpp,binary_heap,4. Heapify random,2000000,priority_queue,3,0.099928115
+cpp,binary_heap,4. Heapify random,2000000,priority_queue,4,0.106037401
+cpp,binary_heap,4. Heapify random,2000000,priority_queue,5,0.100614880
+cpp,binary_heap,4. Heapify random,5000000,BinaryHeap,1,0.178599535
+cpp,binary_heap,4. Heapify random,5000000,BinaryHeap,2,0.183886658
+cpp,binary_heap,4. Heapify random,5000000,BinaryHeap,3,0.172237358
+cpp,binary_heap,4. Heapify random,5000000,BinaryHeap,4,0.172380572
+cpp,binary_heap,4. Heapify random,5000000,BinaryHeap,5,0.178987863
+cpp,binary_heap,4. Heapify random,5000000,priority_queue,1,0.252192177
+cpp,binary_heap,4. Heapify random,5000000,priority_queue,2,0.257492823
+cpp,binary_heap,4. Heapify random,5000000,priority_queue,3,0.253470158
+cpp,binary_heap,4. Heapify random,5000000,priority_queue,4,0.257812312
+cpp,binary_heap,4. Heapify random,5000000,priority_queue,5,0.253174457
+cpp,binary_heap,4. Heapify random,10000000,BinaryHeap,1,0.375683007
+cpp,binary_heap,4. Heapify random,10000000,BinaryHeap,2,0.358671495
+cpp,binary_heap,4. Heapify random,10000000,BinaryHeap,3,0.357724869
+cpp,binary_heap,4. Heapify random,10000000,BinaryHeap,4,0.362824365
+cpp,binary_heap,4. Heapify random,10000000,BinaryHeap,5,0.370304590
+cpp,binary_heap,4. Heapify random,10000000,priority_queue,1,0.519083805
+cpp,binary_heap,4. Heapify random,10000000,priority_queue,2,0.516154703
+cpp,binary_heap,4. Heapify random,10000000,priority_queue,3,0.520317202
+cpp,binary_heap,4. Heapify random,10000000,priority_queue,4,0.519828567
+cpp,binary_heap,4. Heapify random,10000000,priority_queue,5,0.523183116
+cpp,binary_heap,4. Heapify random,15000000,BinaryHeap,1,0.567278305
+cpp,binary_heap,4. Heapify random,15000000,BinaryHeap,2,0.540377069
+cpp,binary_heap,4. Heapify random,15000000,BinaryHeap,3,0.557172488
+cpp,binary_heap,4. Heapify random,15000000,BinaryHeap,4,0.547496092
+cpp,binary_heap,4. Heapify random,15000000,BinaryHeap,5,0.540604552
+cpp,binary_heap,4. Heapify random,15000000,priority_queue,1,0.787589237
+cpp,binary_heap,4. Heapify random,15000000,priority_queue,2,0.790095333
+cpp,binary_heap,4. Heapify random,15000000,priority_queue,3,0.781052898
+cpp,binary_heap,4. Heapify random,15000000,priority_queue,4,0.812028784
+cpp,binary_heap,4. Heapify random,15000000,priority_queue,5,0.812742960
+cpp,binary_heap,5. Pop all after heapify,10000,BinaryHeap,1,0.003496179
+cpp,binary_heap,5. Pop all after heapify,10000,BinaryHeap,2,0.003635682
+cpp,binary_heap,5. Pop all after heapify,10000,BinaryHeap,3,0.003522421
+cpp,binary_heap,5. Pop all after heapify,10000,BinaryHeap,4,0.003676100
+cpp,binary_heap,5. Pop all after heapify,10000,BinaryHeap,5,0.003511796
+cpp,binary_heap,5. Pop all after heapify,10000,priority_queue,1,0.004596345
+cpp,binary_heap,5. Pop all after heapify,10000,priority_queue,2,0.004860198
+cpp,binary_heap,5. Pop all after heapify,10000,priority_queue,3,0.004692066
+cpp,binary_heap,5. Pop all after heapify,10000,priority_queue,4,0.004803866
+cpp,binary_heap,5. Pop all after heapify,10000,priority_queue,5,0.004741173
+cpp,binary_heap,5. Pop all after heapify,50000,BinaryHeap,1,0.021545871
+cpp,binary_heap,5. Pop all after heapify,50000,BinaryHeap,2,0.022016125
+cpp,binary_heap,5. Pop all after heapify,50000,BinaryHeap,3,0.021717150
+cpp,binary_heap,5. Pop all after heapify,50000,BinaryHeap,4,0.021024672
+cpp,binary_heap,5. Pop all after heapify,50000,BinaryHeap,5,0.020774168
+cpp,binary_heap,5. Pop all after heapify,50000,priority_queue,1,0.027169734
+cpp,binary_heap,5. Pop all after heapify,50000,priority_queue,2,0.027013513
+cpp,binary_heap,5. Pop all after heapify,50000,priority_queue,3,0.026888617
+cpp,binary_heap,5. Pop all after heapify,50000,priority_queue,4,0.026933356
+cpp,binary_heap,5. Pop all after heapify,50000,priority_queue,5,0.027060288
+cpp,binary_heap,5. Pop all after heapify,100000,BinaryHeap,1,0.046660286
+cpp,binary_heap,5. Pop all after heapify,100000,BinaryHeap,2,0.044580462
+cpp,binary_heap,5. Pop all after heapify,100000,BinaryHeap,3,0.044583183
+cpp,binary_heap,5. Pop all after heapify,100000,BinaryHeap,4,0.044429189
+cpp,binary_heap,5. Pop all after heapify,100000,BinaryHeap,5,0.044620611
+cpp,binary_heap,5. Pop all after heapify,100000,priority_queue,1,0.057481830
+cpp,binary_heap,5. Pop all after heapify,100000,priority_queue,2,0.057615980
+cpp,binary_heap,5. Pop all after heapify,100000,priority_queue,3,0.056150919
+cpp,binary_heap,5. Pop all after heapify,100000,priority_queue,4,0.057158506
+cpp,binary_heap,5. Pop all after heapify,100000,priority_queue,5,0.058898125
+cpp,binary_heap,5. Pop all after heapify,200000,BinaryHeap,1,0.093819109
+cpp,binary_heap,5. Pop all after heapify,200000,BinaryHeap,2,0.093144268
+cpp,binary_heap,5. Pop all after heapify,200000,BinaryHeap,3,0.094091968
+cpp,binary_heap,5. Pop all after heapify,200000,BinaryHeap,4,0.094152585
+cpp,binary_heap,5. Pop all after heapify,200000,BinaryHeap,5,0.097289922
+cpp,binary_heap,5. Pop all after heapify,200000,priority_queue,1,0.121425737
+cpp,binary_heap,5. Pop all after heapify,200000,priority_queue,2,0.119383166
+cpp,binary_heap,5. Pop all after heapify,200000,priority_queue,3,0.119368061
+cpp,binary_heap,5. Pop all after heapify,200000,priority_queue,4,0.121559933
+cpp,binary_heap,5. Pop all after heapify,200000,priority_queue,5,0.124177290
+cpp,binary_heap,5. Pop all after heapify,500000,BinaryHeap,1,0.263983052
+cpp,binary_heap,5. Pop all after heapify,500000,BinaryHeap,2,0.261942623
+cpp,binary_heap,5. Pop all after heapify,500000,BinaryHeap,3,0.264800605
+cpp,binary_heap,5. Pop all after heapify,500000,BinaryHeap,4,0.258080278
+cpp,binary_heap,5. Pop all after heapify,500000,BinaryHeap,5,0.266745832
+cpp,binary_heap,5. Pop all after heapify,500000,priority_queue,1,0.327096025
+cpp,binary_heap,5. Pop all after heapify,500000,priority_queue,2,0.336650996
+cpp,binary_heap,5. Pop all after heapify,500000,priority_queue,3,0.332410504
+cpp,binary_heap,5. Pop all after heapify,500000,priority_queue,4,0.328683816
+cpp,binary_heap,5. Pop all after heapify,500000,priority_queue,5,0.340666981
+cpp,binary_heap,5. Pop all after heapify,1000000,BinaryHeap,1,0.582240472
+cpp,binary_heap,5. Pop all after heapify,1000000,BinaryHeap,2,0.581227451
+cpp,binary_heap,5. Pop all after heapify,1000000,BinaryHeap,3,0.581642243
+cpp,binary_heap,5. Pop all after heapify,1000000,BinaryHeap,4,0.583703939
+cpp,binary_heap,5. Pop all after heapify,1000000,BinaryHeap,5,0.586544306
+cpp,binary_heap,5. Pop all after heapify,1000000,priority_queue,1,0.728634058
+cpp,binary_heap,5. Pop all after heapify,1000000,priority_queue,2,0.729121607
+cpp,binary_heap,5. Pop all after heapify,1000000,priority_queue,3,0.737074766
+cpp,binary_heap,5. Pop all after heapify,1000000,priority_queue,4,0.884203307
+cpp,binary_heap,5. Pop all after heapify,1000000,priority_queue,5,0.745514640
+cpp,binary_heap,5. Pop all after heapify,2000000,BinaryHeap,1,1.340609517
+cpp,binary_heap,5. Pop all after heapify,2000000,BinaryHeap,2,1.323264350
+cpp,binary_heap,5. Pop all after heapify,2000000,BinaryHeap,3,1.314394304
+cpp,binary_heap,5. Pop all after heapify,2000000,BinaryHeap,4,1.320019258
+cpp,binary_heap,5. Pop all after heapify,2000000,BinaryHeap,5,1.321487116
+cpp,binary_heap,5. Pop all after heapify,2000000,priority_queue,1,1.636063445
+cpp,binary_heap,5. Pop all after heapify,2000000,priority_queue,2,1.637692631
+cpp,binary_heap,5. Pop all after heapify,2000000,priority_queue,3,1.632378467
+cpp,binary_heap,5. Pop all after heapify,2000000,priority_queue,4,1.636383527
+cpp,binary_heap,5. Pop all after heapify,2000000,priority_queue,5,1.630771538
+cpp,binary_heap,5. Pop all after heapify,5000000,BinaryHeap,1,4.107612059
+cpp,binary_heap,5. Pop all after heapify,5000000,BinaryHeap,2,4.087451740
+cpp,binary_heap,5. Pop all after heapify,5000000,BinaryHeap,3,4.118972290
+cpp,binary_heap,5. Pop all after heapify,5000000,BinaryHeap,4,4.088499168
+cpp,binary_heap,5. Pop all after heapify,5000000,BinaryHeap,5,4.060291073
+cpp,binary_heap,5. Pop all after heapify,5000000,priority_queue,1,4.928203278
+cpp,binary_heap,5. Pop all after heapify,5000000,priority_queue,2,4.919863570
+cpp,binary_heap,5. Pop all after heapify,5000000,priority_queue,3,4.906642899
+cpp,binary_heap,5. Pop all after heapify,5000000,priority_queue,4,4.927993134
+cpp,binary_heap,5. Pop all after heapify,5000000,priority_queue,5,4.893817823
+cpp,binary_heap,5. Pop all after heapify,10000000,BinaryHeap,1,9.794624983
+cpp,binary_heap,5. Pop all after heapify,10000000,BinaryHeap,2,9.750254477
+cpp,binary_heap,5. Pop all after heapify,10000000,BinaryHeap,3,9.744816090
+cpp,binary_heap,5. Pop all after heapify,10000000,BinaryHeap,4,9.752240673
+cpp,binary_heap,5. Pop all after heapify,10000000,BinaryHeap,5,9.728561442
+cpp,binary_heap,5. Pop all after heapify,10000000,priority_queue,1,11.470293431
+cpp,binary_heap,5. Pop all after heapify,10000000,priority_queue,2,11.496920160
+cpp,binary_heap,5. Pop all after heapify,10000000,priority_queue,3,11.482044329
+cpp,binary_heap,5. Pop all after heapify,10000000,priority_queue,4,11.565658960
+cpp,binary_heap,5. Pop all after heapify,10000000,priority_queue,5,11.503299105
+cpp,binary_heap,5. Pop all after heapify,15000000,BinaryHeap,1,16.236063482
+cpp,binary_heap,5. Pop all after heapify,15000000,BinaryHeap,2,16.188375053
+cpp,binary_heap,5. Pop all after heapify,15000000,BinaryHeap,3,16.197806972
+cpp,binary_heap,5. Pop all after heapify,15000000,BinaryHeap,4,16.203628358
+cpp,binary_heap,5. Pop all after heapify,15000000,BinaryHeap,5,17.042322547
+cpp,binary_heap,5. Pop all after heapify,15000000,priority_queue,1,18.952655172
+cpp,binary_heap,5. Pop all after heapify,15000000,priority_queue,2,19.070004089
+cpp,binary_heap,5. Pop all after heapify,15000000,priority_queue,3,20.124960354
+cpp,binary_heap,5. Pop all after heapify,15000000,priority_queue,4,18.700884295
+cpp,binary_heap,5. Pop all after heapify,15000000,priority_queue,5,18.371655626
+cpp,binary_heap,6. Alternating push/pop,10000,BinaryHeap,1,0.002581791
+cpp,binary_heap,6. Alternating push/pop,10000,BinaryHeap,2,0.002581650
+cpp,binary_heap,6. Alternating push/pop,10000,BinaryHeap,3,0.002579129
+cpp,binary_heap,6. Alternating push/pop,10000,BinaryHeap,4,0.002577794
+cpp,binary_heap,6. Alternating push/pop,10000,BinaryHeap,5,0.002586981
+cpp,binary_heap,6. Alternating push/pop,10000,priority_queue,1,0.003459617
+cpp,binary_heap,6. Alternating push/pop,10000,priority_queue,2,0.003455988
+cpp,binary_heap,6. Alternating push/pop,10000,priority_queue,3,0.004260253
+cpp,binary_heap,6. Alternating push/pop,10000,priority_queue,4,0.003482344
+cpp,binary_heap,6. Alternating push/pop,10000,priority_queue,5,0.003490766
+cpp,binary_heap,6. Alternating push/pop,50000,BinaryHeap,1,0.014911327
+cpp,binary_heap,6. Alternating push/pop,50000,BinaryHeap,2,0.014838480
+cpp,binary_heap,6. Alternating push/pop,50000,BinaryHeap,3,0.015040501
+cpp,binary_heap,6. Alternating push/pop,50000,BinaryHeap,4,0.014786648
+cpp,binary_heap,6. Alternating push/pop,50000,BinaryHeap,5,0.014761984
+cpp,binary_heap,6. Alternating push/pop,50000,priority_queue,1,0.019561800
+cpp,binary_heap,6. Alternating push/pop,50000,priority_queue,2,0.019229839
+cpp,binary_heap,6. Alternating push/pop,50000,priority_queue,3,0.019407481
+cpp,binary_heap,6. Alternating push/pop,50000,priority_queue,4,0.019286745
+cpp,binary_heap,6. Alternating push/pop,50000,priority_queue,5,0.019281959
+cpp,binary_heap,6. Alternating push/pop,100000,BinaryHeap,1,0.031021229
+cpp,binary_heap,6. Alternating push/pop,100000,BinaryHeap,2,0.031294888
+cpp,binary_heap,6. Alternating push/pop,100000,BinaryHeap,3,0.031282091
+cpp,binary_heap,6. Alternating push/pop,100000,BinaryHeap,4,0.030925906
+cpp,binary_heap,6. Alternating push/pop,100000,BinaryHeap,5,0.031345711
+cpp,binary_heap,6. Alternating push/pop,100000,priority_queue,1,0.041106238
+cpp,binary_heap,6. Alternating push/pop,100000,priority_queue,2,0.040807252
+cpp,binary_heap,6. Alternating push/pop,100000,priority_queue,3,0.041048853
+cpp,binary_heap,6. Alternating push/pop,100000,priority_queue,4,0.040769562
+cpp,binary_heap,6. Alternating push/pop,100000,priority_queue,5,0.040650807
+cpp,binary_heap,6. Alternating push/pop,200000,BinaryHeap,1,0.067025342
+cpp,binary_heap,6. Alternating push/pop,200000,BinaryHeap,2,0.066237186
+cpp,binary_heap,6. Alternating push/pop,200000,BinaryHeap,3,0.066022725
+cpp,binary_heap,6. Alternating push/pop,200000,BinaryHeap,4,0.066531741
+cpp,binary_heap,6. Alternating push/pop,200000,BinaryHeap,5,0.066374053
+cpp,binary_heap,6. Alternating push/pop,200000,priority_queue,1,0.086191639
+cpp,binary_heap,6. Alternating push/pop,200000,priority_queue,2,0.085990463
+cpp,binary_heap,6. Alternating push/pop,200000,priority_queue,3,0.086774338
+cpp,binary_heap,6. Alternating push/pop,200000,priority_queue,4,0.086654415
+cpp,binary_heap,6. Alternating push/pop,200000,priority_queue,5,0.087501152
+cpp,binary_heap,6. Alternating push/pop,500000,BinaryHeap,1,0.200605672
+cpp,binary_heap,6. Alternating push/pop,500000,BinaryHeap,2,0.176844835
+cpp,binary_heap,6. Alternating push/pop,500000,BinaryHeap,3,0.177764443
+cpp,binary_heap,6. Alternating push/pop,500000,BinaryHeap,4,0.177653509
+cpp,binary_heap,6. Alternating push/pop,500000,BinaryHeap,5,0.178353888
+cpp,binary_heap,6. Alternating push/pop,500000,priority_queue,1,0.232746329
+cpp,binary_heap,6. Alternating push/pop,500000,priority_queue,2,0.232192008
+cpp,binary_heap,6. Alternating push/pop,500000,priority_queue,3,0.233620164
+cpp,binary_heap,6. Alternating push/pop,500000,priority_queue,4,0.231114643
+cpp,binary_heap,6. Alternating push/pop,500000,priority_queue,5,0.231802216
+cpp,binary_heap,6. Alternating push/pop,1000000,BinaryHeap,1,0.373284168
+cpp,binary_heap,6. Alternating push/pop,1000000,BinaryHeap,2,0.369762331
+cpp,binary_heap,6. Alternating push/pop,1000000,BinaryHeap,3,0.369447247
+cpp,binary_heap,6. Alternating push/pop,1000000,BinaryHeap,4,0.367521473
+cpp,binary_heap,6. Alternating push/pop,1000000,BinaryHeap,5,0.368683863
+cpp,binary_heap,6. Alternating push/pop,1000000,priority_queue,1,0.479735200
+cpp,binary_heap,6. Alternating push/pop,1000000,priority_queue,2,0.476502002
+cpp,binary_heap,6. Alternating push/pop,1000000,priority_queue,3,0.491400516
+cpp,binary_heap,6. Alternating push/pop,1000000,priority_queue,4,0.479129356
+cpp,binary_heap,6. Alternating push/pop,1000000,priority_queue,5,0.483758447
+cpp,binary_heap,6. Alternating push/pop,2000000,BinaryHeap,1,0.831380892
+cpp,binary_heap,6. Alternating push/pop,2000000,BinaryHeap,2,0.818094346
+cpp,binary_heap,6. Alternating push/pop,2000000,BinaryHeap,3,0.814565516
+cpp,binary_heap,6. Alternating push/pop,2000000,BinaryHeap,4,0.825484839
+cpp,binary_heap,6. Alternating push/pop,2000000,BinaryHeap,5,0.824441685
+cpp,binary_heap,6. Alternating push/pop,2000000,priority_queue,1,1.051640835
+cpp,binary_heap,6. Alternating push/pop,2000000,priority_queue,2,1.055199351
+cpp,binary_heap,6. Alternating push/pop,2000000,priority_queue,3,1.050185386
+cpp,binary_heap,6. Alternating push/pop,2000000,priority_queue,4,1.050024504
+cpp,binary_heap,6. Alternating push/pop,2000000,priority_queue,5,1.050285277
+cpp,binary_heap,6. Alternating push/pop,5000000,BinaryHeap,1,2.422112693
+cpp,binary_heap,6. Alternating push/pop,5000000,BinaryHeap,2,2.408455726
+cpp,binary_heap,6. Alternating push/pop,5000000,BinaryHeap,3,2.430340220
+cpp,binary_heap,6. Alternating push/pop,5000000,BinaryHeap,4,2.444558759
+cpp,binary_heap,6. Alternating push/pop,5000000,BinaryHeap,5,2.410234268
+cpp,binary_heap,6. Alternating push/pop,5000000,priority_queue,1,3.027156306
+cpp,binary_heap,6. Alternating push/pop,5000000,priority_queue,2,3.035883876
+cpp,binary_heap,6. Alternating push/pop,5000000,priority_queue,3,3.019224162
+cpp,binary_heap,6. Alternating push/pop,5000000,priority_queue,4,3.016698344
+cpp,binary_heap,6. Alternating push/pop,5000000,priority_queue,5,3.046214037
+cpp,binary_heap,6. Alternating push/pop,10000000,BinaryHeap,1,5.587841645
+cpp,binary_heap,6. Alternating push/pop,10000000,BinaryHeap,2,5.587300142
+cpp,binary_heap,6. Alternating push/pop,10000000,BinaryHeap,3,5.560500727
+cpp,binary_heap,6. Alternating push/pop,10000000,BinaryHeap,4,5.565434403
+cpp,binary_heap,6. Alternating push/pop,10000000,BinaryHeap,5,5.647269773
+cpp,binary_heap,6. Alternating push/pop,10000000,priority_queue,1,6.891117756
+cpp,binary_heap,6. Alternating push/pop,10000000,priority_queue,2,6.881087204
+cpp,binary_heap,6. Alternating push/pop,10000000,priority_queue,3,6.875249772
+cpp,binary_heap,6. Alternating push/pop,10000000,priority_queue,4,6.867509661
+cpp,binary_heap,6. Alternating push/pop,10000000,priority_queue,5,6.857577168
+cpp,binary_heap,6. Alternating push/pop,15000000,BinaryHeap,1,9.095489306
+cpp,binary_heap,6. Alternating push/pop,15000000,BinaryHeap,2,9.132401539
+cpp,binary_heap,6. Alternating push/pop,15000000,BinaryHeap,3,9.082623593
+cpp,binary_heap,6. Alternating push/pop,15000000,BinaryHeap,4,9.520527883
+cpp,binary_heap,6. Alternating push/pop,15000000,BinaryHeap,5,10.442865767
+cpp,binary_heap,6. Alternating push/pop,15000000,priority_queue,1,11.089651438
+cpp,binary_heap,6. Alternating push/pop,15000000,priority_queue,2,11.089484653
+cpp,binary_heap,6. Alternating push/pop,15000000,priority_queue,3,11.068424084
+cpp,binary_heap,6. Alternating push/pop,15000000,priority_queue,4,11.045820565
+cpp,binary_heap,6. Alternating push/pop,15000000,priority_queue,5,11.138216263
+cpp,binary_heap,7. Top-k largest,10000,BinaryHeap,1,0.000311311
+cpp,binary_heap,7. Top-k largest,10000,BinaryHeap,2,0.000302913
+cpp,binary_heap,7. Top-k largest,10000,BinaryHeap,3,0.000302519
+cpp,binary_heap,7. Top-k largest,10000,BinaryHeap,4,0.000303131
+cpp,binary_heap,7. Top-k largest,10000,BinaryHeap,5,0.000301403
+cpp,binary_heap,7. Top-k largest,10000,priority_queue,1,0.000361639
+cpp,binary_heap,7. Top-k largest,10000,priority_queue,2,0.000360303
+cpp,binary_heap,7. Top-k largest,10000,priority_queue,3,0.000360191
+cpp,binary_heap,7. Top-k largest,10000,priority_queue,4,0.000360377
+cpp,binary_heap,7. Top-k largest,10000,priority_queue,5,0.000360218
+cpp,binary_heap,7. Top-k largest,50000,BinaryHeap,1,0.001099280
+cpp,binary_heap,7. Top-k largest,50000,BinaryHeap,2,0.001076340
+cpp,binary_heap,7. Top-k largest,50000,BinaryHeap,3,0.001074238
+cpp,binary_heap,7. Top-k largest,50000,BinaryHeap,4,0.001342866
+cpp,binary_heap,7. Top-k largest,50000,BinaryHeap,5,0.001173597
+cpp,binary_heap,7. Top-k largest,50000,priority_queue,1,0.001174407
+cpp,binary_heap,7. Top-k largest,50000,priority_queue,2,0.001140085
+cpp,binary_heap,7. Top-k largest,50000,priority_queue,3,0.001088909
+cpp,binary_heap,7. Top-k largest,50000,priority_queue,4,0.001083374
+cpp,binary_heap,7. Top-k largest,50000,priority_queue,5,0.001084026
+cpp,binary_heap,7. Top-k largest,100000,BinaryHeap,1,0.002039268
+cpp,binary_heap,7. Top-k largest,100000,BinaryHeap,2,0.002367479
+cpp,binary_heap,7. Top-k largest,100000,BinaryHeap,3,0.002208138
+cpp,binary_heap,7. Top-k largest,100000,BinaryHeap,4,0.002084821
+cpp,binary_heap,7. Top-k largest,100000,BinaryHeap,5,0.002081788
+cpp,binary_heap,7. Top-k largest,100000,priority_queue,1,0.001943216
+cpp,binary_heap,7. Top-k largest,100000,priority_queue,2,0.002016797
+cpp,binary_heap,7. Top-k largest,100000,priority_queue,3,0.001938167
+cpp,binary_heap,7. Top-k largest,100000,priority_queue,4,0.001936850
+cpp,binary_heap,7. Top-k largest,100000,priority_queue,5,0.002272988
+cpp,binary_heap,7. Top-k largest,200000,BinaryHeap,1,0.003982715
+cpp,binary_heap,7. Top-k largest,200000,BinaryHeap,2,0.004027900
+cpp,binary_heap,7. Top-k largest,200000,BinaryHeap,3,0.003952214
+cpp,binary_heap,7. Top-k largest,200000,BinaryHeap,4,0.003887598
+cpp,binary_heap,7. Top-k largest,200000,BinaryHeap,5,0.003969853
+cpp,binary_heap,7. Top-k largest,200000,priority_queue,1,0.003758630
+cpp,binary_heap,7. Top-k largest,200000,priority_queue,2,0.003632876
+cpp,binary_heap,7. Top-k largest,200000,priority_queue,3,0.003723473
+cpp,binary_heap,7. Top-k largest,200000,priority_queue,4,0.003719044
+cpp,binary_heap,7. Top-k largest,200000,priority_queue,5,0.003670357
+cpp,binary_heap,7. Top-k largest,500000,BinaryHeap,1,0.009611161
+cpp,binary_heap,7. Top-k largest,500000,BinaryHeap,2,0.010144770
+cpp,binary_heap,7. Top-k largest,500000,BinaryHeap,3,0.009614931
+cpp,binary_heap,7. Top-k largest,500000,BinaryHeap,4,0.009561653
+cpp,binary_heap,7. Top-k largest,500000,BinaryHeap,5,0.009631202
+cpp,binary_heap,7. Top-k largest,500000,priority_queue,1,0.008824447
+cpp,binary_heap,7. Top-k largest,500000,priority_queue,2,0.008951467
+cpp,binary_heap,7. Top-k largest,500000,priority_queue,3,0.008726110
+cpp,binary_heap,7. Top-k largest,500000,priority_queue,4,0.008722690
+cpp,binary_heap,7. Top-k largest,500000,priority_queue,5,0.008648451
+cpp,binary_heap,7. Top-k largest,1000000,BinaryHeap,1,0.019650742
+cpp,binary_heap,7. Top-k largest,1000000,BinaryHeap,2,0.018836573
+cpp,binary_heap,7. Top-k largest,1000000,BinaryHeap,3,0.018895720
+cpp,binary_heap,7. Top-k largest,1000000,BinaryHeap,4,0.019184184
+cpp,binary_heap,7. Top-k largest,1000000,BinaryHeap,5,0.019021815
+cpp,binary_heap,7. Top-k largest,1000000,priority_queue,1,0.017111321
+cpp,binary_heap,7. Top-k largest,1000000,priority_queue,2,0.017663560
+cpp,binary_heap,7. Top-k largest,1000000,priority_queue,3,0.017090583
+cpp,binary_heap,7. Top-k largest,1000000,priority_queue,4,0.017232640
+cpp,binary_heap,7. Top-k largest,1000000,priority_queue,5,0.017191190
+cpp,binary_heap,7. Top-k largest,2000000,BinaryHeap,1,0.038480654
+cpp,binary_heap,7. Top-k largest,2000000,BinaryHeap,2,0.037721658
+cpp,binary_heap,7. Top-k largest,2000000,BinaryHeap,3,0.037605276
+cpp,binary_heap,7. Top-k largest,2000000,BinaryHeap,4,0.038330860
+cpp,binary_heap,7. Top-k largest,2000000,BinaryHeap,5,0.037565424
+cpp,binary_heap,7. Top-k largest,2000000,priority_queue,1,0.033938025
+cpp,binary_heap,7. Top-k largest,2000000,priority_queue,2,0.034625642
+cpp,binary_heap,7. Top-k largest,2000000,priority_queue,3,0.033951267
+cpp,binary_heap,7. Top-k largest,2000000,priority_queue,4,0.034100141
+cpp,binary_heap,7. Top-k largest,2000000,priority_queue,5,0.034181287
+cpp,binary_heap,7. Top-k largest,5000000,BinaryHeap,1,0.099430028
+cpp,binary_heap,7. Top-k largest,5000000,BinaryHeap,2,0.099876383
+cpp,binary_heap,7. Top-k largest,5000000,BinaryHeap,3,0.099554183
+cpp,binary_heap,7. Top-k largest,5000000,BinaryHeap,4,0.098712483
+cpp,binary_heap,7. Top-k largest,5000000,BinaryHeap,5,0.098884064
+cpp,binary_heap,7. Top-k largest,5000000,priority_queue,1,0.089537449
+cpp,binary_heap,7. Top-k largest,5000000,priority_queue,2,0.091737601
+cpp,binary_heap,7. Top-k largest,5000000,priority_queue,3,0.090140925
+cpp,binary_heap,7. Top-k largest,5000000,priority_queue,4,0.095796848
+cpp,binary_heap,7. Top-k largest,5000000,priority_queue,5,0.093498349
+cpp,binary_heap,7. Top-k largest,10000000,BinaryHeap,1,0.191913001
+cpp,binary_heap,7. Top-k largest,10000000,BinaryHeap,2,0.199293273
+cpp,binary_heap,7. Top-k largest,10000000,BinaryHeap,3,0.197296485
+cpp,binary_heap,7. Top-k largest,10000000,BinaryHeap,4,0.197529742
+cpp,binary_heap,7. Top-k largest,10000000,BinaryHeap,5,0.196884714
+cpp,binary_heap,7. Top-k largest,10000000,priority_queue,1,0.179272841
+cpp,binary_heap,7. Top-k largest,10000000,priority_queue,2,0.181035287
+cpp,binary_heap,7. Top-k largest,10000000,priority_queue,3,0.180993822
+cpp,binary_heap,7. Top-k largest,10000000,priority_queue,4,0.183241271
+cpp,binary_heap,7. Top-k largest,10000000,priority_queue,5,0.182605297
+cpp,binary_heap,7. Top-k largest,15000000,BinaryHeap,1,0.285957663
+cpp,binary_heap,7. Top-k largest,15000000,BinaryHeap,2,0.283806444
+cpp,binary_heap,7. Top-k largest,15000000,BinaryHeap,3,0.282543674
+cpp,binary_heap,7. Top-k largest,15000000,BinaryHeap,4,0.283687127
+cpp,binary_heap,7. Top-k largest,15000000,BinaryHeap,5,0.282728973
+cpp,binary_heap,7. Top-k largest,15000000,priority_queue,1,0.253249064
+cpp,binary_heap,7. Top-k largest,15000000,priority_queue,2,0.255484383
+cpp,binary_heap,7. Top-k largest,15000000,priority_queue,3,0.255058399
+cpp,binary_heap,7. Top-k largest,15000000,priority_queue,4,0.261879258
+cpp,binary_heap,7. Top-k largest,15000000,priority_queue,5,0.257744913
